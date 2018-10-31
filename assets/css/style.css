@@ -46,8 +46,8 @@ Author Email: ithemeslab@gmail.com */
 body {
   font-family: "Poppins", sans-serif;
   color: #656565;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1.5em;
   -webkit-backface-visibility: hidden; }
 
 ::-moz-selection {
@@ -63,7 +63,7 @@ body {
   outline: none; }
 
 ul {
-  list-style: outside none none;
+  /*list-style: outside none none;*/
   margin: 0;
   padding: 0;
   outline: none; }
@@ -599,6 +599,9 @@ a {
   left: 0;
   width: 100%;
   z-index: 2; }
+  .header ul {
+    list-style: outside none none;
+  }
   .header .navbar {
     padding: 0; }
   .header .navbar-header {
@@ -1829,6 +1832,7 @@ a {
 .footer-area .f-content .f-social {
   margin-top: 35px; }
   .footer-area .f-content .f-social ul {
+    list-style: outside none none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
