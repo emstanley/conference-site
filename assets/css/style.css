@@ -1239,7 +1239,7 @@ a {
     text-align: center;
     padding: 30px 0; }
     .whos-speaking-area .speakers .spk-info h3 {
-      color: #252525;
+      color: #4125DD;
       font-size: 20px;
       line-height: 20px;
       margin-bottom: 5px;
@@ -1248,11 +1248,17 @@ a {
       transition: all 0.4s;
       text-transform: capitalize; }
       .whos-speaking-area .speakers .spk-info h3:hover {
-        color: #4125dd; }
+        color: #C418A3; }
     .whos-speaking-area .speakers .spk-info p {
       font-size: 15px;
       margin-bottom: 0;
       color: #656565; }
+    .whos-speaking-area .speakers .spk-info h5 {
+      font-size: 15px;
+      font-weight: normal;
+      margin-bottom: 0;
+      color: #656565; }
+    }
 
 .whos-speaking-area-two .title-text h2 {
   color: #fff; }
