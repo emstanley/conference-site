@@ -1128,7 +1128,8 @@ a {
   -o-transition: all 0.4s;
   transition: all 0.4s;
   border: 1px solid #dee2e6;
-  border-radius: 6px; }
+  border-radius: 6px;
+  margin-bottom: 40px;}
   .whos-speaking-area .speakers:hover {
     -webkit-box-shadow: 0 0 6px 5px #ddd;
     box-shadow: 0 0 6px 5px #ddd;
@@ -1258,7 +1259,6 @@ a {
       font-weight: normal;
       margin-bottom: 0;
       color: #656565; }
-    }
 
 .whos-speaking-area-two .title-text h2 {
   color: #fff; }
