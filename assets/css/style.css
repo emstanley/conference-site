@@ -91,7 +91,7 @@ ul {
     background-color: #4125dd !important;
     border-color: #4125dd !important; }
   .primary-btn a.btn-primary:hover {
-    background: #7307be; }
+    background: #CF057C; }
 
 .bordered-btn a {
   color: #656565;
@@ -498,7 +498,7 @@ a {
   background-image: url(../img/slide/1.jpg); }
 
 .hero-bg-2 {
-  background-image: url(../img/bg/skyline-bg.png?235); }
+  background-image: url(../img/bg/skyline-bg.png?678); }
 
 .hero-bg-3 {
   background-image: url(../img/slide/3.jpg); }
@@ -692,8 +692,8 @@ a {
       transition: all 0.4s;
       background: #cf057c; }
       .header ul li.header-ticket a:hover {
-        background: #7307be;
-        border-color: #7307be; }
+        background: #CF057C;
+        border-color: #CF057C; }
 
 .base-style-2.no-p {
   position: inherit; }
@@ -781,9 +781,9 @@ a {
           margin-bottom: 0;
           margin-top: 10px; }
       .hero-banner-area.home-2 .upcoming div span:nth-child(even) {
-        color: #C418A3; }
+        color: #CF057C; }
         .hero-banner-area.home-2 .upcoming div span:nth-child(even) p {
-          color: #C418A3; }
+          color: #CF057C; }
   .hero-banner-area.home-2 .banner-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -898,7 +898,7 @@ a {
           -o-transition: all 0.4s;
           transition: all 0.4s; }
           .home-4 .contact-box .inner-content button.btn-primary:hover {
-            background: #7307be; }
+            background: #CF057C; }
           .home-4 .contact-box .inner-content button.btn-primary:focus {
             outline: none;
             -webkit-box-shadow: none;
@@ -1249,7 +1249,7 @@ a {
       transition: all 0.4s;
       text-transform: capitalize; }
       .whos-speaking-area .speakers .spk-info h3:hover {
-        color: #C418A3; }
+        color: #CF057C; }
     .whos-speaking-area .speakers .spk-info p {
       font-size: 15px;
       margin-bottom: 0;
@@ -1662,7 +1662,7 @@ a {
       -o-transition: all 0.4s;
       transition: all 0.4s; }
       .contact-us-area-two .inner-box button.btn-primary:hover {
-        background: #7307be;
+        background: #CF057C;
         color: #fff; }
       .contact-us-area-two .inner-box button.btn-primary:focus {
         outline: none;
@@ -1718,7 +1718,7 @@ a {
     -o-transition: all 0.4s;
     transition: all 0.4s; }
     .contact-area .contact-form .btn-2 button.btn-primary:hover {
-      background: #7307be; }
+      background: #CF057C; }
 
 .contact-area .title {
   margin-bottom: 20px; }
@@ -1833,9 +1833,9 @@ a {
     -o-transition: all 0.4s;
     transition: all 0.4s; }
     .footer-area .f-content .sub-btn button:hover {
-      background: #7307be;
+      background: #CF057C;
       color: #fff;
-      border-color: #7307be; }
+      border-color: #CF057C; }
 
 .footer-area .f-content .f-social {
   margin-top: 35px; }
