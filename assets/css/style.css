@@ -73,10 +73,10 @@ ul {
 
 .primary-btn a.btn-primary {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 55px;
-  padding: 0px 45px;
+/*   line-height: 55px;
+ */  padding: 10px 25px;
   border-radius: 28px;
   display: inline-block;
   text-transform: capitalize;
@@ -1469,9 +1469,9 @@ a {
   margin-bottom: 60px; }
 
 .our-blog-area .inner-blog {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 30px; }
+  grid-column-gap: 30px;*/ }
 
 .our-blog-area.no-s .single-blog {
   border: 1px solid #dee2e6; }
@@ -1483,7 +1483,8 @@ a {
 .our-blog-area .single-blog {
   border: 1px solid #dee2e6;
   border-radius: 6px;
-  -webkit-transition: all 0.4s;
+/*   margin-bottom: 30px !important;
+ */  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s; }
   .our-blog-area .single-blog:hover {
@@ -2114,13 +2115,13 @@ a {
   font-size: 35px;
   line-height: 35px;
   font-weight: 600;
-  margin-top: 40px;
+  /* margin-top: 20px; */
   text-transform: capitalize; }
 
 .speakers-single-area .inner-content span {
   color: #656565;
   font-size: 20px;
-  margin: 20px 0 40px;
+  margin: 20px 0 20px;
   display: inline-block; }
 
 .speakers-single-area .inner-content .social-icon {
