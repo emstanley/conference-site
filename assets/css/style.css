@@ -1314,7 +1314,7 @@ a {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s; }
-    .whos-speaking-area-two .speakers .social-icons ul {
+    .whos-speaking-area-two .speakers ul.social-icons {
       list-style: outside none none; }
     .whos-speaking-area-two .speakers .social-icons li {
       margin-right: 10px; }
