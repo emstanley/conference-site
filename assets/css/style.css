@@ -424,10 +424,13 @@ a {
 .ptb60 {
   padding: 60px 0 60px; }
 
+.ptb40 {
+  padding: 40px 0 40px; }
+
 .mt100 {
   margin: 100px 0 0; }
 
-.padtb {
+.pdtb {
   padding: 60px 0 100px; }
 
 .pad80 {
@@ -453,6 +456,12 @@ a {
 
 .pad-top100 {
   padding-top: 100px; }
+
+.pad-top50 {
+    padding-top: 50px; }
+
+.pad-top25 {
+  padding-top: 25px; }
 
 .xs-mt50 {
   margin-top: 50px; }
@@ -483,13 +492,13 @@ a {
   background-attachment: scroll; }
 
 .bg-pricing {
-  background-image: url("../img/others/1.png");
+  background-image: url("../img/pricing/1.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .bg-pricing-2 {
-  background-image: url("../img/others/5.png");
+  background-image: url("../img/pricing/5.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain; }
