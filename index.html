@@ -563,561 +563,247 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                                 <div class="speakers xs-mb30">
                                     <div class="spk-img">
-                                        <img class="img-fluid" src="assets/img/speakers/Alicia Carr.jpeg" alt="trainer-img">
+                                            <img :src="records[0].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
                                         <ul>
-                                            <li><a href="https://twitter.com/Fineblkwoman"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/pevoapp/"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a :href="records[0].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a :href="records[0].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                     <div class="spk-info">
-                                        <a href="https://twitter.com/Fineblkwoman" rel="noreferrer noopener" target="_blank">
-                                            <h3>Alicia Carr</h3>
+                                        <a :href="records[0].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                            <h3>{{ records[0].fields.speaker_name}}</h3>
                                         </a>
-                                        <p> CEO &amp; Founder</p>
-                                        <h6>Purple Evolution Inc. (PEVO)</h6>
+                                        <p>{{ records[0].fields.role}}</p>
+                                        <h6>{{ records[0].fields.company}}</h6>
                                     </div>
                                 </div>
                             </div>
                             <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/mekka-okereke.png" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/mekkaokereke"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/mekka-okereke-05274b5/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/mekkaokereke" rel="noreferrer noopener" target="_blank">
-                                    <h3>Mekka Okereke</h3>
-                                </a>
-                                <p>Engineering Director</p> 
-                                <h6>Google</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers xs-mb30">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/ashikrishnan.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/rakshesha"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/rakshesha" rel="noreferrer noopener" target="_blank">
-                                    <h3>Ashi Krishnan</h3>
-                                </a>
-                                <p>Sr. Software Engineer</p> 
-                                <h6>GitHub</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <div class="speakers xs-mb30">
-                                <div class="spk-img">
-                                    <img class="img-fluid" src="assets/img/speakers/scott-400x399.jpg" alt="trainer-img">
-                                    <ul>
-                                        <li><a href="https://twitter.com/shanselman"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/scotthanselman/"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="spk-info">
-                                    <a href="https://twitter.com/shanselman" rel="noreferrer noopener" target="_blank">
-                                        <h3>Scott Hanselman</h3>
-                                    </a>
-                                    <p>Partner Program Manager</p> 
-                                    <h6>Microsoft</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /col end-->
-                    
-                <!-- /row end-->
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <div class="speakers">
-                                <div class="spk-img">
-                                    <img class="img-fluid" src="assets/img/speakers/tia-caldwell.jpeg" alt="trainer-img">
-                                    <ul>
-                                        <li><a href="https://twitter.com/_Tiacaldwell"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/tia-caldwell/"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="spk-info">
-                                    <a href="https://twitter.com/_Tiacaldwell" rel="noreferrer noopener" target="_blank">
-                                        <h3>Tia Caldwell</h3>
-                                    </a>
-                                    <p>Sr. Engineering Manager</p>
-                                    <h6>Slack</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /col end-->
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <div class="speakers xs-mb30">
-                                <div class="spk-img">
-                                    <img class="img-fluid" src="assets/img/speakers/jennifer-bland.jpeg" alt="trainer-img">
-                                    <ul>
-                                        <li><a href="https://twitter.com/ratracegrad"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/ratracegrad/"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="spk-info">
-                                    <a href="https://twitter.com/ratracegrad" rel="noreferrer noopener" target="_blank">
-                                        <h3>Jennifer Bland</h3>
-                                    </a>
-                                    <p>Sr. Software Engineer</p>
-                                    <h6>Stanley Black & Decker</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers xs-mb30">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/jP07Rsrs_400x400.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/osagaius"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/osagaius/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/osagaius" rel="noreferrer noopener" target="_blank">
-                                    <h3>Osa Gaius</h3>
-                                </a>
-                                <p>Software Engineer</p>
-                                <h6>Mailchimp</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-                    
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers xs-mb30">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/liz-fong-jones.JPG" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/lizthegrey"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/efong/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/lizthegrey" rel="noreferrer noopener" target="_blank">
-                                    <h3>Liz Fong-Jones</h3>
-                                </a>
-                                <p>Developer Advocate</p>
-                                <h6>Honeycomb.io</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <div class="speakers xs-mb30">
-                                <div class="spk-img">
-                                    <img class="img-fluid" src="assets/img/speakers/mike-hartington.png" alt="trainer-img">
-                                    <ul>
-                                        <li><a href="https://twitter.com/mhartington"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/mike-hartington-63638362/"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="spk-info">
-                                    <a href="https://twitter.com/mhartington" rel="noreferrer noopener" target="_blank">
-                                        <h3>Mike Hartington</h3>
-                                    </a>
-                                    <p>Developer Advocate</p>
-                                    <h6>Ionic</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /col end-->
-
-                <!-- /row end-->
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                <div class="speakers">
-                                    <div class="spk-img">
-                                        <img class="img-fluid" src="assets/img/speakers/Chloe-Headshot.jpg" alt="trainer-img">
-                                        <ul>
-                                            <li><a href="https://twitter.com/ChloeCondon"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/chloecondon/"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="spk-info">
-                                        <a href="https://twitter.com/ChloeCondon" rel="noreferrer noopener" target="_blank"></a>
-                                            <h3>Chloe Condon</h3>
-                                        </a>
-                                        <p>Sr. Cloud Developer Advocate</p>
-                                        <h6>Microsoft</h6>
+    
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                    <div class="speakers xs-mb30">
+                                        <div class="spk-img">
+                                                <img :src="records[1].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                            <ul>
+                                                    <li><a :href="records[1].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a :href="records[1].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="spk-info">
+                                                <a :href="records[1].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                        <h3>{{ records[1].fields.speaker_name}}</h3>
+                                            </a>
+                                            <p>{{ records[1].fields.role}}</p>
+                                            <h6>{{ records[1].fields.company}}</h6>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers xs-mb30">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/tara-walker.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/taraw"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/taraewalker/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/taraw" rel="noreferrer noopener" target="_blank">
-                                    <h3>Tara Walker</h3>
-                                </a>
-                                <p>Principle Software Engineer</p>
-                                <h6>Microsoft</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/diana.png?123" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/cotufa82"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/nerdattack82/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/cotufa82" rel="noreferrer noopener" target="_blank">
-                                    <h3>Diana Rodriguez</h3>
-                                </a>
-                                <p>Sr. DevOps/SRE &amp; Full Stack Dev</p>
-                                <h6>This Dot</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers xs-mb30">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/Ray-Gesualdo.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/RayGesualdo"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/raygesualdo/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/RayGesualdo" rel="noreferrer noopener" target="_blank">
-                                    <h3>Ray Gesualdo</h3>
-                                </a>
-                                <p>UI Engineer</p>
-                                <h6>SalesLoft</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-                    
-                <!-- /row end-->
+                                <!-- /col end-->
+    
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                    <div class="speakers xs-mb30">
+                                        <div class="spk-img">
+                                                <img :src="records[2].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                            <ul>
+                                                    <li><a :href="records[2].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a :href="records[2].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="spk-info">
+                                                <a :href="records[2].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                        <h3>{{ records[2].fields.speaker_name}}</h3>
+                                            </a>
+                                            <p>{{ records[2].fields.role}}</p>
+                                            <h6>{{ records[2].fields.company}}</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /col end-->
+    
+                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                        <div class="speakers xs-mb30">
+                                            <div class="spk-img">
+                                                    <img :src="records[3].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                <ul>
+                                                        <li><a :href="records[3].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                        <li><a :href="records[3].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="spk-info">
+                                                    <a :href="records[1].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                            <h3>{{ records[3].fields.speaker_name}}</h3>
+                                                </a>
+                                                <p>{{ records[3].fields.role}}</p>
+                                                <h6>{{ records[3].fields.company}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /col end-->
+    
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                            <div class="speakers xs-mb30">
+                                                <div class="spk-img">
+                                                        <img :src="records[4].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                    <ul>
+                                                            <li><a :href="records[4].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                            <li><a :href="records[4].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="spk-info">
+                                                        <a :href="records[4].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                <h3>{{ records[4].fields.speaker_name}}</h3>
+                                                    </a>
+                                                    <p>{{ records[4].fields.role}}</p>
+                                                    <h6>{{ records[4].fields.company}}</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col end-->
                 
-                    <!--div class="offset-2 no-gutter"></div-->
-                    <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers xs-mb30">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/jen-looper-firstchoice.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/jenlooper"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/jen-looper-3442413/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/jenlooper" rel="noreferrer noopener" target="_blank">
-                                    <h3>Jen Looper</h3>
-                                </a>
-                                <p>Senior Developer Advocate</p>
-                                <h6>Progress</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/thumb_brandon_kearns.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/brandon_kearns"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/brandonjkearns/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/brandon_kearns" rel="noreferrer noopener" target="_blank">
-                                    <h3>Brandon Kearns</h3>
-                                </a>
-                                <p>Staff Software Engineer</p>
-                                <h6>The Home Depot</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->                  
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/jeremy-likness.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/jeremylikness"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/jeremylikness/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/jeremylikness" rel="noreferrer noopener" target="_blank">
-                                    <h3>Jeremy Likness</h3>
-                                </a>
-                                <p>Sr. Cloud Developer Advocate</p>
-                                <h6>Microsoft</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/jared-jordan.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/jaredjordan"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/jkjordan/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/jaredjordan" rel="noreferrer noopener" target="_blank">
-                                    <h3>Jared Jordan</h3>
-                                </a>
-                                <p>UI Engineering Manager</p>
-                                <h6>Netflix</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
+                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                <div class="speakers xs-mb30">
+                                                    <div class="spk-img">
+                                                            <img :src="records[5].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                        <ul>
+                                                                <li><a :href="records[5].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a :href="records[5].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="spk-info">
+                                                            <a :href="records[5].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                    <h3>{{ records[5].fields.speaker_name}}</h3>
+                                                        </a>
+                                                        <p>{{ records[5].fields.role}}</p>
+                                                        <h6>{{ records[5].fields.company}}</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /col end-->
+                
+                                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                    <div class="speakers xs-mb30">
+                                                        <div class="spk-img">
+                                                                <img :src="records[6].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                            <ul>
+                                                                    <li><a :href="records[6].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                    <li><a :href="records[6].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="spk-info">
+                                                                <a :href="records[6].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                        <h3>{{ records[6].fields.speaker_name}}</h3>
+                                                            </a>
+                                                            <p>{{ records[6].fields.role}}</p>
+                                                            <h6>{{ records[6].fields.company}}</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /col end-->
+                
+                                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                    <div class="speakers xs-mb30">
+                                                        <div class="spk-img">
+                                                                <img :src="records[7].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                            <ul>
+                                                                    <li><a :href="records[7].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                    <li><a :href="records[7].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="spk-info">
+                                                                <a :href="records[7].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                        <h3>{{ records[7].fields.speaker_name}}</h3>
+                                                            </a>
+                                                            <p>{{ records[7].fields.role}}</p>
+                                                            <h6>{{ records[7].fields.company}}</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /col end-->
+    
+                                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                        <div class="speakers xs-mb30">
+                                                            <div class="spk-img">
+                                                                    <img :src="records[8].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                                <ul>
+                                                                        <li><a :href="records[8].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a :href="records[8].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="spk-info">
+                                                                    <a :href="records[8].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                            <h3>{{ records[8].fields.speaker_name}}</h3>
+                                                                </a>
+                                                                <p>{{ records[8].fields.role}}</p>
+                                                                <h6>{{ records[8].fields.company}}</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col end-->
+                            
+                                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                            <div class="speakers xs-mb30">
+                                                                <div class="spk-img">
+                                                                        <img :src="records[9].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                                    <ul>
+                                                                            <li><a :href="records[9].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                            <li><a :href="records[9].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="spk-info">
+                                                                        <a :href="records[9].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                                <h3>{{ records[9].fields.speaker_name}}</h3>
+                                                                    </a>
+                                                                    <p>{{ records[9].fields.role}}</p>
+                                                                    <h6>{{ records[9].fields.company}}</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /col end-->
+                            
+                                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                                <div class="speakers xs-mb30">
+                                                                    <div class="spk-img">
+                                                                            <img :src="records[10].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                                        <ul>
+                                                                                <li><a :href="records[10].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                                <li><a :href="records[10].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="spk-info">
+                                                                            <a :href="records[10].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                                    <h3>{{ records[10].fields.speaker_name}}</h3>
+                                                                        </a>
+                                                                        <p>{{ records[10].fields.role}}</p>
+                                                                        <h6>{{ records[10].fields.company}}</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /col end-->
+                            
+                                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                                                <div class="speakers xs-mb30">
+                                                                    <div class="spk-img">
+                                                                            <img :src="records[11].fields.headshot[0].url" class="img-fluid" alt="trainer-img">
+                                                                        <ul>
+                                                                                <li><a :href="records[11].fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                                <li><a :href="records[11].fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="spk-info">
+                                                                            <a :href="records[11].fields.twitter" rel="noreferrer noopener" target="_blank">
+                                                                                    <h3>{{ records[11].fields.speaker_name}}</h3>
+                                                                        </a>
+                                                                        <p>{{ records[11].fields.role}}</p>
+                                                                        <h6>{{ records[11].fields.company}}</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /col end-->
 
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/Brandon-Roberts.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/brandontroberts"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/brandontroberts" rel="noreferrer noopener" target="_blank">
-                                    <h3>Brandon Roberts</h3>
-                                </a>
-                                <p>Software Engineer</p>
-                                <h6>Angular/ NgRx Core Team</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/rob-ocel.png" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/robocell"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/rob-ocel-88600013/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/robocell" rel="noreferrer noopener" target="_blank">
-                                    <h3>Rob Ocel</h3>
-                                </a>
-                                <p>Sr. Software Engineer</p>
-                                <h6>This Dot</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-                    
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/susa-hart.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/smhart1"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/smhart1/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/smhart1" rel="noreferrer noopener" target="_blank">
-                                    <h3>Susa Hart</h3>
-                                </a>
-                                <p>Director, User Experience</p>
-                                <h6>ADP</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/Leonardo Graterol - Headshot - RefactrTech.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/pankas87"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/leonardo-graterol-24863223/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/pankas87" rel="noreferrer noopener" target="_blank">
-                                    <h3>Leonardo Graterol</h3>
-                                </a>
-                                <p>Web UI Engineer</p>
-                                <h6>Globant</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/alicia-barrett.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/OptimistAlicia"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/abarrettdc/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/OptimistAlicia" rel="noreferrer noopener" target="_blank">
-                                    <h3>Alicia Barrett</h3>
-                                </a>
-                                <p>Support Software Engineer</p>
-                                <h6>SalesLoft</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/laurel-lawson.png" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/llcycore"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/laurellawson/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/llcycore" rel="noreferrer noopener" target="_blank">
-                                    <h3>Laurel Lawson</h3>
-                                </a>
-                                <p>Co-founder, CTO</p>
-                                <h6>CyCore Systems</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/jamie-harrell.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/jamieharrellmba"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/jamieharrellmba/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/jamieharrellmba" rel="noreferrer noopener" target="_blank">
-                                    <h3>Jamie Harrell</h3>
-                                </a>
-                                <p>Bus. Intelligence &amp; Analytics Lead</p>
-                                <h6>Emory University</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/pratik-patel_400x400.png" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/prpatel"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/prpatel/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/prpatel" rel="noreferrer noopener" target="_blank">
-                                    <h3>Pratik Patel</h3>
-                                </a>
-                                <p>Lead Developer Advocate</p>
-                                <h6>IBM</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/adrianna.jpeg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/adriannavaldivi"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/adriannavaldivia/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/adriannavaldivi" rel="noreferrer noopener" target="_blank">
-                                    <h3>Adrianna Valdivia</h3>
-                                </a>
-                                <p>UI Engineer</p>
-                                <h6>SalesLoft</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/susan_lin.jpeg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/mintlodica"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/susan-lin-cloudflare/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/mintlodica" rel="noreferrer noopener" target="_blank">
-                                    <h3>Susan Lin</h3>
-                                </a>
-                                <p>Lead Product Designer</p>
-                                <h6>Cloudflare</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                        <div class="speakers">
-                            <div class="spk-img">
-                                <img class="img-fluid" src="assets/img/speakers/sarrah-vesselov.jpg" alt="trainer-img">
-                                <ul>
-                                    <li><a href="https://twitter.com/SVesselov"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/sarrahvesselov/"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="spk-info">
-                                <a href="https://twitter.com/SVesselov" rel="noreferrer noopener" target="_blank">
-                                    <h3>Sarrah Vesselov</h3>
-                                </a>
-                                <p>UX Manager</p>
-                                <h6>GitLab</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /col end-->
-
+                                                        <div class="col-lg-12">
+                                                            <a style="text-align: center" href="speakers.html"><h3>See All Confirmed Speakers</h3></a>
+                                                            <p style="text-align: center">More Speakers Coming Soon!</p>
+                                                        </div>
                 </div>
                 <!-- /row end-->
             </div>
@@ -1559,9 +1245,592 @@
         const vueApp = new Vue({
           el: '#vapp',
           data: {
-
-
-          }
+    "records": [
+        {
+            "id": "recCSocZ1rYIRR1sq",
+            "fields": {
+                "speaker_name": "Alicia Carr",
+                "role": "CEO/Founder",
+                "company": "Purple Evolution Inc (PEVO)",
+                "twitter": "https://twitter.com/fineblkwoman",
+                "linkedIn": "https://www.linkedin.com/in/pevoapp/",
+                "bio": "Alicia is the first woman of color mobile developer to create a domestic violence app (PEVO) dedicated to helping victims escape abuse. She used her acquired skills as a developer to make a difference. Alicia was once Director of Women Who Code Atlanta she now dedicated her time speaking all over the world to empower, inspire and motivate women in tech she knows that it the future and an opportunity. She has received several major acknowledgment from Apple at WWDC15 and WWDC16 being the first black woman to be in an Apple 2016 new beginnings video as well as GitHub in there I am a developer video.",
+                "featured": true,
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attcDruYQGjg8uGaR",
+                        "url": "https://dl.airtable.com/.attachments/4a1a15f8a7dff321aa0bf0d32a24742c/a5d78775/AliciaCarr.jpeg",
+                        "filename": "Alicia Carr.jpeg",
+                        "size": 30364,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fc041422981327844aba76bfee0d1cdb/93b79f7e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b73d940f2169c884e571d2f4954eb6a2/46ad715d",
+                                "width": 424,
+                                "height": 422
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bff84c6da1dc201c60ba201b140b0080/92bad84b",
+                                "width": 424,
+                                "height": 422
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recjQeNsELPexiAfE"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "The challenges in building a social app"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recciflNGLSKlGtM5",
+            "fields": {
+                "speaker_name": "Ashi Krishnan",
+                "role": "Senior Software Engineer",
+                "company": "GitHub",
+                "twitter": "https://twitter.com/rakshesha",
+                "bio": "Ashi is a visual poet who has been telling stories with code and words since she was a child—perhaps before. She has worked at seven-person startups, fought fires in the trenches of SRE at Google, and spent the last three years teaching at coding bootcamps. She now works as a senior software engineer at GitHub, where she hopes to dissolve the walls between us and our tools. She is learning to regard every moment, and the creatures within them, with love.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attt7bg3ZuU7wzsWT",
+                        "url": "https://dl.airtable.com/.attachments/214f61f26025ee06d61c4baa26a02298/d4903071/ashikrishnan.jpg",
+                        "filename": "ashikrishnan.jpg",
+                        "size": 18916,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b5c49de99416ca4e32a0fe3e25638ecb/8e298e7c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b7a528bda58a235b86859113b46dde77/8d904c42",
+                                "width": 246,
+                                "height": 246
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1c313badc1ecbb8810a3bc14014d598a/dd068bfa",
+                                "width": 246,
+                                "height": 246
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rec3mLn6uawjmFGei"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Learning From Machines"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recBS6gTciMmeoTsA",
+            "fields": {
+                "speaker_name": "Brandon Roberts",
+                "role": "Developer/Technical Writer",
+                "company": "Angular Team",
+                "twitter": "https://twitter.com/brandontroberts",
+                "bio": "Brandon is an Angular Team member working on guides, tutorials, application development, and infrastructure for the Angular docs. He enjoys learning new things, helping other developers solve problems, and contributing to open source. He is also a maintainer of the NgRx project, building reactive libraries for Angular.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attV5WswfssvWOuv6",
+                        "url": "https://dl.airtable.com/.attachments/1dd66db150ee50ba7fe72ed7284cba61/615304ed/Brandon-Roberts.jpg",
+                        "filename": "Brandon-Roberts.jpg",
+                        "size": 24114,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/49fb16e136e015a9bec08f2a9b563025/43ef56bb",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1a4e95c93e619ce35121858ae1faae0f/b67a00df",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d430c7705f582cc4c475fe1c1feaa151/42deb971",
+                                "width": 512,
+                                "height": 512
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recXh3pB4jtyOdh3b"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Complexity Management with NgRx"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recklniR49iqwouYs",
+            "fields": {
+                "speaker_name": "Chloe Condon",
+                "role": "Cloud Developer Advocate",
+                "company": "Microsoft",
+                "twitter": "https://twitter.com/ChloeCondon",
+                "linkedIn": "https://www.linkedin.com/in/chloecondon/",
+                "bio": "Chloe is an SF based Senior Cloud Developer Advocate for Microsoft. Pre-Engineering, she spent her nights and weekends performing in the Bay Area as a singer/actress, before attending Hackbright in 2016. Perhaps the only engineer you'll meet who has been in \"Hairspray\", \"Xanadu\", \"Carrie the Musical\", and \"Jerry Springer: the Opera\"- she is passionate about bringing people with non-traditional backgrounds into the world of tech. If you're trying to place her face, yes- she's the young woman giving the awkward thumbs up in the \"What It's Like to be a Woman at a Tech Conference\" article (which she also wrote). Previously, she worked at Sentry.io where she created the (DevRel Award Winning) Sentry Scouts program (a camp themed meet-up ft. patches, s’mores, giant squirrel costumes, and boozy hot chocolate). And was recently featured in the Grace Hopper Conference 2018 gallery featuring 15 influential women in STEM by AnitaB.org. In early 2018 was named one of the \"200+ Thought Leaders in Crypto and Blockchain\" and still knows absolutely nothing about Crypto and Blockchain. Seriously- not a thing. She considers it her greatest accomplishment.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attiAcjiTSZ6v25iO",
+                        "url": "https://dl.airtable.com/.attachments/684ceb8151043e87bd90821c52bc15c9/6838c34b/Chloe-Headshot.jpg",
+                        "filename": "Chloe-Headshot.jpg",
+                        "size": 78086,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a1c448d340eb87a99c407b0f5c816a2b/df952107",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/471e768126f3fe21d30f990bedc024d6/980a93f0",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9756dd55d82e99c1f503b1754d911f4c/67e1ee79",
+                                "width": 679,
+                                "height": 679
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recQxA8TPnzEz9J28"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "IoT for the Introvert"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recPuTovJ5yFpXait",
+            "fields": {
+                "speaker_name": "Diana Rodriguez",
+                "role": "Chief DevOps Architect",
+                "company": "Voicethread",
+                "twitter": "https://twitter.com/cotufa82",
+                "linkedIn": "https://www.linkedin.com/in/nerdattack82/",
+                "company_url": "https://voicethread.com/",
+                "bio": "Diana Rodriguez started coding at the age of 12. She started doing side projects growing up to handle networks. Today she is a DevOps specialist focusing on infrastructure and security. She focuses on deployment and keeping intruders away from the sensitive information. She is also a Google Developers Expert.\n \n She recently decided to branch out to the frontend which led to her learning VueJS. Learning Vue led her to learn about a new initiative called Vue Vixens. She became the worldwide Community Manager for Vue Vixens.\n \n In this episode Diana talks about how she started programming and how she started working with DevOps. She talks about her work with Vue Vixens and how the cloud is impacting DevOps today.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attR77CukkUe5eVHT",
+                        "url": "https://dl.airtable.com/.attachments/33069c61625d54b29de0772f44482147/c5e281c0/diana.png",
+                        "filename": "diana.png",
+                        "size": 1192860,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/820a44696214d1afb6da9fe90e6b7757/032e8f2b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d958008cdb5e8cebdfc8542765fb8ff/3c3d120b",
+                                "width": 513,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1302e66bd3ee47b9fea973c8bfd5c415/4d0a3873",
+                                "width": 999,
+                                "height": 998
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recGGydksM730ufDr"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "DevOps 101: Automation without frustration!"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec9Xm3XaaE4lc2F1",
+            "fields": {
+                "speaker_name": "Jen Looper",
+                "role": "Developer Advocate",
+                "company": "Progress",
+                "twitter": "https://twitter.com/jenlooper",
+                "linkedIn": "https://www.linkedin.com/in/jen-looper-3442413/",
+                "bio": "Jen Looper is a Google Developer Expert and a Senior Developer Advocate at Progress with over 15 years' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. She is the founder and CEO of Vue Vixens, an initiative promoting diversity in the Vue.js community. Visit her online at http://www.jenlooper.com, or via Twitter @jenlooper.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attzBN1AmoED9bRng",
+                        "url": "https://dl.airtable.com/.attachments/4c04f8c5037bd8e22f1b8661421461f9/cea17ee0/jen-looper-firstchoice.jpg",
+                        "filename": "jen-looper-firstchoice.jpg",
+                        "size": 23578,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1c8bbf598fcb6e170f5e5485f130ea07/c20ff090",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5bf52c6a2dad89a7a72a0273949c7964/bf4d0ae7",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b6e091500563632dd20a3a5cc47398bb/00ee5927",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recFmuEHeDWQMzBTK",
+                    "recnprTxdnSKBB03G"
+                ],
+                "Session Track": [
+                    "Front-End",
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "The Great MiniBar Challenge: MixoLogy",
+                    "Vue Vixens Skulk"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recwcu3MNQv039aXh",
+            "fields": {
+                "speaker_name": "Leonardo Graterol",
+                "role": "Web UI Engineer",
+                "company": "Globant",
+                "twitter": "https://twitter.com/pankas87",
+                "linkedIn": "https://www.linkedin.com/in/leonardo-graterol-24863223/",
+                "bio": "Leonardo is a fullstack(ish) web developer currently focused on frontend web development, working at the UI Engineering Studio of Globant.\n \n He has wide experience developing web sites and applications in several industries like e-commerce, digital marketing, GIS development companies and airlines.\n \n Leonardo is a fan of semantic HTML, good practices and web standards, and he believes in building a more accessible and inclusive online experience for everyone.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "att6rOb8opsqMzGmE",
+                        "url": "https://dl.airtable.com/.attachments/83d57d417fa75074f0b63c9077864ac9/675b605c/LeonardoGraterol-Headshot-RefactrTech.jpg",
+                        "filename": "Leonardo Graterol - Headshot - RefactrTech.jpg",
+                        "size": 294974,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bf4738df6902444e325fe57a91588f62/7a07d641",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a6a4a76011dd5e8bde5a99d30be50a2c/21bd509b",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0c38405e16b99022e79aa420cbcd9176/0b1d3a60",
+                                "width": 1365,
+                                "height": 1365
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recnq9psXs0kKF8X9"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "Web Accessibility 101: Intersectional inclusion in the digital world"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recQoLxCFBZH2WBaJ",
+            "fields": {
+                "speaker_name": "Liz Fong-Jones",
+                "role": "Developer Advocate",
+                "company": "Honeycomb.io",
+                "twitter": "https://twitter.com/lizthegrey",
+                "linkedIn": "https://www.linkedin.com/in/efong/",
+                "company_url": "https://honeycomb.io",
+                "bio": "Liz is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE) with 15+ years of experience. She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE working on products ranging from the Google Cloud Load Balancer to Google Flights.\n \n She lives in Brooklyn with her wife, metamours, and a Samoyed/Golden Retriever mix, and in San Francisco and Seattle with her other partners. She plays classical piano, leads an EVE Online alliance, and advocates for transgender rights as a board member of the National Center for Transgender Equality.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attTt9A3RultB8OEa",
+                        "url": "https://dl.airtable.com/.attachments/79cca730627a57316b1abca359b3d5af/d84da41a/liz-fong-jones.JPG",
+                        "filename": "liz-fong-jones.JPG",
+                        "size": 90978,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a0616a9e591793765243a68d57548140/9324d46a",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5fa3fc0b0e23f7a6abfc0ea182e2aa73/e7c79b8f",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e9562f496cbdd984ff76f67b9d5b0c29/83c4419a",
+                                "width": 750,
+                                "height": 750
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recSU2ieSsBhl3uSx"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Cultivating Production Excellence"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recPAd5mBr4HDNKOi",
+            "fields": {
+                "speaker_name": "Mekka Okereke",
+                "role": "Engineering Director",
+                "company": "Google",
+                "twitter": "https://twitter.com/mekkaokereke",
+                "linkedIn": "https://www.linkedin.com/in/mekka-okereke-05274b5/",
+                "company_url": "https://google.com",
+                "bio": "Mekka currently serves as an Engineering Director Google Play, one of the largest digital marketplaces on earth. Mekka is passionate about building diverse and inclusive teams. His organization is one of the most inclusive engineering teams at Google and comprised of 10% black, 10% Latinx, half of the managers are women, and 30% of the software engineers are women. He is a frequent speaker, consultant, non-profit board member and mentor sharing his expertise with leaders on inclusivity in the workplace, diversity in tech, and successful team building.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attTStcGVfNvUXtLU",
+                        "url": "https://dl.airtable.com/.attachments/b76de4c07bbd831b890d8d0856b89667/ab24b5a6/mekka-okereke.png",
+                        "filename": "mekka-okereke.png",
+                        "size": 174858,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/89b6770987aedf339a423cd7aa71ccc0/da97f2ef",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eaa5c292475aa1da4be5b7af1f51587b/832ef8fe",
+                                "width": 358,
+                                "height": 354
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c45d1006f9dfcc43d6a8b2656636d8e7/28caa78a",
+                                "width": 358,
+                                "height": 354
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recRz14qRqUZ0nZc5"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Building Inclusive Engineering Teams"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recpjqvJ96zXFQlaH",
+            "fields": {
+                "speaker_name": "Pratik Patel",
+                "role": "Lead Developer Advocate",
+                "company": "IBM",
+                "twitter": "https://twitter.com/prpatel",
+                "linkedIn": "https://www.linkedin.com/in/prpatel/",
+                "bio": "All around software and hardware enthusiast. Helps to organize the Atlanta Java User Group and North Atlanta JavaScript meetup, frequent speaker at tech events, and master builder of nachos.",
+                "featured": true,
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attlPshPx9DnnuWNR",
+                        "url": "https://dl.airtable.com/.attachments/c8db733fdcfcf811698017af3bc6537b/563f5b83/pratik-patel_400x400.png",
+                        "filename": "pratik-patel_400x400.png",
+                        "size": 274747,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e3e3d7fab21f9b0044c6d8dd1db54ea9/5d147409",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d86b8a678b8c3ab64e24d8eab83c545f/2649a749",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c48b99153672625bb6954f710208be8d/11547896",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recj6bcCGrBXVUJtF"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Serverless Architecture: The New New Cloud Native"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recRNq5130fA9MzCI",
+            "fields": {
+                "speaker_name": "Scott Hanselman",
+                "role": "Partner Program Manager",
+                "company": "Microsoft",
+                "twitter": "https://twitter.com/shanselman",
+                "linkedIn": "https://www.linkedin.com/in/scotthanselman/",
+                "bio": "Scott is a web developer who has been blogging at https://hanselman.com for over nearly 15 years and he's worked in software for over 25 years. He works in Open Source on C# and .NET out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attoWqFpbrZjvZ1e0",
+                        "url": "https://dl.airtable.com/.attachments/f9761f4b087126d67f287512b2c11885/fba7018d/scott-400x399.jpg",
+                        "filename": "scott-400x399.jpg",
+                        "size": 23438,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c833947ba60e37c1a3114220ccb7b909/a1c7b437",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eb2074af5a940e35dce6e3362e50e7fb/82d73df3",
+                                "width": 400,
+                                "height": 399
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f309edf657646b9600c16afe4089bf6d/186978dd",
+                                "width": 400,
+                                "height": 399
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recbz0mC19BqE1JDK"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Solving diabetes in 2019 with an Open Source Artificial Pancreas"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recOzGrBiECEXgJfO",
+            "fields": {
+                "speaker_name": "Tae'lur Alexis",
+                "role": "Founder",
+                "company": "codeeveryday.io",
+                "twitter": "https://twitter.com/taeluralexis",
+                "linkedIn": "https://www.linkedin.com/in/taelur-alexis/",
+                "company_url": "https://codeeveryday.io/",
+                "bio": "I'm a self taught developer passionate about making web development more access and a staunch advocate of open education. I live at the intersection of technology, creativity and impact. When I'm not coding, I'm working on building the platform, codeeveryday.io, which allows users to communicate with a chatbot that will configure a learning plan made specifically for them based on their needs and scheduling commitments. I strive to be a role model and to live by the principles I preach everyday.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attMYwXkuJ5YrjQIy",
+                        "url": "https://dl.airtable.com/.attachments/95ef4f7a8df4aa641aed9c7a1bffbcf3/4f21bd66/0.jpg",
+                        "filename": "0.jpg",
+                        "size": 76965,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d14e1e23ea2353476a2847b22adc426f/f7697fea",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a31f19c22f9bd3a9b2e6db77021bb1d7/05aaf009",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ddb8e9c3441e08e30e820b2a64aea33e/eb6052dc",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "reciegZt3wd00QNBV"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Build Accessible UI with React!"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        }
+    ]
+}
         })
 
 </script>
