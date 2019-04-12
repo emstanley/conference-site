@@ -46,6 +46,9 @@
     <link rel="stylesheet" href="assets/css/responsive2.css">
     <!--Modernizr Css-->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--Vue.JS-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuex"></script>
 
 
     <!--[if lt IE 9]>
@@ -555,7 +558,7 @@
                     <!-- /col end-->
                 </div>
                 <!-- /.row  end-->
-                <div class="row mb50">
+                <div id="vapp" class="row mb50">
 
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                                 <div class="speakers xs-mb30">
@@ -1549,6 +1552,21 @@
 
     <!-- template main js file -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Our View App goes at the end of the document -->
+<script>
+
+        const vueApp = new Vue({
+          el: '#vapp',
+          data: {
+
+
+          }
+        })
+
+</script>
+
+
 </body>
 
 </html>
