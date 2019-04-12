@@ -1,0 +1,2720 @@
+{
+    "records": [
+        {
+            "id": "recOzGrBiECEXgJfO",
+            "fields": {
+                "speaker_name": "Tae'lur Alexis",
+                "role": "Founder",
+                "company": "codeeveryday.io",
+                "twitter": "https://twitter.com/taeluralexis",
+                "linkedIn": "https://www.linkedin.com/in/taelur-alexis/",
+                "company_url": "https://codeeveryday.io/",
+                "bio": "I'm a self taught developer passionate about making web development more access and a staunch advocate of open education. I live at the intersection of technology, creativity and impact. When I'm not coding, I'm working on building the platform, codeeveryday.io, which allows users to communicate with a chatbot that will configure a learning plan made specifically for them based on their needs and scheduling commitments. I strive to be a role model and to live by the principles I preach everyday.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attMYwXkuJ5YrjQIy",
+                        "url": "https://dl.airtable.com/.attachments/95ef4f7a8df4aa641aed9c7a1bffbcf3/4f21bd66/0.jpg",
+                        "filename": "0.jpg",
+                        "size": 76965,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d14e1e23ea2353476a2847b22adc426f/f7697fea",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a31f19c22f9bd3a9b2e6db77021bb1d7/05aaf009",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ddb8e9c3441e08e30e820b2a64aea33e/eb6052dc",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "reciegZt3wd00QNBV"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Build Accessible UI with React!"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recPuTovJ5yFpXait",
+            "fields": {
+                "speaker_name": "Diana Rodriguez",
+                "role": "Chief DevOps Architect",
+                "company": "Voicethread",
+                "twitter": "https://twitter.com/cotufa82",
+                "linkedIn": "https://www.linkedin.com/in/nerdattack82/",
+                "company_url": "https://voicethread.com/",
+                "bio": "Diana Rodriguez started coding at the age of 12. She started doing side projects growing up to handle networks. Today she is a DevOps specialist focusing on infrastructure and security. She focuses on deployment and keeping intruders away from the sensitive information. She is also a Google Developers Expert.\n \n She recently decided to branch out to the frontend which led to her learning VueJS. Learning Vue led her to learn about a new initiative called Vue Vixens. She became the worldwide Community Manager for Vue Vixens.\n \n In this episode Diana talks about how she started programming and how she started working with DevOps. She talks about her work with Vue Vixens and how the cloud is impacting DevOps today.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attR77CukkUe5eVHT",
+                        "url": "https://dl.airtable.com/.attachments/33069c61625d54b29de0772f44482147/c5e281c0/diana.png",
+                        "filename": "diana.png",
+                        "size": 1192860,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/820a44696214d1afb6da9fe90e6b7757/032e8f2b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d958008cdb5e8cebdfc8542765fb8ff/3c3d120b",
+                                "width": 513,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1302e66bd3ee47b9fea973c8bfd5c415/4d0a3873",
+                                "width": 999,
+                                "height": 998
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recGGydksM730ufDr"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "DevOps 101: Automation without frustration!"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recPAd5mBr4HDNKOi",
+            "fields": {
+                "speaker_name": "Mekka Okereke",
+                "role": "Engineering Director",
+                "company": "Google",
+                "twitter": "https://twitter.com/mekkaokereke",
+                "linkedIn": "https://www.linkedin.com/in/mekka-okereke-05274b5/",
+                "company_url": "https://google.com",
+                "bio": "Mekka currently serves as an Engineering Director Google Play, one of the largest digital marketplaces on earth. Mekka is passionate about building diverse and inclusive teams. His organization is one of the most inclusive engineering teams at Google and comprised of 10% black, 10% Latinx, half of the managers are women, and 30% of the software engineers are women. He is a frequent speaker, consultant, non-profit board member and mentor sharing his expertise with leaders on inclusivity in the workplace, diversity in tech, and successful team building.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attTStcGVfNvUXtLU",
+                        "url": "https://dl.airtable.com/.attachments/b76de4c07bbd831b890d8d0856b89667/ab24b5a6/mekka-okereke.png",
+                        "filename": "mekka-okereke.png",
+                        "size": 174858,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/89b6770987aedf339a423cd7aa71ccc0/da97f2ef",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eaa5c292475aa1da4be5b7af1f51587b/832ef8fe",
+                                "width": 358,
+                                "height": 354
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c45d1006f9dfcc43d6a8b2656636d8e7/28caa78a",
+                                "width": 358,
+                                "height": 354
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recRz14qRqUZ0nZc5"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Building Inclusive Engineering Teams"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recQoLxCFBZH2WBaJ",
+            "fields": {
+                "speaker_name": "Liz Fong-Jones",
+                "role": "Developer Advocate",
+                "company": "Honeycomb.io",
+                "twitter": "https://twitter.com/lizthegrey",
+                "linkedIn": "https://www.linkedin.com/in/efong/",
+                "company_url": "https://honeycomb.io",
+                "bio": "Liz is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE) with 15+ years of experience. She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE working on products ranging from the Google Cloud Load Balancer to Google Flights.\n \n She lives in Brooklyn with her wife, metamours, and a Samoyed/Golden Retriever mix, and in San Francisco and Seattle with her other partners. She plays classical piano, leads an EVE Online alliance, and advocates for transgender rights as a board member of the National Center for Transgender Equality.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attTt9A3RultB8OEa",
+                        "url": "https://dl.airtable.com/.attachments/79cca730627a57316b1abca359b3d5af/d84da41a/liz-fong-jones.JPG",
+                        "filename": "liz-fong-jones.JPG",
+                        "size": 90978,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a0616a9e591793765243a68d57548140/9324d46a",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5fa3fc0b0e23f7a6abfc0ea182e2aa73/e7c79b8f",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e9562f496cbdd984ff76f67b9d5b0c29/83c4419a",
+                                "width": 750,
+                                "height": 750
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recSU2ieSsBhl3uSx"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Cultivating Production Excellence"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recRNq5130fA9MzCI",
+            "fields": {
+                "speaker_name": "Scott Hanselman",
+                "role": "Partner Program Manager",
+                "company": "Microsoft",
+                "twitter": "https://twitter.com/shanselman",
+                "linkedIn": "https://www.linkedin.com/in/scotthanselman/",
+                "bio": "Scott is a web developer who has been blogging at https://hanselman.com for over nearly 15 years and he's worked in software for over 25 years. He works in Open Source on C# and .NET out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attoWqFpbrZjvZ1e0",
+                        "url": "https://dl.airtable.com/.attachments/f9761f4b087126d67f287512b2c11885/fba7018d/scott-400x399.jpg",
+                        "filename": "scott-400x399.jpg",
+                        "size": 23438,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c833947ba60e37c1a3114220ccb7b909/a1c7b437",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eb2074af5a940e35dce6e3362e50e7fb/82d73df3",
+                                "width": 400,
+                                "height": 399
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f309edf657646b9600c16afe4089bf6d/186978dd",
+                                "width": 400,
+                                "height": 399
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recbz0mC19BqE1JDK"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Solving diabetes in 2019 with an Open Source Artificial Pancreas"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recpjqvJ96zXFQlaH",
+            "fields": {
+                "speaker_name": "Pratik Patel",
+                "role": "Lead Developer Advocate",
+                "company": "IBM",
+                "twitter": "https://twitter.com/prpatel",
+                "linkedIn": "https://www.linkedin.com/in/prpatel/",
+                "bio": "All around software and hardware enthusiast. Helps to organize the Atlanta Java User Group and North Atlanta JavaScript meetup, frequent speaker at tech events, and master builder of nachos.",
+                "featured": true,
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attlPshPx9DnnuWNR",
+                        "url": "https://dl.airtable.com/.attachments/c8db733fdcfcf811698017af3bc6537b/563f5b83/pratik-patel_400x400.png",
+                        "filename": "pratik-patel_400x400.png",
+                        "size": 274747,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e3e3d7fab21f9b0044c6d8dd1db54ea9/5d147409",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d86b8a678b8c3ab64e24d8eab83c545f/2649a749",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c48b99153672625bb6954f710208be8d/11547896",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recj6bcCGrBXVUJtF"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Serverless Architecture: The New New Cloud Native"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recwcu3MNQv039aXh",
+            "fields": {
+                "speaker_name": "Leonardo Graterol",
+                "role": "Web UI Engineer",
+                "company": "Globant",
+                "twitter": "https://twitter.com/pankas87",
+                "linkedIn": "https://www.linkedin.com/in/leonardo-graterol-24863223/",
+                "bio": "Leonardo is a fullstack(ish) web developer currently focused on frontend web development, working at the UI Engineering Studio of Globant.\n \n He has wide experience developing web sites and applications in several industries like e-commerce, digital marketing, GIS development companies and airlines.\n \n Leonardo is a fan of semantic HTML, good practices and web standards, and he believes in building a more accessible and inclusive online experience for everyone.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "att6rOb8opsqMzGmE",
+                        "url": "https://dl.airtable.com/.attachments/83d57d417fa75074f0b63c9077864ac9/675b605c/LeonardoGraterol-Headshot-RefactrTech.jpg",
+                        "filename": "Leonardo Graterol - Headshot - RefactrTech.jpg",
+                        "size": 294974,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bf4738df6902444e325fe57a91588f62/7a07d641",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a6a4a76011dd5e8bde5a99d30be50a2c/21bd509b",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0c38405e16b99022e79aa420cbcd9176/0b1d3a60",
+                                "width": 1365,
+                                "height": 1365
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recnq9psXs0kKF8X9"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "Web Accessibility 101: Intersectional inclusion in the digital world"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recBS6gTciMmeoTsA",
+            "fields": {
+                "speaker_name": "Brandon Roberts",
+                "role": "Developer/Technical Writer",
+                "company": "Angular Team",
+                "twitter": "https://twitter.com/brandontroberts",
+                "bio": "Brandon is an Angular Team member working on guides, tutorials, application development, and infrastructure for the Angular docs. He enjoys learning new things, helping other developers solve problems, and contributing to open source. He is also a maintainer of the NgRx project, building reactive libraries for Angular.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attV5WswfssvWOuv6",
+                        "url": "https://dl.airtable.com/.attachments/1dd66db150ee50ba7fe72ed7284cba61/615304ed/Brandon-Roberts.jpg",
+                        "filename": "Brandon-Roberts.jpg",
+                        "size": 24114,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/49fb16e136e015a9bec08f2a9b563025/43ef56bb",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1a4e95c93e619ce35121858ae1faae0f/b67a00df",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d430c7705f582cc4c475fe1c1feaa151/42deb971",
+                                "width": 512,
+                                "height": 512
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recXh3pB4jtyOdh3b"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Complexity Management with NgRx"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recCSocZ1rYIRR1sq",
+            "fields": {
+                "speaker_name": "Alicia Carr",
+                "role": "CEO/Founder",
+                "company": "Purple Evolution Inc (PEVO)",
+                "twitter": "https://twitter.com/fineblkwoman",
+                "linkedIn": "https://www.linkedin.com/in/pevoapp/",
+                "bio": "Alicia is the first woman of color mobile developer to create a domestic violence app (PEVO) dedicated to helping victims escape abuse. She used her acquired skills as a developer to make a difference. Alicia was once Director of Women Who Code Atlanta she now dedicated her time speaking all over the world to empower, inspire and motivate women in tech she knows that it the future and an opportunity. She has received several major acknowledgment from Apple at WWDC15 and WWDC16 being the first black woman to be in an Apple 2016 new beginnings video as well as GitHub in there I am a developer video.",
+                "featured": true,
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attcDruYQGjg8uGaR",
+                        "url": "https://dl.airtable.com/.attachments/4a1a15f8a7dff321aa0bf0d32a24742c/a5d78775/AliciaCarr.jpeg",
+                        "filename": "Alicia Carr.jpeg",
+                        "size": 30364,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fc041422981327844aba76bfee0d1cdb/93b79f7e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b73d940f2169c884e571d2f4954eb6a2/46ad715d",
+                                "width": 424,
+                                "height": 422
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bff84c6da1dc201c60ba201b140b0080/92bad84b",
+                                "width": 424,
+                                "height": 422
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recjQeNsELPexiAfE"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "The challenges in building a social app"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec9Xm3XaaE4lc2F1",
+            "fields": {
+                "speaker_name": "Jen Looper",
+                "role": "Developer Advocate",
+                "company": "Progress",
+                "twitter": "https://twitter.com/jenlooper",
+                "linkedIn": "https://www.linkedin.com/in/jen-looper-3442413/",
+                "bio": "Jen Looper is a Google Developer Expert and a Senior Developer Advocate at Progress with over 15 years' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. She is the founder and CEO of Vue Vixens, an initiative promoting diversity in the Vue.js community. Visit her online at http://www.jenlooper.com, or via Twitter @jenlooper.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attzBN1AmoED9bRng",
+                        "url": "https://dl.airtable.com/.attachments/4c04f8c5037bd8e22f1b8661421461f9/cea17ee0/jen-looper-firstchoice.jpg",
+                        "filename": "jen-looper-firstchoice.jpg",
+                        "size": 23578,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1c8bbf598fcb6e170f5e5485f130ea07/c20ff090",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5bf52c6a2dad89a7a72a0273949c7964/bf4d0ae7",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b6e091500563632dd20a3a5cc47398bb/00ee5927",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recFmuEHeDWQMzBTK",
+                    "recnprTxdnSKBB03G"
+                ],
+                "Session Track": [
+                    "Front-End",
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "The Great MiniBar Challenge: MixoLogy",
+                    "Vue Vixens Skulk"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recciflNGLSKlGtM5",
+            "fields": {
+                "speaker_name": "Ashi Krishnan",
+                "role": "Senior Software Engineer",
+                "company": "GitHub",
+                "twitter": "https://twitter.com/rakshesha",
+                "bio": "Ashi is a visual poet who has been telling stories with code and words since she was a child—perhaps before. She has worked at seven-person startups, fought fires in the trenches of SRE at Google, and spent the last three years teaching at coding bootcamps. She now works as a senior software engineer at GitHub, where she hopes to dissolve the walls between us and our tools. She is learning to regard every moment, and the creatures within them, with love.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attt7bg3ZuU7wzsWT",
+                        "url": "https://dl.airtable.com/.attachments/214f61f26025ee06d61c4baa26a02298/d4903071/ashikrishnan.jpg",
+                        "filename": "ashikrishnan.jpg",
+                        "size": 18916,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b5c49de99416ca4e32a0fe3e25638ecb/8e298e7c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b7a528bda58a235b86859113b46dde77/8d904c42",
+                                "width": 246,
+                                "height": 246
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1c313badc1ecbb8810a3bc14014d598a/dd068bfa",
+                                "width": 246,
+                                "height": 246
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rec3mLn6uawjmFGei"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Learning From Machines"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recklniR49iqwouYs",
+            "fields": {
+                "speaker_name": "Chloe Condon",
+                "role": "Cloud Developer Advocate",
+                "company": "Microsoft",
+                "twitter": "https://twitter.com/ChloeCondon",
+                "linkedIn": "https://www.linkedin.com/in/chloecondon/",
+                "bio": "Chloe is an SF based Senior Cloud Developer Advocate for Microsoft. Pre-Engineering, she spent her nights and weekends performing in the Bay Area as a singer/actress, before attending Hackbright in 2016. Perhaps the only engineer you'll meet who has been in \"Hairspray\", \"Xanadu\", \"Carrie the Musical\", and \"Jerry Springer: the Opera\"- she is passionate about bringing people with non-traditional backgrounds into the world of tech. If you're trying to place her face, yes- she's the young woman giving the awkward thumbs up in the \"What It's Like to be a Woman at a Tech Conference\" article (which she also wrote). Previously, she worked at Sentry.io where she created the (DevRel Award Winning) Sentry Scouts program (a camp themed meet-up ft. patches, s’mores, giant squirrel costumes, and boozy hot chocolate). And was recently featured in the Grace Hopper Conference 2018 gallery featuring 15 influential women in STEM by AnitaB.org. In early 2018 was named one of the \"200+ Thought Leaders in Crypto and Blockchain\" and still knows absolutely nothing about Crypto and Blockchain. Seriously- not a thing. She considers it her greatest accomplishment.",
+                "featured": true,
+                "headshot": [
+                    {
+                        "id": "attiAcjiTSZ6v25iO",
+                        "url": "https://dl.airtable.com/.attachments/684ceb8151043e87bd90821c52bc15c9/6838c34b/Chloe-Headshot.jpg",
+                        "filename": "Chloe-Headshot.jpg",
+                        "size": 78086,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a1c448d340eb87a99c407b0f5c816a2b/df952107",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/471e768126f3fe21d30f990bedc024d6/980a93f0",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9756dd55d82e99c1f503b1754d911f4c/67e1ee79",
+                                "width": 679,
+                                "height": 679
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recQxA8TPnzEz9J28"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "IoT for the Introvert"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recPPgtS14g0yGYlj",
+            "fields": {
+                "speaker_name": "Jamie Harrell. MBA",
+                "role": "Emory University",
+                "company": "Business Intelligence & Analytics Lead",
+                "twitter": "https://twitter.com/jamieharrellmba",
+                "linkedIn": "https://www.linkedin.com/in/jamieharrellmba/",
+                "bio": "\"Jamie Harrell, MBA is the business intelligence and analytics lead at Emory Goizueta Business School where she earned her MBA in 2016. She also received a degree in Computer Engineering from Georgia Tech in 1996. Jamie was the first openly transgender MBA graduate of Goizueta Business School.\n\nShe has been in the hardware and software engineering field for over 20 years, holding VP positions in 2 public companies as well as co-founding and selling two self-funded startups.\n\nJamie is a frequent speaker, panelist and panel moderator. She has appeared at events ranging from Emory’s Out in Business panel and the Georgia Academy of Family Physicians The Patient Perspective panel, to covering both technical and diversity topics at events such as the Women Who Code WeRise conference, and keynoting the LGBT Institute’s Diversity in Business Forum. She is the proud parent of two wonderful daughters, Nicole and Anna, and lives in Atlanta, GA.\n\"",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attNFxBT4lhENkgnq",
+                        "url": "https://dl.airtable.com/.attachments/00ca2f14025134c03c68d1914a126bfa/3bb8e216/jamie-harrell.jpg",
+                        "filename": "jamie-harrell.jpg",
+                        "size": 6440514,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0d12afe96aa7c397ec68ad70b23eca74/121f687c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c707b14def04b00b015fc78b01c28e97/d6f1407d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4af2f2f6da32f914119185f299417ee5/cbd3075b",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recGC7In1uxCYtqfz"
+                ],
+                "Session Track": [
+                    "Product/UX/UI"
+                ],
+                "Session Title": [
+                    "Intro to Data Analytics -- SSRS and PowerBI for data visualization"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recPWTmKOD942zS8d",
+            "fields": {
+                "speaker_name": "Susa Hart",
+                "role": "Director User Experience - Payroll Innovation",
+                "company": "ADP",
+                "twitter": "https://twitter.com/smhart1",
+                "linkedIn": "https://www.linkedin.com/in/smhart1/",
+                "bio": "Susa Hart is a UX and Product leader with experience working in startups, enterprise, finance, commerce, and biotech applications. Susa specializes in building teams that leverage design thinking and lean UX to create near term and disruptive new technologies.",
+                "headshot": [
+                    {
+                        "id": "attHzyJaHyWsegkcV",
+                        "url": "https://dl.airtable.com/.attachments/6873d8a7da282fa6429ed914198f3795/69ddf24a/susa-hart.jpg",
+                        "filename": "susa-hart.jpg",
+                        "size": 13652,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a7f24c1f9ff2a665172cae766271e7e7/582c2fd5",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e39b4a0e18ecd57d13b736e2fa99a10e/6207ceb1",
+                                "width": 288,
+                                "height": 288
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d4e196c2868a5bbb493e6e37ec70bd3/97c47917",
+                                "width": 288,
+                                "height": 288
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recHOUeBk7u4czYwe"
+                ],
+                "Session Track": [
+                    "Product/UX/UI"
+                ],
+                "Session Title": [
+                    "Secrets for innovating disruptive products"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recQe7bPepZ64R9PL",
+            "fields": {
+                "speaker_name": "Tara Walker",
+                "role": "Principle Software Engineer",
+                "company": "Microsoft",
+                "twitter": "https://twitter.com/taraw",
+                "linkedIn": "https://www.linkedin.com/in/taraewalker/",
+                "bio": "No",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "att4SVHgkokXhwwet",
+                        "url": "https://dl.airtable.com/.attachments/2de1563f667ca84ae55ece99b117a042/8c4b5979/tara-walker.jpg",
+                        "filename": "tara-walker.jpg",
+                        "size": 55105,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7d3447dc1eac6f6430f48a87dcf78714/35c248fd",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/78ea1a6893cbf811cf1b77723a8c35ec/a10f2dfc",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5070af51fe4ce9bc897795f352b49ed6/36746370",
+                                "width": 800,
+                                "height": 800
+                            }
+                        }
+                    }
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recQDjvxnth4cYhg1",
+            "fields": {
+                "speaker_name": "Alex Castillo",
+                "role": "Co-founder",
+                "company": "Neurosity",
+                "twitter": "https://twitter.com/castillo__io",
+                "linkedIn": "https://www.linkedin.com/in/alexcas/",
+                "bio": "Alex Castillo is a Co-founder at Neurosity, a Developer Expert at Google, and formerly, a Software Engineer at Netflix. He is passionate about the human brain, and how we can use it to power next-generation apps. As a Google Developer Expert, Alex has contributed to the open source community with a focus on web technologies and neurotech.",
+                "headshot": [
+                    {
+                        "id": "attVXXpdYxTLbKwD8",
+                        "url": "https://dl.airtable.com/.attachments/9847a2f62eb927b39f3170a07a3fc662/2ad436a4/alex-castillo-headshot-square.jpg",
+                        "filename": "alex-castillo-headshot-square.jpg",
+                        "size": 3595954,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b06be6c2f26aa781be9b79bdd9f5c63a/b54adb67",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b0afb795fc9e8d06b39206867f5af9a2/6366cb57",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/559243734986944edef487b2fa31df14/a87740fa",
+                                "width": 2663,
+                                "height": 2663
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recZyhM635Le3Mkam"
+                ],
+                "Session Track": [
+                    "Keynote"
+                ],
+                "Session Title": [
+                    "Empowering the Mind"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recS8zTlkvvn2RdTp",
+            "fields": {
+                "speaker_name": "Tracy Lee",
+                "role": "CEO",
+                "company": "This Dot Labs",
+                "twitter": "https://twitter.com/ladyleet",
+                "linkedIn": "https://www.linkedin.com/in/tracyslee/",
+                "bio": "Tracy is the Co-Founder of This Dot Labs, an consultancy helping teams build front end applicationsis focused on hiring women. She is also a Google Developer Expert, RxJS Core Team member, a Women Techmakers Lead, and a frequent keynote speaker at conferences. She heads up Community Relations at Node Foundation, is the host of the Modern Web podcast, organizer of This.JavaScript, Contributor Days, Google Developer Group Silicon Valley and Triangle, and RxWorkshop. You can find her on Twitter @ladyleet or at http://thisdot.co/labs.",
+                "headshot": [
+                    {
+                        "id": "att0QNK6UGF1P2bMr",
+                        "url": "https://dl.airtable.com/.attachments/c2049f0fdbfa9f1b2256f7e6be826f40/8d219037/tracy-lee.jpeg",
+                        "filename": "tracy-lee.jpeg",
+                        "size": 39130,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/18d7d7bf6ffeef3ae50be14490766ba0/c8fb2916",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f62d9cebf27404907e324af5f7546cc3/78b39466",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/66df859fc6b064c6fd688c79db0d947f/3f421928",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recTeqZ37d2IWME1V"
+                ],
+                "Session Track": [
+                    "Keynote"
+                ],
+                "Session Title": [
+                    "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recTV840Zg6wV0zIZ",
+            "fields": {
+                "speaker_name": "Jared Jordan",
+                "role": "Netflix",
+                "company": "UI Engineering Manager",
+                "twitter": "https://twitter.com/jaredjordan",
+                "linkedIn": "https://www.linkedin.com/in/jkjordan/",
+                "bio": "No",
+                "headshot": [
+                    {
+                        "id": "attiYnUVhqCMFSMsp",
+                        "url": "https://dl.airtable.com/.attachments/ef84d84bcb480dbe9fa3a68b5921151e/6e271751/jared-jordan.jpg",
+                        "filename": "jared-jordan.jpg",
+                        "size": 29009,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f31a95341fb703b6a4eb8b736d8fd662/ef854a34",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d96759a0a371ed32e42c5ef0095eaf4a/8fa7e9d6",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/8f3b661d192db3be3583907dea4546d0/f499ac3f",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recIAkeamPUMI6a9x"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "\"Navigating Your Career\" Panel"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recVM9oBEIvUDNhm8",
+            "fields": {
+                "speaker_name": "Faith H. Wallace",
+                "role": "Instructor and Front End Developer",
+                "company": "Code Girl",
+                "twitter": "https://twitter.com/fwallacephd",
+                "linkedIn": "https://www.linkedin.com/in/faithwallacephd/",
+                "bio": "Web Developer. Professor. Writer. Hogwarts Student. Doctor Who Companion. Okay, so maybe I am not a student at Hogwarts… I am sure I'd be sorted into Ravenclaw! And, maybe I am not a Doctor Who companion… But wouldn’t time traveling in the TARDIS be amazing? I am a former college professor turned web developer with the goal of making teaching and learning code more accessible.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attmPuGxoZHudNIAr",
+                        "url": "https://dl.airtable.com/.attachments/7938f5d9358be7439981a34ceb82857d/960014db/QwjRf8qH_400x400.jpg",
+                        "filename": "QwjRf8qH_400x400.jpg",
+                        "size": 29505,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/877c873988e191e0a9ca6d66d7ea6955/4ccc6831",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/db37575a3e9dc921474eecb2e34178c5/e35070a9",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3fcc08edbf868ff63cef05e3572507f7/62b0ab00",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recMUhzt2zgxOFPIa"
+                ],
+                "personal_title": "Dr.",
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "5 Brain Science Hacks to Successfully Level up in Programming"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recmHciZIOGB0fi7Y",
+            "fields": {
+                "speaker_name": "Toby Ho",
+                "role": "Software Mentor",
+                "company": "Prospect Consulting Inc.",
+                "twitter": "https://twitter.com/airportyh",
+                "linkedIn": "https://www.linkedin.com/in/toby-ho-0a6a623/",
+                "bio": "Toby Ho is a veteran software developer and software mentor. He helps junior developers level up and advance their careers in the long run.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attJIq16aEkTZw91z",
+                        "url": "https://dl.airtable.com/.attachments/d4ea01d661da47b853151ab8d18cba9d/1f3c8825/avatar_400x400.jpg",
+                        "filename": "avatar_400x400.jpg",
+                        "size": 27905,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1d67651d1ae51fffb350a9436e891c4a/c5c2b3c7",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9372fdefbea09e45f36f6d85aec69a54/32a48a43",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/110c9b5f3974b4f655907ef56b1ef7ce/e9c0fff4",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recoZ0MdRwRGasU0u"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "How to Make a Programming Language"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recmOdlnxUR81RiJj",
+            "fields": {
+                "speaker_name": "Angela Riggs",
+                "role": "QA engineer",
+                "company": "Vacasa",
+                "twitter": "https://twitter.com/AngelaRiggs_",
+                "linkedIn": "https://www.linkedin.com/in/angelariggs/",
+                "bio": "Angela works as a QA Engineer at Vacasa. She believes that empathy and curiosity are driving forces of quality, and uses both to advocate for quality experiences for users and engineering teams.\n \n Outside of work, she enjoys exploring the aisles of Powell’s or the beautiful scenery of the PNW. She has an enthusiasm for karaoke, and serious debates about what can truly be categorized as a sandwich.",
+                "headshot": [
+                    {
+                        "id": "attgmcxzmZBE8E9KQ",
+                        "url": "https://dl.airtable.com/.attachments/efe0961e20b531527f7ce0b7661930c1/2bd2c0bf/hc9vCf___400x400.jpg",
+                        "filename": "hc9vCf___400x400.jpg",
+                        "size": 40711,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7909b4a2ac0a545a070526fa4dcde636/f4cbb34e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7393685ad49ce906599aebee2cfaea13/70eb881c",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c30ac8db400c88aec4f0f6fa918a60a8/cedb2428",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recKV4wtshl78nJzo"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Creating a Culture of Quality"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recnwkBJgjdRJHHiE",
+            "fields": {
+                "speaker_name": "Whitley Talmadge",
+                "role": "Customer Engineer",
+                "company": "Google",
+                "twitter": "https://twitter.com/whitlllley",
+                "linkedIn": "https://www.linkedin.com/in/whitleytalmadge/",
+                "bio": "Whitley is a Customer Engineer for Google Cloud, where she helps Google Cloud customers reach their business goals by enabling them to continuously ramp up on all things Google Cloud Platform. She also spent several years as a software engineer for The Home Depot and Vanguard. She is a proud Notre Dame graduate (Go Irish!) and you can find her checking into local Atlanta spots to boost her Yelp Elite profile, running races all around Atlanta, and spending time with her feisty cocker spaniel-poodle mix, Sophie.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attJHnesCKUQg7tto",
+                        "url": "https://dl.airtable.com/.attachments/95dc031acec24877cd12125cf0420f17/ae7a136d/whitely.jpeg",
+                        "filename": "whitely.jpeg",
+                        "size": 32202,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ea11f797ee033295dad4c63b07bb4ee5/5b94d7dd",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/43b3d4c4e338fa277f5d5cde745cbd95/43430e3d",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d3b6463c3565665de6c25702cad41e64/ed18beba",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recg95fdHIcJFnKrK"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Not a Born Developer"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recnI9xkBKegoKbxG",
+            "fields": {
+                "speaker_name": "Pearl Latteier",
+                "role": "Senior Frontend Engineer",
+                "company": "Propeller Health",
+                "twitter": "https://twitter.com/pblatteier",
+                "linkedIn": "https://www.linkedin.com/in/pearllatteier/",
+                "bio": "Pearl Latteier is a Senior Frontend Engineer at Propeller Health in Madison WI, a Google Developer Expert in web technologies, and co-organizer of Madison’s Google Developer Group. She builds JavaScript applications for web and mobile, and she has spoken at conferences around the world on topics including Progressive Web Apps, Web Components, and Flutter. Long ago, Pearl earned a PhD from the University of Wisconsin-Madison, where for five years she taught courses in the Department of Communication Arts.",
+                "headshot": [
+                    {
+                        "id": "attGdi1UaG76EenIE",
+                        "url": "https://dl.airtable.com/.attachments/06e091b8b15905aa47dd2c8948919f36/ef9af020/0-1.jpg",
+                        "filename": "0-1.jpg",
+                        "size": 35777,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c87f7e3e6f27170e55e0a7be8502a0a7/1aaceed3",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/845add580e6991ddff0677f17d605fce/b865684b",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3e30b6db52f0f1942fe1ec055c78091c/7a40b246",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recFNU2I0tT1RN206"
+                ],
+                "Session Track": [
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "Get Flapping with Flutter"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recpwTa2LwoUCxaXo",
+            "fields": {
+                "speaker_name": "Valarie Regas",
+                "role": "Jr. DevOps Engineer",
+                "company": "Airbus Aerial",
+                "twitter": "https://twitter.com/ValarieRegas",
+                "linkedIn": "https://www.linkedin.com/in/valarieregas/",
+                "bio": "Valarie Regas is a youngling developer, a Georgia Tech coding bootcamp graduate, and a veteran mommy. She holds a BA in Psychology and currently works as a Jr. DevOps Engineer. After years being a stay-at-home mom, she decided to change her life by entering Tech, and has learned a lot along the way. She enjoys mixed martial arts fighting, table-top role playing games, public speaking, creating tiny humans, and political activism.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attTa3V1FGJ2B47VK",
+                        "url": "https://dl.airtable.com/.attachments/6533b6af2f60204e87d26297fc3fb0db/2729d45f/valarie-regas.jpg",
+                        "filename": "valarie-regas.jpg",
+                        "size": 57708,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d598898797cf3fffddea18e147f8da59/1bd229bc",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0281b75b6ee5a060c2476684530eb885/9158e8ae",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/77e95bbdf19f40d68a97c8cd67cbfd1d/9900a056",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recjxzjEBbqRvrArU"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "DevOps: A Love Story"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recpRiPITM0jdnBct",
+            "fields": {
+                "speaker_name": "Henri Helvetica",
+                "role": "dev",
+                "company": "command-h",
+                "twitter": "https://twitter.com/HenriHelvetica",
+                "bio": "Henri is a freelance developer who has turned his interests to a potpourri of performance engineering with pinches of user experience. He has found enjoyment attending and speaking at web conferences, right down to local meetups to be amongst the community he loves. \nWhen not reading the deluge of daily research docs and case studies, or indiscriminately auditing sites in devtools, Henri can be found contributing back to the community, co-programming meetups including the Toronto Web Performance Group or volunteering his time for lunch and learns at various bootcamps. Otherwise, with near certainty training and focusing on running the fastest 5k possible and longing the days he wasn't lactose intolerant. \n\n",
+                "headshot": [
+                    {
+                        "id": "attsAPqc5o3EDI53j",
+                        "url": "https://dl.airtable.com/.attachments/ca2896ca324376e5ab9ad08cbe601039/b721ab2f/henri-option2.jpeg",
+                        "filename": "henri-option2.jpeg",
+                        "size": 562190,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/51572b43a0301d55aefc8ec0619c9b12/39f688fe",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4398bafdfab155d858d9befe2f2d4974/7116ca0d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/50fede0330ebfbca417bf051b72bade3/e52eb1e0",
+                                "width": 2738,
+                                "height": 2738
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recCWpRtHzvpmAxk1"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Planet Of The APIs"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recqv3T8suJT7z1Fx",
+            "fields": {
+                "speaker_name": "Adrianna Valdivia",
+                "role": "UI Engineer",
+                "company": "SalesLoft",
+                "twitter": "https://twitter.com/adriannavaldivi",
+                "linkedIn": "https://www.linkedin.com/in/adriannavaldivia/",
+                "bio": "Adrianna is a UI Engineer at SalesLoft and has previously worked at at an agency building various web and mobile apps in React, React Native, and Ruby on Rails. She is also an Evangelist for Women Who Code Atlanta. Outside of advancing her career and her activities in the Atlanta tech community, Adrianna spends her time keeping up with her 5 yr old son. You can find her on Twitter @adriannavaldivi\n",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attsMuvkh0qGewWmV",
+                        "url": "https://dl.airtable.com/.attachments/f6292879f622e41b94bf8c94db64bc45/a0085720/adrianna.jpeg",
+                        "filename": "adrianna.jpeg",
+                        "size": 130446,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/22c263be916ba9b1c680b9fd747beac7/b15a3521",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/84922ad908ecce79282fc2a91837bda3/cf8a61f3",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/99c93bf115f9ec46cda87473688708fe/ec820e36",
+                                "width": 1514,
+                                "height": 1514
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recdaJ1qXTgq4t11b"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "A React Developer’s Guide to Tech Interviews"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recq7zB56joNQAM2A",
+            "fields": {
+                "speaker_name": "Jeremy Likness",
+                "role": "Cloud Developer Advocate",
+                "company": "Microsoft",
+                "twitter": "https://twitter.com/JeremyLikness",
+                "linkedIn": "https://www.linkedin.com/in/jeremylikness/",
+                "bio": "@JeremyLikness is a Cloud Developer Advocate for Azure at Microsoft. Jeremy wrote his first program in 1982, was recognized in the \"who's who in Quake\" list for programming the first implementation of \"Midnight Capture the Flag\" in Quake C and has been developing enterprise applications for 25 years with a primary focus on web-based delivery of line of business applications. Jeremy is the author of four technology books, a former 8-year Microsoft MVP for Developer Tools and Technologies, an international and keynote speaker and writes regularly on cloud and container development. Jeremy follows a plant-based diet and spends most of his free time running, hiking and camping, and playing 9-ball and one pocket. Jeremy regularly posts to his blog at https://blog.jeremylikness.com/",
+                "headshot": [
+                    {
+                        "id": "attuqRx6KMZt7QJtD",
+                        "url": "https://dl.airtable.com/.attachments/8dd121e9837e79c84522dfb0d2d6c8cd/8231fb6a/jeremy-likness.jpg",
+                        "filename": "jeremy-likness.jpg",
+                        "size": 20246,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ed86df8d379017e42ce61e1064f06540/22f925de",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/6124281a4e97476c15ab4561d87b50d1/24cb0ea3",
+                                "width": 460,
+                                "height": 460
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/6ac8c42e80b8494d84a46c19380d92da/cd242338",
+                                "width": 460,
+                                "height": 460
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recsUJxWq7n31YrQV"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "WebAssembly: Your Browser is the new OS"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rectd64IuplulnaRO",
+            "fields": {
+                "speaker_name": "Rob Ocel",
+                "role": "Senior Software Engineer",
+                "company": "This Dot Labs",
+                "twitter": "https://twitter.com/robocell",
+                "linkedIn": "https://www.linkedin.com/in/rob-ocel-88600013/",
+                "bio": "Rob is a Senior Software Developer at This Dot Labs, a consultancy helping companies build large scale applications. He is a co-host of the Modern Web podcast, the This Dot Labs podcast, and a frequent speaker at local meetups. You can find him on Twitter @robocell or at http://thisdot.co/labs. Rob has a passion for mentoring new developers and finding ways to explain difficult concepts in modern JavaScript development. He has been doing software development for over 10 and is fascinated with front-end frameworks and their power to bring ever more diverse developers into the profession. When not developing, Rob spends time keeping up with his one year old son, is an avid fan of JRPGs, and is obsessed with college basketball.",
+                "headshot": [
+                    {
+                        "id": "attZv9FRZMXx6qcnD",
+                        "url": "https://dl.airtable.com/.attachments/ae04e30976606869bcbd33ace4aabc93/22a81259/rob-ocel.png",
+                        "filename": "rob-ocel.png",
+                        "size": 342237,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/53bbabea90e0fb717a53efa5a1862d16/f1081112",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0b2b36d90a3f69db8ddda0b97abd58ea/fad8decd",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7845141e0da9f814136204089156a17f/7ea429da",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recd72Mb1n7ybBQ4k"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Inclusive Architecture - Designing your applications and team for the future."
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recwcBQLcWG7UZgtV",
+            "fields": {
+                "speaker_name": "Jess Mink",
+                "role": "Sr. Director of Engineering",
+                "company": "Auth0",
+                "twitter": "https://twitter.com/MinkJess",
+                "linkedIn": "https://www.linkedin.com/in/jessica-mink-2b34888/",
+                "bio": "Jess Mink is a software engineering leader with over a decade of experience. She’s worked in larger organizations like Amazon and the Naval Research Laboratory, but most of her career has been in the wild world of startups. She’s currently Director of Engineering at Auth0, and was previously VP of Product at Call9.",
+                "headshot": [
+                    {
+                        "id": "atthtENFMZWPyriV7",
+                        "url": "https://dl.airtable.com/.attachments/c32c5d383fe69dc565e74711e162fd2a/8a4d0557/jessica_mink.jpg",
+                        "filename": "jessica_mink.jpg",
+                        "size": 58794,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/569b214b2c2cde3980cd6d85cd4f613e/17c033fc",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/74b6a0e48dfeda0faa9c8ba07fde27df/e9d9c625",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/babe231a7c9e8d18b2e2ac812533de9d/c62f201d",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rechoRbjB8RuBcixl"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Let's talk about money"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recBjbbLddX38eNHZ",
+            "fields": {
+                "speaker_name": "Alicia Barrett",
+                "role": "Support Software Engineer",
+                "company": "SalesLoft",
+                "twitter": "https://twitter.com/optimistalicia",
+                "linkedIn": "https://www.linkedin.com/in/abarrettdc/",
+                "bio": "Hi, I'm Alicia!\n I'm a support software engineer at SalesLoft and active volunteer of WomenWhoCode Atlanta.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attb4dUkn7XnRrsKy",
+                        "url": "https://dl.airtable.com/.attachments/b193fd3603432d28829152814999da41/9799d607/alicia-barrett.jpg",
+                        "filename": "alicia-barrett.jpg",
+                        "size": 35539,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/07d721df8f5fa0e18a50b05ac81eb3a2/14affaa6",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e0b9e3427dee6fea14f2ca981edb7c22/fd58cb3e",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d488eee037e7bf49f50f8fb0b20bb07b/91c5f237",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rec2UxdiEkmpGphZi"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Diving into GatsbyJS"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recBsrdRiEDJ2o5Bd",
+            "fields": {
+                "speaker_name": "Marco Dell'Olio",
+                "role": "Support Engineer",
+                "company": "Salesloft",
+                "twitter": "https://twitter.com/mar_dello",
+                "linkedIn": "https://www.linkedin.com/in/marcodellolio/",
+                "bio": "Started hacking Excel files and ended up with an obsession with functional programming. Phoenix and ResonML is my stack of choice. Good patterns and clean code is my creed.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "att9NyiYNoPmn068d",
+                        "url": "https://dl.airtable.com/.attachments/4fb0c920a9eb2b46ab8641e49657dedc/e83070b9/0-2.jpg",
+                        "filename": "0-2.jpg",
+                        "size": 65103,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/03ef8b35cd0649860df6f47e9c2c675a/8b4cdc63",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/628db5a65511459c7831ed44650b6880/16ff507e",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/91b9d3239b9cc479e7837a36b6fe03b5/5623ac19",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recW6tx68oqUmYPay"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Contract based testing with PACT"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recBYU7XwdInPZtYb",
+            "fields": {
+                "speaker_name": "Gant Laborde",
+                "role": "Chief Technology Strategist",
+                "company": "Infinite Red",
+                "twitter": "https://twitter.com/GantLaborde",
+                "linkedIn": "https://www.linkedin.com/in/gant-laborde/",
+                "bio": "Tinkerer at heart, but with a passion to ship a quality product at the end. Love leadership and teaching has driven me to many conferences worldwide.",
+                "headshot": [
+                    {
+                        "id": "attQZshmsChy6JdUG",
+                        "url": "https://dl.airtable.com/.attachments/03800f55d3633ba61980fca8b9250c9e/9ab41f66/download.jpeg",
+                        "filename": "download.jpeg",
+                        "size": 1109355,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/2ffc7216e476a8027441ca160ca70dfa/43627581",
+                                "width": 38,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ade174018cbcd311c6188b53055b5f0f/813169bd",
+                                "width": 541,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/220b283e97cec40050b8ed172fe1ea23/04d1f581",
+                                "width": 2727,
+                                "height": 2580
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recWXnHztIb2hTAJV"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Influence - Witchcraft and Wizardry"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recEh6b4SpivEfYmp",
+            "fields": {
+                "speaker_name": "Chris Fritz",
+                "role": "Core Team Member",
+                "company": "Vue.js",
+                "twitter": "https://twitter.com/chrisvfritz",
+                "bio": "Chris Fritz lives in Lansing, Michigan, working on open source and helping companies around the world build incredible web frontends. He’s most well known for his work writing and curating Vue’s documentation, along with other resources to make life simpler for web developers.\n \n As a remote consultant nowhere near any coasts, he enjoys traveling the world and answering the inevitable question, “So... why Michigan? Are you hiding from the law or something?” When at home and his lap isn’t occupied by a computer, it usually has a cat on it—or that may be the other way around.",
+                "headshot": [
+                    {
+                        "id": "attOVBn1Czcj0BAgl",
+                        "url": "https://dl.airtable.com/.attachments/e94a9a1025126178fdb2266c140900c2/fb649ae6/-b6cwxVU_400x400.jpg",
+                        "filename": "-b6cwxVU_400x400.jpg",
+                        "size": 19602,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/27dc4e979ce67b56f0ba6be4aeb76e6d/7d97e593",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/01154a2e8ed4fea93b455f8f40d416c1/9fa665ba",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f835bc0287622ba13bff12a380067a25/b996c5cf",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recRjAunuGkQeBubG"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "Writing inclusive docs"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recERBtUbzrm5YUT0",
+            "fields": {
+                "speaker_name": "Craig Rodrigues",
+                "role": "Senior Software Developer",
+                "company": "Turner",
+                "twitter": "https://twitter.com/craigrodrigues",
+                "linkedIn": "https://www.linkedin.com/in/craigrodrigues/",
+                "bio": "I am a Senior Software Developer for Turner/WarnerMedia. I live day to day in JavaScript, Node or React. I have an untraditional background that started outside of Tech (ask me about it). Beyond that I’m fascinated with learning, deep work, cycling and picking up heavy objects.\n",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attqbduj9p0AiKWuy",
+                        "url": "https://dl.airtable.com/.attachments/6680dd13597046d9d7dc678c66b71c7b/107d3445/CraigRodriguesPhoto.jpg",
+                        "filename": "CraigRodriguesPhoto.jpg",
+                        "size": 20442,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/77e6e46d1d3bdb7a3780fdd6b64fa8e7/34bb40ff",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9ace830f86e681de6454c592d5d658ea/aabbf1ab",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/73a2b5eac4148c3c909e47b57546415c/32aabc1a",
+                                "width": 550,
+                                "height": 550
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recgx7zjcU0EWAA7q"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Visual Studio Code Sparks Joy"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recESuXWTcrTEaeIU",
+            "fields": {
+                "speaker_name": "Brandon Kearns",
+                "role": "Staff Software Engineer",
+                "company": "The Home Depot",
+                "twitter": "https://twitter.com/brandon_kearns",
+                "linkedIn": "https://www.linkedin.com/in/brandonjkearns/",
+                "bio": "Brandon Kearns is a believer in the power of education to transform lives. He graduated from General Assembly's Web Development Immersive course in 2015 and has not stopped learning since. \n \n He now works as a Staff Software Engineer at The Home Depot where is responsible for training associates in modern web development technologies and practices, after starting his career building supply chain solutions.\n \n Prior to being in the tech industry, Brandon was an English as a Second Language instructor in Korea and has since used those skills to try to empower as many people that have the desire to take up coding as their second language.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attKK67EJb8M8iFRT",
+                        "url": "https://dl.airtable.com/.attachments/774479cca6a439047ddce668bfcdef70/4ceec9aa/thumb_brandon_kearns.jpg",
+                        "filename": "thumb_brandon_kearns.jpg",
+                        "size": 14351,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/655f7db0a5e60231450ee27adb7a8ad5/7bdabd9b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/34d7137a3e615b23c01376bc825d2c97/5e388da5",
+                                "width": 300,
+                                "height": 300
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3b7fbf619f1f02ab8efae59795941a32/8989af5f",
+                                "width": 300,
+                                "height": 300
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "receS6ObNz3Z1WcI5"
+                ],
+                "Session Track": [
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "We're Not In East Egg, Anymore: Gatsby.js in Practice"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recFsMjamAvPf5H87",
+            "fields": {
+                "speaker_name": "Jason Wong",
+                "role": "Founder",
+                "company": "JWong Works LLC",
+                "twitter": "https://twitter.com/attackgecko",
+                "linkedIn": "https://www.linkedin.com/in/jason-wong-3491203/",
+                "bio": "Jason Wong is a proven engineering leader, diversity & inclusion consultant, and doughnut enthusiast. With almost two decades of experience in building and scaling web applications, he has worked in a range of industries from academia to online media and e-commerce. He helped establish web development and administrative computing at Columbia College, led development of premium video streaming services at Yahoo! Sports, and spent seven years at Etsy leading their Infrastructure Engineering team. He currently works with engineering leaders to improve their engineering management practices and establish inclusive cultures.",
+                "headshot": [
+                    {
+                        "id": "attzARXOWdVriLpoE",
+                        "url": "https://dl.airtable.com/.attachments/023bc23bb2533256026475098065cffe/79e97e5c/jwong_headshot_2018_V2.jpg",
+                        "filename": "jwong_headshot_2018_V2.jpg",
+                        "size": 350021,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/71a02cb114f7cd5d05aa587dd63fb570/8fd0506f",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c5e212a0577224c85c6b792c20f368f8/3925b608",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/720e0ca16c8c53301b5c23b9f63b9efc/ff4be223",
+                                "width": 550,
+                                "height": 550
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recc3K4KdioZAEuWu"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Bootstrapping Inclusion"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recFHYckNl5IxTG5r",
+            "fields": {
+                "speaker_name": "Dan Barker",
+                "role": "Chief Architect",
+                "company": "RSA Security",
+                "twitter": "https://twitter.com/barkerd427",
+                "linkedIn": "https://www.linkedin.com/in/dan-barker/",
+                "bio": "Dan spent 12 years in the military as a fighter jet mechanic before transitioning to a career in technology as a software engineer and then a manager. He was the Chief Architect at the National Association of Insurance Commissioners leading their technical and cultural transformation. He's now leading RSA Archer as their Chief Architect in their cloud migration and conversion to SaaS. Dan is also an organizer of DevOps KC and the DevOpsDays KC conference.",
+                "headshot": [
+                    {
+                        "id": "attQs9gG7krOeftbc",
+                        "url": "https://dl.airtable.com/.attachments/38f99b251730db2abc21ccaa856f4c30/d6417b8e/dpPpMEIo_400x400.jpg",
+                        "filename": "dpPpMEIo_400x400.jpg",
+                        "size": 15133,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/594054dde7f0ca36503ebd2aaf34e29a/689536b7",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4861db70054ef81e7f4118325a962a44/0738e0f0",
+                                "width": 309,
+                                "height": 309
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b8fad0b914ad59fc0e5f4d3ccacc1146/fbacfd94",
+                                "width": 309,
+                                "height": 309
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recSgRieJcHY8hhK5"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Getting started with AI for free"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recGZHZiMzGwqcLk4",
+            "fields": {
+                "speaker_name": "Yvonne Allen",
+                "role": "Fullstack Developer",
+                "company": "NCR",
+                "twitter": "https://twitter.com/yallen011",
+                "linkedIn": "https://www.linkedin.com/in/yvonne-allen-52b59316/",
+                "bio": "Fullstack developer at NCR\n Mentor's aspiring devs during my free time\n Recently started speaking at conferences and meetups\n Member of Women Who Code, WomenTechMakers, and GDG",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attGXYyb8jL7pXsVX",
+                        "url": "https://dl.airtable.com/.attachments/8f79514d5f0c5013f736b002fb8c4183/26b2690b/yvonne.jpg",
+                        "filename": "yvonne.jpg",
+                        "size": 165591,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/736377449ccbfc939d52691394b43165/e4c4593e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/80fe0af4af3c1506188638d24c2f37c2/242a3869",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/74003cac0db13fbfb71257188fcb4856/9e30d7f6",
+                                "width": 600,
+                                "height": 600
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recU4S4dmG7ovwHoM"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "The Schematic Rises: Schematics for noobs"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recHNjuFqCafyAB6l",
+            "fields": {
+                "speaker_name": "Tia Caldwell",
+                "role": "Senior Engineering Manager",
+                "company": "Slack",
+                "twitter": "https://twitter.com/_Tiacaldwell",
+                "linkedIn": "https://www.linkedin.com/in/tia-caldwell/",
+                "bio": "Tia leads the Monetization Team at Slack, a leading global collaboration hub that makes people’s working lives simpler, more pleasant and more productive. Over the past 13 years, she has led and managed engineering teams at Netflix and Microsoft, covering a breadth of projects such as Xbox, Office 365 and Streaming Content Delivery. She serves as a facilitator in /dev/color and is the co-founder of Color Code, a scholarship fund dedicated to future leaders of color in tech",
+                "headshot": [
+                    {
+                        "id": "attSFTzs9psSM0Jc9",
+                        "url": "https://dl.airtable.com/.attachments/b7997f4116a7bbe223e974627c7b3202/5ce89295/tia-caldwell.jpeg",
+                        "filename": "tia-caldwell.jpeg",
+                        "size": 59023,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/61ba413ef2ed5b5219e6a251f33f66c3/86e29e8a",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/21769c2d7dcb62a9352abf9279b2a546/0b399756",
+                                "width": 513,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/db7754e929f644ada5680b5e47254230/b9bdf64d",
+                                "width": 600,
+                                "height": 599
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recSqtCwKGcx4qoG3"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "Harnessing your team superpowers"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recIxczAdyzdU9Dw0",
+            "fields": {
+                "speaker_name": "J.C. Hiatt",
+                "role": "Founder",
+                "company": "DevLifts",
+                "twitter": "https://twitter.com/jchiatt",
+                "linkedIn": "https://www.linkedin.com/in/jchiatt/",
+                "bio": "J.C. Hiatt a JavaScript engineer from Jackson, MS. By day, he works as a Frontend Engineer at Trinity Apparel, a custom men's clothing company.\n \n By night, day, and in his sleep, he's the founder of DevLifts, an online fitness community dedicated to helping developers live healthier lives.",
+                "headshot": [
+                    {
+                        "id": "attN9kCWsnkPMlMmC",
+                        "url": "https://dl.airtable.com/.attachments/5345dd2f51d3ee275faa2b62d1fa3f77/5e9081e0/vlJ1CGHV_400x400.jpg",
+                        "filename": "vlJ1CGHV_400x400.jpg",
+                        "size": 30545,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5612688a81c908aa75e38e601fabf05e/1175225d",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3cc84e6e7cb47d3785fea9217025e9c7/1366bc28",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5b3b7a8a1133de35572eea94c90364fa/b355698c",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recXtDKM9olwIM7zB"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "Refactor your body for better performance"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recIIsVXRxBSBt2CU",
+            "fields": {
+                "speaker_name": "Mike Hartington",
+                "role": "Developer Advocate",
+                "company": "Ionic",
+                "twitter": "https://twitter.com/mhartington",
+                "linkedIn": "https://www.linkedin.com/in/mike-hartington-63638362/",
+                "bio": "Mike a developer, Angular GDE, and Ionic Developer Advocate who’s been working in the mobile landscape for most of his professional career. When he’s not working Ionic itself, Mike works with community members and helps them succeed at mobile. In his spare time, he’s an aspiring woodworker, occasional musician, and craft beer lover.",
+                "headshot": [
+                    {
+                        "id": "attNHTvgc6dJ0lRNX",
+                        "url": "https://dl.airtable.com/.attachments/1c1c9de345dd34e8cfa1eafc53ab950b/3a90bb13/mike-hartington.png",
+                        "filename": "mike-hartington.png",
+                        "size": 353996,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a7cf7ff7adaeac8fb47bd30e3dcff889/4f85f035",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ea7ee0c14f0633c09deade34096b5f8e/05f7e7f9",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ffaa5fffa07a8be862d539b76b8102fd/b4b55b88",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recBGj0iBqttd1gWs"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Progressive Web Apps across all frameworks"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recWxlFJBNZ6lK5qm",
+            "fields": {
+                "speaker_name": "Amir Rustamzadeh",
+                "role": "Senior Software Engineer",
+                "company": "Cypress.io",
+                "twitter": "https://twitter.com/amirrustam",
+                "bio": "Amir Rustamzadeh is a classically trained electrical engineer that just couldn't shake his urges of building for the web. He's experienced in developing mission critical systems for the aerospace industry, and other large enterprises, but now enjoys his days working on Cypress, an open-source tool for building higher quality software for the web.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attM88BiGs1VtL5O8",
+                        "url": "https://dl.airtable.com/.attachments/58b6c8dbe5cca01d74f588692e3512fc/3428eb1a/amir-rustamzadeh.jpg",
+                        "filename": "amir-rustamzadeh.jpg",
+                        "size": 22850,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e9289da325ec5742c5197f8dd92f4285/10af13d2",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/799da491bdc8a6b79fa606bbbf615a7b/a40e5917",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/751371c7c946db3f3ca67fac1048fd69/912b4fff",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recxbolmIGsEpn68b"
+                ],
+                "Session Track": [
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "Next-Generation End-to-End Testing with Cypress"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recWzCV3a5r8n1tRa",
+            "fields": {
+                "speaker_name": "Laurel Lawson",
+                "role": "CTO/Product Designer",
+                "company": "CyCore Systems",
+                "twitter": "https://twitter.com/llcycore",
+                "linkedIn": "https://www.linkedin.com/in/laurellawson/",
+                "bio": "Laurel is a co-founder and CTO at CyCore Systems, a consultancy specializing in solving novel multi-realm problems. She leads product architecture with a data-driven focus on highly performant usability and contextual interfaces. \n \n A veteran activist and community leader, Laurel is active as a leader and mentor in organizations working for inclusion and disability rights. She is a founding city leader for the Atlanta chapter of AnitaB.org, which hosts events for mid-career, senior, and executive women and nonbinary people in tech, and is a key organizer for the nationwide celebration of the 30th anniversary of the Americans with Disabilities Act. \n \n Laurel is also a working dancer and choreographer, performing with both Full Radius Dance and Kinetic Light, and is the designer and product lead of Audimance, which creates a novel nonvisual way of experiencing performing art through virtual environments. When not at the computer or in the studio, she’s likely to be found on the ice; Laurel is also a member of the USA Women’s Sled Hockey team.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attWxVyPWNmHI4TtE",
+                        "url": "https://dl.airtable.com/.attachments/787a66d154974d0a39b770a9eee95ae5/d62f9e93/laurel-lawson.png",
+                        "filename": "laurel-lawson.png",
+                        "size": 925099,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f27ed503af4ffe3e31fdc663002feebb/cb019a00",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/54a8a9a551eb758b4b105c0cd387b90b/f750c69b",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a8244def954232fb1730573351787cbf/b853eead",
+                                "width": 970,
+                                "height": 970
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recJptRr8k1m3jj7F"
+                ],
+                "Session Track": [
+                    "Career & Leadership"
+                ],
+                "Session Title": [
+                    "How we change the world: Ethics, power, and leadership in tech"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recWs1iCpQek55Wga",
+            "fields": {
+                "speaker_name": "Angeleen Wilson",
+                "role": "Director/Founder",
+                "company": "Georgia Blockchain Coalition",
+                "twitter": "https://twitter.com/Dappmom",
+                "linkedIn": "https://www.linkedin.com/in/angeleenwilson/",
+                "bio": "I am a mom, a data wrangling nerd, dapp developer and company founder creating decentralized applications and distributed solutions for the children’s education space. \n My professional background and current occupation includes Radio, Television, audience delivery liability reporting and data visual application development. In addition to my day job and blockchain business, I help host the Women of Blockchain in Atlanta to help encourage women interested in blockchain to participate in this fascinating new industry. I also co-host a light-hearted podcast called CryptoRitas geared toward delivering emerging news and events on blockchain and associated emerging technologies.\n \n I have helped organize and am working with various state legislators, leaders, enterprise businesses and communities building the Georgia Blockchain Coalition.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attwNlBFn47VyHjup",
+                        "url": "https://dl.airtable.com/.attachments/7595644b8fdc5fddffcf3f41a226f92b/18b502cb/angeleen-wilson.jpg",
+                        "filename": "angeleen-wilson.jpg",
+                        "size": 577123,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/17ecdcfdead2afec017cf953ab58a832/b7e2b26b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/dac53e24b939425138039ef05dc5e695/74a4e5db",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5986871941add5b50fbc8b25a364d0e7/06cf2172",
+                                "width": 1622,
+                                "height": 1622
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recbTQljZiVr8f1BU"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Blockchain Imaginarium"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recYuPUp56xW9Bnr4",
+            "fields": {
+                "speaker_name": "Abraham Williams",
+                "role": "Senior Developer",
+                "company": "Bendyworks",
+                "twitter": "https://twitter.com/abraham",
+                "linkedIn": "https://www.linkedin.com/in/abrahammwilliams/",
+                "bio": "An experienced developer, start-up founder, and international speaker, Abraham Williams brings a broad range of skills to his current role as a senior developer at Bendyworks. A top 1% contributor at Stack Overflow and an active member of Google Developer Groups, Abraham has been recognized by Google as a Developer Expert for his ability to identify technology problems and provide quality solutions in the community.",
+                "headshot": [
+                    {
+                        "id": "attVOPOnayafTDeqG",
+                        "url": "https://dl.airtable.com/.attachments/ba9bc8ae6c681624d15110c581a9fc56/c0c8d462/AbrahamWilliams.jpeg",
+                        "filename": "Abraham Williams.jpeg",
+                        "size": 32012,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4905eb09992d4fcb6072f8e57e5cbc86/f26db564",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/24548dffca7bd1ce93dcb6b0b5b0b069/a2acbfa4",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b11f69bf1148a04c5e6fc173cf6d7eb6/8b434362",
+                                "width": 600,
+                                "height": 600
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recWcBFhnJ0pmfuve"
+                ],
+                "Session Track": [
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "Get Flapping with Flutter"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recZqRMD0PdK6g91c",
+            "fields": {
+                "speaker_name": "Jennifer Bland",
+                "role": "Senior Software Engineer",
+                "company": "Stanley Black & Decker",
+                "twitter": "https://twitter.com/ratracegrad",
+                "linkedIn": "https://www.linkedin.com/in/ratracegrad/",
+                "bio": "Jennifer Bland is a Senior Software Developer and Google Developers Expert. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400″, published by IBM.\n \n She runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\n \n Jennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "atttgJoFN9wqHpyjr",
+                        "url": "https://dl.airtable.com/.attachments/73734be2113a95a1bb8e4246befd0c89/e11192d5/jennifer-bland.jpeg",
+                        "filename": "jennifer-bland.jpeg",
+                        "size": 46831,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1ce31a84cb0d21b9b1727ba9992d5395/8075244b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fc7ed35ed55da005c447ba2eae8ebe06/31929800",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/73a6c4c67a8452d7585a69e5b2a2c2f9/63c68316",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recyMSNiVgH5OpVUE",
+                    "rec0tLOAVywq7GXwL"
+                ],
+                "Session Track": [
+                    "Front-End",
+                    "Workshop"
+                ],
+                "Session Title": [
+                    "Don't Be Afraid of the JavaScript Stack Trace",
+                    "Let's Learn GraphQL: The End Of REST"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec11YKbxVznLwqvD",
+            "fields": {
+                "speaker_name": "Susan Lin",
+                "role": "Lead Product Designer",
+                "company": "Cloudflare",
+                "twitter": "https://twitter.com/mintlodica",
+                "linkedIn": "https://www.linkedin.com/in/susan-cf/",
+                "bio": "Susan Lin is a Lead Product Designer at Cloudflare. As a design lead, she’s worked in cross functional multidisciplinary teams for the past 10+ years.",
+                "headshot": [
+                    {
+                        "id": "att9Onf3DyEB0gUb0",
+                        "url": "https://dl.airtable.com/.attachments/c9286b27688e5691b22991ae79c7626b/86ee65a7/susan_lin.jpeg",
+                        "filename": "susan_lin.jpeg",
+                        "size": 124377,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e54c4d6fddefd853bfc670a2d83d51ca/6df783b1",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fae26c1a43241313f366c855bc55ff7a/eeebd0b5",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3c0a9327e7255b84e84d05afb7451f5a/321cd789",
+                                "width": 1280,
+                                "height": 1280
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recTGWr1nSnUKcfiF"
+                ],
+                "Session Track": [
+                    "Product/UX/UI"
+                ],
+                "Session Title": [
+                    "Why designers should practice Integrative Thinking, the lesser known sibling of Design Thinking."
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec2WUIigbv8iV3Qj",
+            "fields": {
+                "speaker_name": "Ray Gesualdo",
+                "role": "UI Engineer",
+                "company": "SalesLoft",
+                "twitter": "https://twitter.com/raygesualdo",
+                "linkedIn": "https://www.linkedin.com/in/raygesualdo/",
+                "bio": "Ray Gesualdo is a full-stack JavaScript developer, speaker and mentor from Atlanta, GA. He started his career in the e-learning development industry before moving into software engineering with multiple Atlanta-based startups. Currently, he works with an amazing team of UI engineers at SalesLoft. Ray loves working with client- and server-side JavaScript; experimenting with serverless architectures and functional programming; and teaching and equipping others in technology.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attjWwDBdMugWsee9",
+                        "url": "https://dl.airtable.com/.attachments/3690e1cd818b725b496d1c45ec28594e/4205ea3a/Ray-Gesualdo.jpg",
+                        "filename": "Ray-Gesualdo.jpg",
+                        "size": 10907,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bb3f9ba4f99f231a27631960b29e7b06/20465d44",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c68f07d20ab277203796b4e677118535/570db57e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1cb5803111bfef185a578d8e9707ec07/c9f6633c",
+                                "width": 300,
+                                "height": 300
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recAS9es9EEqJUqsH"
+                ],
+                "Session Track": [
+                    "Social Impact"
+                ],
+                "Session Title": [
+                    "Reconfiguring Our Mindset from “Self-taught” to “Community-taught”"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec3WwGpGMebcUZHH",
+            "fields": {
+                "speaker_name": "Aida Martinez",
+                "role": "Data Integration Developer",
+                "company": "Juice Analytics",
+                "twitter": "https://twitter.com/aidaamp",
+                "linkedIn": "https://www.linkedin.com/in/aida-martinez-a9314324/",
+                "bio": "Aida Martinez is a Senior Software and Data Developer. She has more than 10 years of experience developing software and data solutions for clients on Brazil, Honduras and United States. She is currently a Data Integration Developer at Juice Analytics where she applies her data engineering skills to create faster and reliable pipelines. \n Aida holds a Computer Science degree from Honduras and a Master of Science in Software Engineering and AI from Spain. More recently, she earned a Master of Science in Analytics at Georgia State University where she became a graduate research assistant for the Institute for Insight. In his free time, Aida can be found practicing yoga and learning new cloud and open source technologies.",
+                "headshot": [
+                    {
+                        "id": "attcKpqZpM3JHvs2h",
+                        "url": "https://dl.airtable.com/.attachments/315b929217360b4cf957447da388d764/feac88d4/A_Martinez_400x400.jpg",
+                        "filename": "A_Martinez_400x400.jpg",
+                        "size": 23123,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ffcee26ab4ca4f626b73a92d1b5fdc6c/5032bc70",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/155ca97cd07c3a028e845f33500a352b/b9437da6",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3cbe104120e0b646e5756b987c8342d0/f3946e89",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rectxSlu8oMNZpi67"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "How Big Data is Powering the Internet of Things (IoT) Revolution"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec4k4mt9XkWmLCq4",
+            "fields": {
+                "speaker_name": "Noble Ackerson",
+                "role": "Senior Manager, Product Line & Engineering",
+                "company": "National Democratic Institute",
+                "twitter": "https://twitter.com/nobleackerson",
+                "linkedIn": "https://www.linkedin.com/in/noblea/",
+                "bio": "Noble is a Google Developers Expert for product strategy and a seasoned technical product lead delivering vision camera, web and mobile technologies from abstract concepts to final products. He led the award-winning DC-based Augmented Reality for fitness startup, LynxFit as Product Owner and Co-founder.\n \n Noble sits on the Alumni Leadership Board for the leading online education startup, Udacity. A member of the Alumni Board at his alma mater, Lynchburg College and acts as the Publicity Chair for Ubicomp and ISWC, two top-tier conferences for the internet of things and wearable technology. When Noble is not focused on product, he is mentoring underrepresented and aspiring developers, speaking at technology events, or spending time with his daughters",
+                "headshot": [
+                    {
+                        "id": "atthJLKsisVaeS4wD",
+                        "url": "https://dl.airtable.com/.attachments/3d2a728f0bb71ea725a911611128838c/83d5fc92/download1.jpeg",
+                        "filename": "download (1).jpeg",
+                        "size": 20958,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bdb04e2a30ebe8d293226e962bf7b568/a8795bc8",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/784cf140cd62ecb2794e64b13a6a0e7b/4db0f30a",
+                                "width": 460,
+                                "height": 460
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d851385dc79c6782f214f9b506b7778/422e5b8b",
+                                "width": 460,
+                                "height": 460
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rechPGuOwelvbz4Lp"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "The \"R\" in AR means data and Augmented Images makes it happen"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec7hg1S0uhYjoRlY",
+            "fields": {
+                "speaker_name": "A. Frenz",
+                "role": "Product Designer/UX Consultant",
+                "company": "DesignCogito",
+                "twitter": "https://twitter.com/crayonandpixels",
+                "linkedIn": "https://www.linkedin.com/in/afrenz/",
+                "bio": "A Frenz is a product designer/user experience professional based in Atlanta, at DesignCogito and Mobile App Hero.\n \n His experiences in combines various design practices and backgrounds. He and his team helped to redesign user experiences to better match the consumers changing needs within a chain of big-box retails stores during the housing crash. After moving to Atlanta from South Florida he worked on marketing campaigns and graphics for various local companies but more recently in the past five years he’s been focused on the emerging technologies of the internet of things from designing UI for mobile apps, b2b software and AI. \n \n A has a BA of Industrial Design from the Art Institute and a Web Development Immersive certification from General Assembly. He currently resides in Atlanta with his husband and two dogs for whom he hopes to be at least half the person who they think he is.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attLWlVw9TS45zEip",
+                        "url": "https://dl.airtable.com/.attachments/4fc6e2a2067265801b552ee7ecc514e5/a219c0a1/6478125.jpeg",
+                        "filename": "6478125.jpeg",
+                        "size": 31077,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/47ac44433ae99852ef36a6a11d7f511d/29218537",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7fb4c7f3d865436f2b60637a5029a470/7df934fd",
+                                "width": 460,
+                                "height": 460
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f683c18875d4da1b8d72f68e639249ca/c31f8d56",
+                                "width": 460,
+                                "height": 460
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recOwJ5fl6iA0v5EP"
+                ],
+                "Session Track": [
+                    "Product/UX/UI"
+                ],
+                "Session Title": [
+                    "UX, Empathy and inclusivity in the age of Intelligence"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rec7YLi58byyUIJhS",
+            "fields": {
+                "speaker_name": "Sarrah Vesselov",
+                "role": "Senior User Experience Designer",
+                "company": "CloudBees",
+                "twitter": "https://twitter.com/svesselov",
+                "linkedIn": "https://www.linkedin.com/in/sarrahvesselov/",
+                "bio": "Sarrah Vesselov is a UX professional, speaker, and author with over 10 years of experience in design, development, and management. As the UX Manager for GitLab, she led her department in setting the vision and direction of user experience, established an open source design system, and scaled the department from six to fourteen in a little over a year. Sarrah has spoken at conferences around the world on the topics of user experience and front-end development. Her co-authored book on design systems will be published by Apress in 2019.",
+                "headshot": [
+                    {
+                        "id": "attgPKBVYSr7jd1Bc",
+                        "url": "https://dl.airtable.com/.attachments/d384e24b3ad40fe81e7d6acd5d93971f/a56f166d/sarrah-vesselov.jpg",
+                        "filename": "sarrah-vesselov.jpg",
+                        "size": 214391,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/736988d711f05b95de23b4e5eefb90bd/c14157d8",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a2ccbd05338acbc4aad7ba6c3a68c43b/5bff6146",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c7146814dc0de1b7f71e2db59baf7273/dc4a87cf",
+                                "width": 1440,
+                                "height": 1440
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recoEUpdIQIqYxOss"
+                ],
+                "Session Track": [
+                    "Product/UX/UI"
+                ],
+                "Session Title": [
+                    "Aligning people and product through design systems"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recbw2UV16wZcAdE0",
+            "fields": {
+                "speaker_name": "Osa Gaius",
+                "role": "Software Engineer",
+                "company": "Mailchimp",
+                "twitter": "https://twitter.com/osagaius",
+                "linkedIn": "https://www.linkedin.com/in/osagaius/",
+                "bio": "Osa Gaius is an engineer at Mailchimp. Previously, he worked at Luma, where he built realtime web apps and IoT devices in Elixir. He organizes the Elixir Meetup in Atlanta, where he educates newcomers to Elixir using interactive workshops. In his free time, Osa crafts hip hop beats and dances Salsa.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attIFwyMSM6TeZ2Up",
+                        "url": "https://dl.airtable.com/.attachments/bc2911f2576b48c174c2f37434f42a70/90c384ac/jP07Rsrs_400x400.jpg",
+                        "filename": "jP07Rsrs_400x400.jpg",
+                        "size": 14591,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d56a199cf3be319363a1abb2fd584349/25015113",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4ac5446a6a6c35be8f94c56169ec4456/a28e2d2d",
+                                "width": 331,
+                                "height": 331
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4283e37566df1ccf4ca79952e9699008/4f08c47d",
+                                "width": 331,
+                                "height": 331
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "rec1IYqKZ8TnKRHS6"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "Rapid Prototyping and the Future of Software"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recexvfPpU4Jt0YNt",
+            "fields": {
+                "speaker_name": "Sangeeta Nori",
+                "role": "Software Developer",
+                "company": "General Motors",
+                "twitter": "https://twitter.com/NoriSangeeta",
+                "linkedIn": "https://www.linkedin.com/in/sangeetanori/",
+                "bio": "Sangeeta is a full stack developer with 10+ years experience, currently working as a Lead Developer for General Motors in Georgia. Her focus recently has been building cloud native apps with Spring / Spring Boot on various PaaS platforms. She also tinkers with android development. Outside of her day job, she is a passionate advocate for girls and women in STEM, volunteering and coaching at several events.\n",
+                "headshot": [
+                    {
+                        "id": "attnstNTSWFWZrZf8",
+                        "url": "https://dl.airtable.com/.attachments/f28e24f585130ef07fe3a816ad714511/6bcabda0/SangeetaNori_03.2019.JPG",
+                        "filename": "SangeetaNori_03.2019.JPG",
+                        "size": 25212,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/593925f9ee282c944a77d0a3b2ca887c/c689a97f",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4945c588bc93785deeff356ecca945f8/168f8d52",
+                                "width": 366,
+                                "height": 366
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/26999822adef50f6770a32bf0acb68c0/b6b093de",
+                                "width": 366,
+                                "height": 366
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recAy8WQbbg9hYeRH"
+                ],
+                "Session Track": [
+                    "Cool Shit"
+                ],
+                "Session Title": [
+                    "Quantum Computing Demystified"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "receO8mcBHbK978xd",
+            "fields": {
+                "speaker_name": "Jennifer Ponder",
+                "role": "Leadership Fellow-Front End Development Architect",
+                "company": "Women Who Code",
+                "twitter": "https://twitter.com/JPonder77",
+                "linkedIn": "https://www.linkedin.com/in/jennifer-ponder-651111164/",
+                "bio": "Jennifer Ponder is a lover of all things media and tech. I have extensive experience in customer account management, product development with software plans, and digital marketing. I love adventures and journeys that involve learning something new and exciting. Which is why over two years ago I decided to start scuba diving every spring and summer.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attY7XIC76EBgUqxo",
+                        "url": "https://dl.airtable.com/.attachments/653bcdaca3f8b3b18233e490585b3e40/b4cca733/970oO0rd_400x400.jpg",
+                        "filename": "970oO0rd_400x400.jpg",
+                        "size": 20154,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9628faa0fab4dbce1141c5cbd86356da/2d2f0e81",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5b6a9dc8dd57b334c5c1f113e86b67da/9e981c92",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c3909b710ef37e91b5599076ab1df8be/f36ce492",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recyTC112SfxBf1zZ"
+                ],
+                "Session Track": [
+                    "Front-End"
+                ],
+                "Session Title": [
+                    "Stuck in Class? React Hooks is your \"Get Out of Class\" Pass"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recgUR3j2FezIJoCu",
+            "fields": {
+                "speaker_name": "Reginald Davis",
+                "role": "Cloud Infrastructure Architect",
+                "company": "Magnified Labs",
+                "twitter": "https://twitter.com/MadBlkMan",
+                "linkedIn": "https://www.linkedin.com/in/reginald-j-davis/",
+                "bio": "Reginald Davis is a Sr. WebOps Engineer for The Home Depot. He helps design and implement cloud solutions in Azure and GCP through the use of automation. In his spare time he runs a local meetup called “Tech for the Culture”, which focuses on helping people of color understand the different opportunities available in IT. As well as, the host of a podcast called “Coolest Nerds in the Room”.",
+                "headshot": [
+                    {
+                        "id": "atthJa3MFWZYUEO5U",
+                        "url": "https://dl.airtable.com/.attachments/f5d6a67d60d614b7c30bdb97f60a14e4/d930269e/IMG_1293.JPG",
+                        "filename": "IMG_1293.JPG",
+                        "size": 190517,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/234cce047bb84f48dc919aeaf6ae8c14/8b6349ba",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/afe50df415f291ea3fba119b7f0c6429/87cb5f7e",
+                                "width": 513,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d4af59b7cdf725a7b71ca42886d4c657/6fb576e4",
+                                "width": 550,
+                                "height": 549
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recWMkxPJziAwtKsT"
+                ],
+                "Session Track": [
+                    "Software Engineering"
+                ],
+                "Session Title": [
+                    "\"When do you say “this” is a problem?” Lessons on implementing a plan to clean-up technical debt"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "reckW4W6uCLZk3dhH",
+            "fields": {
+                "speaker_name": "Kortney Ziegler",
+                "role": "ZaMLabs, Inc",
+                "company": "Director of Research & Design",
+                "twitter": "https://twitter.com/fakerapper",
+                "linkedIn": "https://www.linkedin.com/in/dr-kortney-ziegler-65885845/",
+                "bio": "Dr. Kortney Ziegler is an award-winning writer, filmmaker and entrepreneur. His passion for social-justice-based work in the tech space, led him to found Trans*H4CK (2013) the first technology organization centered on sustaining transgender lives. He is also the co-founder of Appolition, a web app that collects spare change to pay bail for those that can't. Ziegler is the first person in history to receive the PhD of African American studies from Northwestern University (2011). Ziegler was named one of the most influential African Americans by TheRoot100 and one of the most powerful African Americans by Ebony Magazine.",
+                "headshot": [
+                    {
+                        "id": "att6bXx740jWUXENl",
+                        "url": "https://dl.airtable.com/.attachments/befd552d7d946d9f3455269c2844b75d/a7cd452f/kortney-ziegler.jpg",
+                        "filename": "kortney-ziegler.jpg",
+                        "size": 645047,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e16d1f9b77a81614d2d66e8cdef53e4a/7588ed95",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/06e7b38254e30495345186084281c85a/7e1af969",
+                                "width": 514,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/2e8ae11cdcd1520a7eb300ca601fb1bf/9620dbb0",
+                                "width": 1397,
+                                "height": 1392
+                            }
+                        }
+                    }
+                ],
+                "Session": [
+                    "recIU1blMI54yOyWq"
+                ],
+                "personal_title": "Dr.",
+                "Session Track": [
+                    "Keynote"
+                ],
+                "Session Title": [
+                    "Finding Purpose Through the Things We Build"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recuuiureyC2dflqB",
+            "fields": {},
+            "createdTime": "2019-04-11T12:01:21.000Z"
+        }
+    ]
+}
