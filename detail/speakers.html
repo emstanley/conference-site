@@ -1,5 +1,320 @@
-{
-    "records": [
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Speaker Details | REFACTR.TECH</title>
+    <meta name="author" content="iThemesLab">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="../assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
+
+    <!--All Css Here-->
+
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+    <!--Font-Awesome Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/font-awesome.min.css">
+    <!--Flaticon Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/flaticon.css">
+    <!--Owl-Carousel Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/owl.carousel.min.css">
+    <!--Owl Theme Default-->
+    <link rel="stylesheet" href="../assets/css/vendor/owl.theme.default.min.css">
+    <!--Animate Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/animate.css">
+    <!--Jquery Ui Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/jquery-ui.min.css">
+    <!--Lightbox Css-->
+    <link rel="stylesheet" href="../assets/css/vendor/lightbox.css">
+    <!--Style Css-->
+    <link rel="stylesheet" href="../assets/css/style.css?567">
+    <!--Responsive Css-->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!--Modernizr Css-->
+    <script src="../assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--Vue.JS-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuex"></script>
+
+
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!--Preloder-->
+    <div class='loader'>
+        <div class='loader--dot'></div>
+        <div class='loader--dot'></div>
+        <div class='loader--dot'></div>
+        <div class='loader--dot'></div>
+        <div class='loader--dot'></div>
+        <div class='loader--dot'></div>
+        <div class='loader--text'></div>
+    </div>
+    <!--Main Container Start Here-->
+    <div class="main-container">
+        <!--Header Start Here-->
+        <header class="header base-style-2 white-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="brand-logo">
+                            <a class="eventex-brand" href="../index.html"><img src="../assets/img/logo/logo-3.png?123" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- /col end-->
+                    <div class="col-lg-8">
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                          </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../about.html">About</a>
+                                        <!--ul class="dropdown-menu animation  slideUpIn">
+                                            <li>
+                                                <a href="about.html">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="pricing.html">Pricing</a>
+                                            </li>
+                                            <li>
+                                                <a href="error-404.html">Error 404</a>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+                                        </ul-->
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="../speakers.html">Speakers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="../detail/sessions.html">Sessions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="../index.html#call-for-sponsors">Sponsors</a>
+                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://shop.refactr.tech" rel="noreferrer noopener" target="_blank">Shop</a>
+                                    </li>
+                                    <li class="nav-item d-lg-none ">
+                                        <a class="nav-link" href="https://tickets.connectevents.io/events/rtech2019/" rel="noreferrer noopener" target="_blank">Tickets</a>
+                                    </li>   
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- /col end-->
+                    <div class="col-lg-2 d-none d-lg-block">
+                        <ul>
+                            <li class="header-ticket">
+                                <a class="pr-0" href="https://tickets.connectevents.io/events/rtech2019/" rel="noreferrer noopener" target="_blank">Tickets</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /col end-->
+                </div>
+                <!-- /row end-->
+            </div>
+            <!-- container end-->
+        </header>
+        <!--Header End Here-->
+
+        <!--About Us Area Start Here-->
+        <div class="about-us-area pad-head bg-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="about-content">
+                            <div class="section-title text-center">
+                                <h2>Speakers</h2>
+                            </div>
+                            <ol class="breadcrumb">
+                                <li><a href="../index.html">Home</a></li>
+                                <li>|</li>
+                                <li>Speaker Details</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- /col-->
+                </div>
+                <!-- /row-->
+            </div>
+            <!--/ container-->
+        </div>
+        <!--About Us Area End Here-->
+
+        <!--Privacy Policy Content Area Start Here-->
+        
+
+<div class="speakers-single-area" id="vapp-speaker-details">
+            <div class="container">
+                     
+                <div v-for="speaker in speakers" :speaker="speaker" :key="speaker.id">
+                    <a :name="speaker.fields.anchor"></a>
+                    <div class="row mt50" >
+                            <a :name="speaker.fields.anchor"></a>
+                            <div class="col-lg-5 col-md-12">
+                                <div style="width: 250px; height:100%;" class="speakers-img">
+                                    <img class="img-fluid" :src="speaker.fields.headshot[0].thumbnails.large.url" alt="">
+                                </div>
+                            </div>
+                            <!-- /.col end-->
+                            <div class="col-lg-7 col-md-12">
+                                <div class="inner-content">
+                                    <h1>{{speaker.fields.personal_title}} {{speaker.fields.speaker_name}}</h1>
+                                    <!-- <span>CEO  Mockplus</span> -->
+                                    <br>
+                                    <p>{{ speaker.fields.bio }}</p>
+                                    <div class="social-icon">
+                                        <ul style="list-style-type:none">
+                                            <li><a :href="speaker.fields.linkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a :href="speaker.fields.twitter"><i class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                    
+
+                                    <span>Sessions<br>
+                                    <a :href="speaker.fields.session_url[0]" rel="noreferrer noopener" target="_blank">{{speaker.fields.session_title[0]}}</a><br>
+                                    <a :href="speaker.fields.session_url[1]" rel="noreferrer noopener" target="_blank">{{speaker.fields.session_title[1]}}</a><br>
+        
+                                </div>
+                                <hr>
+                            </div>
+                            <!-- /.col end-->
+                        </div>
+                    </div>      
+            </div>
+            <!-- /container end-->
+        </div>
+
+
+
+
+        <!--Privacy Policy Content Area End Here-->
+
+        <!--Footer Area Start Here-->
+        <div class="footer-area bg-footer parallax ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="am">
+                            <div class="f-logo">
+                                <img src="../assets/img/logo/logo-2.png?123" width="428" height="188" alt="">
+                            </div>
+                            <div class="border-right"></div>
+                        </div>
+                    </div>
+
+                    <!-- /col end-->
+                    <div class="col-lg-6 offset-1">
+                        <div id="mc_embed_signup" class="f-content">
+                            <div class="inner-content">
+                                <div class="f-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <span>40 Courtland St NE<br> Atlanta, GA 30303</span>
+                            </div>
+                            <p>Don't miss the buzz about our speakers, sessions and events! Sign up below to get the latest news about REFACTR.TECH right in your inbox. </p>
+                            <div id="mc_embed_signup_scroll" class="sub-btn">
+                                <form action="https://tech.us19.list-manage.com/subscribe/post?u=5ae8995a4bf065a3c7cd6ad50&amp;id=e8f624f474" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <input type="text" placeholder="Your email address " name="EMAIL" class="required email" id="mce-EMAIL">
+
+
+                                    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ae8995a4bf065a3c7cd6ad50_e8f624f474" tabindex="-1" value=""></div>
+
+
+                                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                                </form>
+                            </div>
+                            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                            <div class="f-social">
+                                <ul>
+                                    <li><a href="https://twitter.com/RefactrTech"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/RefactrTech/"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /col end-->
+                </div>
+                <!-- /row end-->
+                <div class="row">
+                    <div class="col-lg-12">
+                            <div class="copyright">
+                                <p>©2018-2019 ConnectEvents.io &nbsp;&nbsp;&nbsp;&nbsp; 
+                                <a href="privacy-policy.html">Privacy Policy</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="terms-and-conditions.html"> Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="code-of-conduct.html">Code of Conduct</a>                        
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /container end-->
+        </div>
+        <!--Footer Area End Here-->
+    </div>
+    <!--Main Container End Here-->
+    <!--All Js Here-->
+
+    <!-- jquery latest version -->
+    <script src="../assets/js/vendor/jquery-3.2.1.min.js"></script>
+    <!--Migrate Js-->
+    <script src="../assets/js/vendor/jquery-migrate.js"></script>
+    <!--Popper Js-->
+    <script src="../assets/js/vendor/popper-1.12.9.min.js"></script>
+    <!--Bootstrap Js-->
+    <script src="../assets/js/vendor/bootstrap.min.js"></script>
+    <!--Owl-Carousel Js-->
+    <script src="../assets/js/vendor/owl.carousel.min.js"></script>
+    <!--Counter-Up Js-->
+    <script src="../assets/js/vendor/jquery.counterup.min.js"></script>
+    <!--Waypoints Js-->
+    <script src="../assets/js/vendor/waypoints-jquery.js"></script>
+    <!--Lightbox Js-->
+    <script src="../assets/js/vendor/lightbox.js"></script>
+    <!--Appear Js-->
+    <script src="../assets/js/vendor/jquery.appear.js"></script>
+    <!--Jquery Ui Js-->
+    <script src="../assets/js/vendor/jquery-ui.min.js"></script>
+    <!--Wow Js-->
+    <script src="../assets/js/vendor/wow.min.js"></script>
+    <!--Plugins Js-->
+    <script src="../assets/js/vendor/plugins.js"></script>
+
+    <!-- template main js file -->
+    <script src="../assets/js/main.js"></script>
+
+<!-- Our View App goes at the end of the document -->
+<script>
+
+        const vueApp = new Vue({
+                  el: '#vapp-speaker-details',
+                  data: {
+    "speakers": [
         {
             "id": "recOzGrBiECEXgJfO",
             "fields": {
@@ -42,15 +357,15 @@
                 ],
                 "anchor": "tae'lur-alexis",
                 "order": 1,
-                "url": "https://refactr.tech/detail/speakers.html#tae'lur-alexis",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Build Accessible UI with React!"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#tae'lur-alexis",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#build-accessible-ui-with-react-"
+                    "http://localhost:8000/detail/sessions.html#build-accessible-ui-with-react-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -96,15 +411,15 @@
                 ],
                 "anchor": "leonardo-graterol",
                 "order": 2,
-                "url": "https://refactr.tech/detail/speakers.html#leonardo-graterol",
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Web Accessibility 101: Intersectional inclusion in the digital world"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#leonardo-graterol",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#web-accessibility-101-intersectional-inclusion-in-"
+                    "http://localhost:8000/detail/sessions.html#web-accessibility-101-intersectional-inclusion-in-the-digital-world"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -151,15 +466,15 @@
                 ],
                 "anchor": "diana-rodriguez",
                 "order": 3,
-                "url": "https://refactr.tech/detail/speakers.html#diana-rodriguez",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "DevOps 101: Automation without frustration!"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#diana-rodriguez",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#devops-101-automation-without-frustration-"
+                    "http://localhost:8000/detail/sessions.html#devops-101-automation-without-frustration-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -206,15 +521,15 @@
                 ],
                 "anchor": "mekka-okereke",
                 "order": 4,
-                "url": "https://refactr.tech/detail/speakers.html#mekka-okereke",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Building Inclusive Engineering Teams"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#mekka-okereke",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#building-inclusive-engineering-teams"
+                    "http://localhost:8000/detail/sessions.html#building-inclusive-engineering-teams"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -260,15 +575,15 @@
                 ],
                 "anchor": "scott-hanselman",
                 "order": 5,
-                "url": "https://refactr.tech/detail/speakers.html#scott-hanselman",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Solving diabetes in 2019 with an Open Source Artificial Pancreas"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#scott-hanselman",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#solving-diabetes-in-2019-with-an-open-source-artif"
+                    "http://localhost:8000/detail/sessions.html#solving-diabetes-in-2019-with-an-open-source-artificial-pancreas"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -315,15 +630,15 @@
                 ],
                 "anchor": "liz-fong-jones",
                 "order": 6,
-                "url": "https://refactr.tech/detail/speakers.html#liz-fong-jones",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Cultivating Production Excellence"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#liz-fong-jones",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#cultivating-production-excellence"
+                    "http://localhost:8000/detail/sessions.html#cultivating-production-excellence"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -370,15 +685,15 @@
                 ],
                 "anchor": "pratik-patel",
                 "order": 7,
-                "url": "https://refactr.tech/detail/speakers.html#pratik-patel",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Serverless Architecture: The New New Cloud Native"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#pratik-patel",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#serverless-architecture-the-new-new-cloud-native"
+                    "http://localhost:8000/detail/sessions.html#serverless-architecture-the-new-new-cloud-native"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -424,15 +739,15 @@
                 "personal_title": "Dr.",
                 "anchor": "kortney-ziegler",
                 "order": 8,
-                "url": "https://refactr.tech/detail/speakers.html#kortney-ziegler",
                 "session_track": [
                     "Keynote"
                 ],
                 "session_title": [
                     "Finding Purpose Through the Things We Build"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#kortney-ziegler",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#finding-purpose-through-the-things-we-build"
+                    "http://localhost:8000/detail/sessions.html#finding-purpose-through-the-things-we-build"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -479,15 +794,15 @@
                 ],
                 "anchor": "alicia-carr",
                 "order": 9,
-                "url": "https://refactr.tech/detail/speakers.html#alicia-carr",
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "The challenges in building a social app"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#alicia-carr",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#the-challenges-in-building-a-social-app"
+                    "http://localhost:8000/detail/sessions.html#the-challenges-in-building-a-social-app"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -534,7 +849,6 @@
                 ],
                 "anchor": "jen-looper",
                 "order": 10,
-                "url": "https://refactr.tech/detail/speakers.html#jen-looper",
                 "session_track": [
                     "Front-End",
                     "Workshop"
@@ -543,9 +857,10 @@
                     "The Great MiniBar Challenge: MixoLogy",
                     "Vue Vixens Skulk"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jen-looper",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#the-great-minibar-challenge-mixology",
-                    "https://refactr.tech/detail/sessions.html#vue-vixens-skulk"
+                    "http://localhost:8000/detail/sessions.html#the-great-minibar-challenge-mixology",
+                    "http://localhost:8000/detail/sessions.html#vue-vixens-skulk"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -591,15 +906,15 @@
                 ],
                 "anchor": "osa-gaius",
                 "order": 11,
-                "url": "https://refactr.tech/detail/speakers.html#osa-gaius",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Rapid Prototyping and the Future of Software"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#osa-gaius",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#rapid-prototyping-and-the-future-of-software"
+                    "http://localhost:8000/detail/sessions.html#rapid-prototyping-and-the-future-of-software"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -644,15 +959,15 @@
                 ],
                 "anchor": "ashi-krishnan",
                 "order": 12,
-                "url": "https://refactr.tech/detail/speakers.html#ashi-krishnan",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Learning From Machines"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#ashi-krishnan",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#learning-from-machines"
+                    "http://localhost:8000/detail/sessions.html#learning-from-machines"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -698,15 +1013,15 @@
                 ],
                 "anchor": "chloe-condon",
                 "order": 13,
-                "url": "https://refactr.tech/detail/speakers.html#chloe-condon",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "IoT for the Introvert"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#chloe-condon",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#iot-for-the-introvert"
+                    "http://localhost:8000/detail/sessions.html#iot-for-the-introvert"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -751,15 +1066,15 @@
                 ],
                 "anchor": "noble-ackerson",
                 "order": 14,
-                "url": "https://refactr.tech/detail/speakers.html#noble-ackerson",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "The \"R\" in AR means data and Augmented Images makes it happen"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#noble-ackerson",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#the-r-in-ar-means-data-and-augmented-images-makes-"
+                    "http://localhost:8000/detail/sessions.html#the-r-in-ar-means-data-and-augmented-images-makes-it-happen"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -804,15 +1119,15 @@
                 ],
                 "anchor": "jason-wong",
                 "order": 15,
-                "url": "https://refactr.tech/detail/speakers.html#jason-wong",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Bootstrapping Inclusion"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jason-wong",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#bootstrapping-inclusion"
+                    "http://localhost:8000/detail/sessions.html#bootstrapping-inclusion"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -858,15 +1173,15 @@
                 ],
                 "anchor": "tara-walker",
                 "order": 16,
-                "url": "https://refactr.tech/detail/speakers.html#tara-walker",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Intersection of Awesome: Building AI enabled IoT solutions powered by the cloud"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#tara-walker",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#intersection-of-awesome-building-ai-enabled-iot-so"
+                    "http://localhost:8000/detail/sessions.html#intersection-of-awesome-building-ai-enabled-iot-solutions-powered-by-the-cloud"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -911,15 +1226,15 @@
                 ],
                 "anchor": "alex-castillo",
                 "order": 17,
-                "url": "https://refactr.tech/detail/speakers.html#alex-castillo",
                 "session_track": [
                     "Keynote"
                 ],
                 "session_title": [
                     "Empowering the Mind"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#alex-castillo",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#empowering-the-mind"
+                    "http://localhost:8000/detail/sessions.html#empowering-the-mind"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -965,15 +1280,15 @@
                 ],
                 "anchor": "brandon-kearns",
                 "order": 18,
-                "url": "https://refactr.tech/detail/speakers.html#brandon-kearns",
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "We're Not In East Egg, Anymore: Gatsby.js in Practice"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#brandon-kearns",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#we're-not-in-east-egg-anymore-gatsby-js-in-practic"
+                    "http://localhost:8000/detail/sessions.html#we're-not-in-east-egg-anymore-gatsby-js-in-practice"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1018,15 +1333,15 @@
                 ],
                 "anchor": "tracy-lee",
                 "order": 19,
-                "url": "https://refactr.tech/detail/speakers.html#tracy-lee",
                 "session_track": [
                     "Keynote"
                 ],
                 "session_title": [
                     "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#tracy-lee",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it"
+                    "http://localhost:8000/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it-that-hard-how-to-create-a-better-culture-in-technology-your-company-and-the-community"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1071,15 +1386,15 @@
                 ],
                 "anchor": "jared-jordan",
                 "order": 20,
-                "url": "https://refactr.tech/detail/speakers.html#jared-jordan",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "\"Navigating Your Career\" Panel"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jared-jordan",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#-navigating-your-career-panel"
+                    "http://localhost:8000/detail/sessions.html#-navigating-your-career-panel"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1125,15 +1440,15 @@
                 ],
                 "anchor": "jamie-harrell-mba",
                 "order": 21,
-                "url": "https://refactr.tech/detail/speakers.html#jamie-harrell-mba",
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Intro to Data Analytics -- SSRS and PowerBI for data visualization"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jamie-harrell-mba",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#intro-to-data-analytics-ssrs-and-powerbi-for-data-"
+                    "http://localhost:8000/detail/sessions.html#intro-to-data-analytics-ssrs-and-powerbi-for-data-visualization"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1179,15 +1494,15 @@
                 ],
                 "anchor": "toby-ho",
                 "order": 22,
-                "url": "https://refactr.tech/detail/speakers.html#toby-ho",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "How to Make a Programming Language"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#toby-ho",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#how-to-make-a-programming-language"
+                    "http://localhost:8000/detail/sessions.html#how-to-make-a-programming-language"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1232,15 +1547,15 @@
                 ],
                 "anchor": "brandon-roberts",
                 "order": 23,
-                "url": "https://refactr.tech/detail/speakers.html#brandon-roberts",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Complexity Management with NgRx"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#brandon-roberts",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#complexity-management-with-ngrx"
+                    "http://localhost:8000/detail/sessions.html#complexity-management-with-ngrx"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1285,15 +1600,15 @@
                 ],
                 "anchor": "pearl-latteier",
                 "order": 24,
-                "url": "https://refactr.tech/detail/speakers.html#pearl-latteier",
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "Get Flapping with Flutter"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#pearl-latteier",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#get-flapping-with-flutter"
+                    "http://localhost:8000/detail/sessions.html#get-flapping-with-flutter"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1339,15 +1654,15 @@
                 ],
                 "anchor": "valarie-regas",
                 "order": 25,
-                "url": "https://refactr.tech/detail/speakers.html#valarie-regas",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "DevOps: A Love Story"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#valarie-regas",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#devops-a-love-story"
+                    "http://localhost:8000/detail/sessions.html#devops-a-love-story"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1391,15 +1706,15 @@
                 ],
                 "anchor": "henri-helvetica",
                 "order": 26,
-                "url": "https://refactr.tech/detail/speakers.html#henri-helvetica",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Planet Of The APIs"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#henri-helvetica",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#planet-of-the-apis"
+                    "http://localhost:8000/detail/sessions.html#planet-of-the-apis"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1445,15 +1760,15 @@
                 ],
                 "anchor": "adrianna-valdivia",
                 "order": 27,
-                "url": "https://refactr.tech/detail/speakers.html#adrianna-valdivia",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "A React Developer’s Guide to Tech Interviews"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#adrianna-valdivia",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#a-react-developer’s-guide-to-tech-interviews"
+                    "http://localhost:8000/detail/sessions.html#a-react-developer’s-guide-to-tech-interviews"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1498,15 +1813,15 @@
                 ],
                 "anchor": "mike-hartington",
                 "order": 28,
-                "url": "https://refactr.tech/detail/speakers.html#mike-hartington",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Progressive Web Apps across all frameworks"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#mike-hartington",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#progressive-web-apps-across-all-frameworks"
+                    "http://localhost:8000/detail/sessions.html#progressive-web-apps-across-all-frameworks"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1551,15 +1866,15 @@
                 ],
                 "anchor": "jess-mink",
                 "order": 29,
-                "url": "https://refactr.tech/detail/speakers.html#jess-mink",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Let's talk about money"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jess-mink",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#let's-talk-about-money"
+                    "http://localhost:8000/detail/sessions.html#let's-talk-about-money"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1605,15 +1920,15 @@
                 ],
                 "anchor": "alicia-barrett",
                 "order": 30,
-                "url": "https://refactr.tech/detail/speakers.html#alicia-barrett",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Diving into GatsbyJS"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#alicia-barrett",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#diving-into-gatsbyjs"
+                    "http://localhost:8000/detail/sessions.html#diving-into-gatsbyjs"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1658,15 +1973,15 @@
                 ],
                 "anchor": "rob-ocel",
                 "order": 31,
-                "url": "https://refactr.tech/detail/speakers.html#rob-ocel",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Inclusive Architecture - Designing your applications and team for the future."
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#rob-ocel",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#inclusive-architecture-designing-your-applications"
+                    "http://localhost:8000/detail/sessions.html#inclusive-architecture-designing-your-applications-and-team-for-the-future-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1711,15 +2026,15 @@
                 ],
                 "anchor": "susa-hart",
                 "order": 32,
-                "url": "https://refactr.tech/detail/speakers.html#susa-hart",
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Secrets for innovating disruptive products"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#susa-hart",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#secrets-for-innovating-disruptive-products"
+                    "http://localhost:8000/detail/sessions.html#secrets-for-innovating-disruptive-products"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1766,15 +2081,15 @@
                 "personal_title": "Dr.",
                 "anchor": "faith-h-wallace",
                 "order": 33,
-                "url": "https://refactr.tech/detail/speakers.html#faith-h-wallace",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "5 Brain Science Hacks to Successfully Level up in Programming"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#faith-h-wallace",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#5-brain-science-hacks-to-successfully-level-up-in-"
+                    "http://localhost:8000/detail/sessions.html#5-brain-science-hacks-to-successfully-level-up-in-programming"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1820,15 +2135,15 @@
                 ],
                 "anchor": "marco-dell'olio",
                 "order": 34,
-                "url": "https://refactr.tech/detail/speakers.html#marco-dell'olio",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Contract based testing with PACT"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#marco-dell'olio",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#contract-based-testing-with-pact"
+                    "http://localhost:8000/detail/sessions.html#contract-based-testing-with-pact"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1873,15 +2188,15 @@
                 ],
                 "anchor": "tia-caldwell",
                 "order": 35,
-                "url": "https://refactr.tech/detail/speakers.html#tia-caldwell",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Harnessing your team superpowers"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#tia-caldwell",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#harnessing-your-team-superpowers"
+                    "http://localhost:8000/detail/sessions.html#harnessing-your-team-superpowers"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1926,15 +2241,15 @@
                 ],
                 "anchor": "gant-laborde",
                 "order": 36,
-                "url": "https://refactr.tech/detail/speakers.html#gant-laborde",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Influence - Witchcraft and Wizardry"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#gant-laborde",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#influence-witchcraft-and-wizardry"
+                    "http://localhost:8000/detail/sessions.html#influence-witchcraft-and-wizardry"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1980,15 +2295,15 @@
                 ],
                 "anchor": "yvonne-allen",
                 "order": 37,
-                "url": "https://refactr.tech/detail/speakers.html#yvonne-allen",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "The Schematic Rises: Schematics for noobs"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#yvonne-allen",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#the-schematic-rises-schematics-for-noobs"
+                    "http://localhost:8000/detail/sessions.html#the-schematic-rises-schematics-for-noobs"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2034,15 +2349,15 @@
                 ],
                 "anchor": "craig-rodrigues",
                 "order": 38,
-                "url": "https://refactr.tech/detail/speakers.html#craig-rodrigues",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Visual Studio Code Sparks Joy"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#craig-rodrigues",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#visual-studio-code-sparks-joy"
+                    "http://localhost:8000/detail/sessions.html#visual-studio-code-sparks-joy"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2088,15 +2403,15 @@
                 ],
                 "anchor": "whitley-talmadge",
                 "order": 39,
-                "url": "https://refactr.tech/detail/speakers.html#whitley-talmadge",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Not a Born Developer"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#whitley-talmadge",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#not-a-born-developer"
+                    "http://localhost:8000/detail/sessions.html#not-a-born-developer"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2140,15 +2455,15 @@
                 ],
                 "anchor": "chris-fritz",
                 "order": 40,
-                "url": "https://refactr.tech/detail/speakers.html#chris-fritz",
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Writing inclusive docs"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#chris-fritz",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#writing-inclusive-docs"
+                    "http://localhost:8000/detail/sessions.html#writing-inclusive-docs"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2194,15 +2509,15 @@
                 ],
                 "anchor": "jennifer-ponder",
                 "order": 41,
-                "url": "https://refactr.tech/detail/speakers.html#jennifer-ponder",
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Stuck in Class? React Hooks is your \"Get Out of Class\" Pass"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jennifer-ponder",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#stuck-in-class-react-hooks-is-your-get-out-of-clas"
+                    "http://localhost:8000/detail/sessions.html#stuck-in-class-react-hooks-is-your-get-out-of-class-pass"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2247,15 +2562,15 @@
                 ],
                 "anchor": "sangeeta-nori",
                 "order": 42,
-                "url": "https://refactr.tech/detail/speakers.html#sangeeta-nori",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Quantum Computing Demystified"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#sangeeta-nori",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#quantum-computing-demystified"
+                    "http://localhost:8000/detail/sessions.html#quantum-computing-demystified"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2300,15 +2615,15 @@
                 ],
                 "anchor": "dan-barker",
                 "order": 43,
-                "url": "https://refactr.tech/detail/speakers.html#dan-barker",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Getting started with AI for free"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#dan-barker",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#getting-started-with-ai-for-free"
+                    "http://localhost:8000/detail/sessions.html#getting-started-with-ai-for-free"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2353,15 +2668,15 @@
                 ],
                 "anchor": "angela-riggs",
                 "order": 44,
-                "url": "https://refactr.tech/detail/speakers.html#angela-riggs",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Creating a Culture of Quality"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#angela-riggs",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#creating-a-culture-of-quality"
+                    "http://localhost:8000/detail/sessions.html#creating-a-culture-of-quality"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2406,15 +2721,15 @@
                 ],
                 "anchor": "j-c-hiatt",
                 "order": 45,
-                "url": "https://refactr.tech/detail/speakers.html#j-c-hiatt",
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Refactor your body for better performance"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#j-c-hiatt",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#refactor-your-body-for-better-performance"
+                    "http://localhost:8000/detail/sessions.html#refactor-your-body-for-better-performance"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2460,15 +2775,15 @@
                 ],
                 "anchor": "laurel-lawson",
                 "order": 46,
-                "url": "https://refactr.tech/detail/speakers.html#laurel-lawson",
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "How we change the world: Ethics, power, and leadership in tech"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#laurel-lawson",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#how-we-change-the-world-ethics-power-and-leadershi"
+                    "http://localhost:8000/detail/sessions.html#how-we-change-the-world-ethics-power-and-leadership-in-tech"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2513,15 +2828,15 @@
                 ],
                 "anchor": "jeremy-likness",
                 "order": 47,
-                "url": "https://refactr.tech/detail/speakers.html#jeremy-likness",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "WebAssembly: Your Browser is the new OS"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jeremy-likness",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#webassembly-your-browser-is-the-new-os"
+                    "http://localhost:8000/detail/sessions.html#webassembly-your-browser-is-the-new-os"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2566,15 +2881,15 @@
                 ],
                 "anchor": "amir-rustamzadeh",
                 "order": 48,
-                "url": "https://refactr.tech/detail/speakers.html#amir-rustamzadeh",
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "Next-Generation End-to-End Testing with Cypress"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#amir-rustamzadeh",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#next-generation-end-to-end-testing-with-cypress"
+                    "http://localhost:8000/detail/sessions.html#next-generation-end-to-end-testing-with-cypress"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2619,15 +2934,15 @@
                 ],
                 "anchor": "reginald-davis",
                 "order": 49,
-                "url": "https://refactr.tech/detail/speakers.html#reginald-davis",
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "\"When do you say “this” is a problem?” Lessons on implementing a plan to clean-up technical debt"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#reginald-davis",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#-when-do-you-say-this-is-a-problem-lessons-on-impl"
+                    "http://localhost:8000/detail/sessions.html#-when-do-you-say-this-is-a-problem-lessons-on-implementing-a-plan-to-clean-up-technical-debt"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2673,15 +2988,15 @@
                 ],
                 "anchor": "angeleen-wilson",
                 "order": 50,
-                "url": "https://refactr.tech/detail/speakers.html#angeleen-wilson",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Blockchain Imaginarium"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#angeleen-wilson",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#blockchain-imaginarium"
+                    "http://localhost:8000/detail/sessions.html#blockchain-imaginarium"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2726,15 +3041,15 @@
                 ],
                 "anchor": "abraham-williams",
                 "order": 51,
-                "url": "https://refactr.tech/detail/speakers.html#abraham-williams",
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "Get Flapping with Flutter"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#abraham-williams",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#get-flapping-with-flutter"
+                    "http://localhost:8000/detail/sessions.html#get-flapping-with-flutter"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2781,7 +3096,6 @@
                 ],
                 "anchor": "jennifer-bland",
                 "order": 52,
-                "url": "https://refactr.tech/detail/speakers.html#jennifer-bland",
                 "session_track": [
                     "Front-End",
                     "Workshop"
@@ -2790,9 +3104,10 @@
                     "Don't Be Afraid of the JavaScript Stack Trace",
                     "Let's Learn GraphQL: The End Of REST"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#jennifer-bland",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#don't-be-afraid-of-the-javascript-stack-trace",
-                    "https://refactr.tech/detail/sessions.html#let's-learn-graphql-the-end-of-rest"
+                    "http://localhost:8000/detail/sessions.html#don't-be-afraid-of-the-javascript-stack-trace",
+                    "http://localhost:8000/detail/sessions.html#let's-learn-graphql-the-end-of-rest"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2837,15 +3152,15 @@
                 ],
                 "anchor": "sarrah-vesselov",
                 "order": 53,
-                "url": "https://refactr.tech/detail/speakers.html#sarrah-vesselov",
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Aligning people and product through design systems"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#sarrah-vesselov",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#aligning-people-and-product-through-design-systems"
+                    "http://localhost:8000/detail/sessions.html#aligning-people-and-product-through-design-systems"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2891,15 +3206,15 @@
                 ],
                 "anchor": "ray-gesualdo",
                 "order": 54,
-                "url": "https://refactr.tech/detail/speakers.html#ray-gesualdo",
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Reconfiguring Our Mindset from “Self-taught” to “Community-taught”"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#ray-gesualdo",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#reconfiguring-our-mindset-from-“self-taught”-to-“c"
+                    "http://localhost:8000/detail/sessions.html#reconfiguring-our-mindset-from-“self-taught”-to-“community-taught”"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2944,15 +3259,15 @@
                 ],
                 "anchor": "aida-martinez",
                 "order": 55,
-                "url": "https://refactr.tech/detail/speakers.html#aida-martinez",
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "How Big Data is Powering the Internet of Things (IoT) Revolution"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#aida-martinez",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#how-big-data-is-powering-the-internet-of-things-io"
+                    "http://localhost:8000/detail/sessions.html#how-big-data-is-powering-the-internet-of-things-iot-revolution"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2998,15 +3313,15 @@
                 ],
                 "anchor": "a-frenz",
                 "order": 56,
-                "url": "https://refactr.tech/detail/speakers.html#a-frenz",
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "UX, Empathy and inclusivity in the age of Intelligence"
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#a-frenz",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intellige"
+                    "http://localhost:8000/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intelligence"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -3051,18 +3366,26 @@
                 ],
                 "anchor": "susan-lin",
                 "order": 57,
-                "url": "https://refactr.tech/detail/speakers.html#susan-lin",
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Why designers should practice Integrative Thinking, the lesser known sibling of Design Thinking."
                 ],
+                "url": "http://localhost:8000/detail/speakers.html#susan-lin",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#why-designers-should-practice-integrative-thinking"
+                    "http://localhost:8000/detail/sessions.html#why-designers-should-practice-integrative-thinking-the-lesser-known-sibling-of-design-thinking-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
         }
     ]
 }
+                })
+        
+        </script>
+
+
+</body>
+
+</html>
