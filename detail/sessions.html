@@ -288,17 +288,28 @@
                 <div class="row mt15" v-for="session in sessions" :session="session" :key="session.id">
                     <a :name="session.fields.anchor_truncated"></a>
                     <div class="col-md-12">
-                        <div class="inner-content">
-                            <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                            <br>
-                            <p>{{ session.fields.Abstract }}</p>
-
-                            <span>Speakers</span><br>
-                            
-                            <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
-                                
-                            <hr>
-                        </div>
+                            <div class="inner-content">
+                                    <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+        
+                                    <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+        
+                                    <p>{{ session.fields.Abstract }}</p>
+        
+                                    <span class="speaker-header">Speakers</span>
+        
+                                    <div class="mb40">
+                                        <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                            <p class="m0">
+                                                <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                                <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                            </p>
+                                            <p style="clear:left"></p>
+                                        </a>
+                                    </div>
+                                        
+                                    <hr>
+                                </div>
                     </div>
                     <hr>
                 </div>
@@ -1857,7 +1868,7 @@ const vueApp = new Vue({
         {
             "id": "recGC7In1uxCYtqfz",
             "fields": {
-                "session_title": "Intro to Data Analytics -- SSRS and PowerBI for data visualization",
+                "title": "Intro to Data Analytics -- SSRS and PowerBI for data visualization",
                 "Abstract": "Data is everywhere today, but how do you take advantage of it? Are you making data informed decisions? Or is the data of your business too hard to read? Join Jamie Anne Harrell in this session as she walks you through how to transform data into insights. Learn some quick and easy techniques to turn the data of your business into visualizations that can create a meaningful impact on your decisions. This session will focus on a beginners look at the Microsoft Business Intelligence suite including SSIS, SSRS and PowerBI.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
@@ -1869,21 +1880,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:00 AM",
                 "anchor": "intro-to-data-analytics-ssrs-and-powerbi-for-data-visualization",
+                "schedule_url": "../schedule/day2.html#day2-1000",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jamie-harrell-mba"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#intro-to-data-analytics-ssrs-and-powerbi-for-data-",
                 "anchor_truncated": "intro-to-data-analytics-ssrs-and-powerbi-for-data-",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jamie Harrell. MBA"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#intro-to-data-analytics-ssrs-and-powerbi-for-data-"
+                "speaker_pic": [
+                    {
+                        "id": "attNFxBT4lhENkgnq",
+                        "url": "https://dl.airtable.com/.attachments/00ca2f14025134c03c68d1914a126bfa/3bb8e216/jamie-harrell.jpg",
+                        "filename": "jamie-harrell.jpg",
+                        "size": 6440514,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0d12afe96aa7c397ec68ad70b23eca74/121f687c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c707b14def04b00b015fc78b01c28e97/d6f1407d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4af2f2f6da32f914119185f299417ee5/cbd3075b",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "BI & Analytics Lead"
+                ],
+                "speaker_company": [
+                    "Emory University"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recoEUpdIQIqYxOss",
             "fields": {
-                "session_title": "Aligning people and product through design systems",
+                "title": "Aligning people and product through design systems",
                 "Abstract": "With the rise of design-led organizations, the role of designer has shifted from that of mere stylist to being a business' number one problem solver. To build products that people love, designers have to do more than just solve problems. They must structure the way they work, establishing a system of guiding values and principles that support and drive the design process. This design system includes documentation, workflows, and even code. To be successful, it requires the support and participation of the entire organization.\n \n This is because design systems are not just for designers. A good design system will provide a solid foundation for your organization, enabling product managers and engineers to make decisions without relying on constant feedback from designers. In turn, designers will gain time to focus on exploring and solving other problems. \n \n Based on material from her upcoming book with co-author Taurie Davis, Sarrah will guide you through the basics of building a design system. You will learn how to define a design language that can be understood across teams and establish a communication strategy to sell your system to key stakeholders and other contributors.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
@@ -1895,21 +1940,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:00 AM",
                 "anchor": "aligning-people-and-product-through-design-systems",
+                "schedule_url": "../schedule/day2.html#day2-1100",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#sarrah-vesselov"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#aligning-people-and-product-through-design-systems",
                 "anchor_truncated": "aligning-people-and-product-through-design-systems",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Sarrah Vesselov"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#aligning-people-and-product-through-design-systems"
+                "speaker_pic": [
+                    {
+                        "id": "attgPKBVYSr7jd1Bc",
+                        "url": "https://dl.airtable.com/.attachments/d384e24b3ad40fe81e7d6acd5d93971f/a56f166d/sarrah-vesselov.jpg",
+                        "filename": "sarrah-vesselov.jpg",
+                        "size": 214391,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/736988d711f05b95de23b4e5eefb90bd/c14157d8",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a2ccbd05338acbc4aad7ba6c3a68c43b/5bff6146",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c7146814dc0de1b7f71e2db59baf7273/dc4a87cf",
+                                "width": 1440,
+                                "height": 1440
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Senior User Experience Designer"
+                ],
+                "speaker_company": [
+                    "CloudBees"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recHOUeBk7u4czYwe",
             "fields": {
-                "session_title": "Secrets for innovating disruptive products",
+                "title": "Secrets for innovating disruptive products",
                 "Abstract": "Everyone wants to create the next great product, but often the team's efforts fall flat. Teams that really want to disrupt their market can use a few easy techniques to create a vision for the future, transform their conversations from talking about features to describing experiences, and take the incremental steps needed to get there.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
@@ -1921,21 +2000,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "12:00 PM",
                 "anchor": "secrets-for-innovating-disruptive-products",
+                "schedule_url": "../schedule/day2.html#day2-1200",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#susa-hart"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#secrets-for-innovating-disruptive-products",
                 "anchor_truncated": "secrets-for-innovating-disruptive-products",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Susa Hart"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#secrets-for-innovating-disruptive-products"
+                "speaker_pic": [
+                    {
+                        "id": "attHzyJaHyWsegkcV",
+                        "url": "https://dl.airtable.com/.attachments/6873d8a7da282fa6429ed914198f3795/69ddf24a/susa-hart.jpg",
+                        "filename": "susa-hart.jpg",
+                        "size": 13652,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a7f24c1f9ff2a665172cae766271e7e7/582c2fd5",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e39b4a0e18ecd57d13b736e2fa99a10e/6207ceb1",
+                                "width": 288,
+                                "height": 288
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d4e196c2868a5bbb493e6e37ec70bd3/97c47917",
+                                "width": 288,
+                                "height": 288
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Director User Experience"
+                ],
+                "speaker_company": [
+                    "ADP"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recTGWr1nSnUKcfiF",
             "fields": {
-                "session_title": "Why designers should practice Integrative Thinking, the lesser known sibling of Design Thinking.",
+                "title": "Why designers should practice Integrative Thinking, the lesser known sibling of Design Thinking.",
                 "Abstract": "Design Thinking recommends we teach others to design, but how could this work in practice? Our teammates are working towards goals which may not align neatly with user experience. When building a culture of designing for the user, it must be self-sustaining. Allow me to introduce the practice of Integrative Thinking.\nIn this talk, I’ll explore the process of an effective designer. Design Thinking recommends we teach others to design, but how could this work in practice? Our teammates are working towards goals which may not neatly align with user experience. If we are to build a culture of designing for the user, it must be self-sustaining.\nThe most effective designers are bridges between functions. These folks are practicing Integrative Thinking. Integrative Thinking holds opposing ideas at once. It observes their dualities and generates a new solution. We unblock and enhance process instead of forcing design onto others.\nIn this talk, we will explore Integrative Thinking. I will share a practice which will have your team to:\n\n- Navigate complex, and often conflicting, user needs. \n- Build a self-sustaining culture of user centered design. \n- Enjoy multiplier effects on productivity and fulfillment at work.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
@@ -1947,21 +2060,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:45 PM",
                 "anchor": "why-designers-should-practice-integrative-thinking-the-lesser-known-sibling-of-design-thinking-",
+                "schedule_url": "../schedule/day2.html#day2-245",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#susan-lin"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#why-designers-should-practice-integrative-thinking",
                 "anchor_truncated": "why-designers-should-practice-integrative-thinking",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Susan Lin"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#why-designers-should-practice-integrative-thinking"
+                "speaker_pic": [
+                    {
+                        "id": "att9Onf3DyEB0gUb0",
+                        "url": "https://dl.airtable.com/.attachments/c9286b27688e5691b22991ae79c7626b/86ee65a7/susan_lin.jpeg",
+                        "filename": "susan_lin.jpeg",
+                        "size": 124377,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e54c4d6fddefd853bfc670a2d83d51ca/6df783b1",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fae26c1a43241313f366c855bc55ff7a/eeebd0b5",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3c0a9327e7255b84e84d05afb7451f5a/321cd789",
+                                "width": 1280,
+                                "height": 1280
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Lead Product Designer"
+                ],
+                "speaker_company": [
+                    "Cloudflare"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recOwJ5fl6iA0v5EP",
             "fields": {
-                "session_title": "UX, Empathy and inclusivity in the age of Intelligence",
+                "title": "UX, Empathy and inclusivity in the age of Intelligence",
                 "Abstract": "We'll walk through what UX looks like in the age of smart products with AI and Machine Learning (ML). Touch base on the basic 508 accessibility requirements and create a checklist of how we can make simple solutions for them. You'll also learn about a list of UX principles you can take with you to help fend against the unintended consequences of what we can call Artificial Unintelligence and unintentional biases in the age of intelligence because smarter isn't always better.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
@@ -1973,14 +2120,48 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "3:45 PM",
                 "anchor": "ux-empathy-and-inclusivity-in-the-age-of-intelligence",
+                "schedule_url": "../schedule/day2.html#day2-345",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#a-frenz"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intellige",
                 "anchor_truncated": "ux-empathy-and-inclusivity-in-the-age-of-intellige",
-                "speaker_name": [
+                "speaker_display_name": [
                     "A. Frenz"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intellige"
+                "speaker_pic": [
+                    {
+                        "id": "attLWlVw9TS45zEip",
+                        "url": "https://dl.airtable.com/.attachments/4fc6e2a2067265801b552ee7ecc514e5/a219c0a1/6478125.jpeg",
+                        "filename": "6478125.jpeg",
+                        "size": 31077,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/47ac44433ae99852ef36a6a11d7f511d/29218537",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7fb4c7f3d865436f2b60637a5029a470/7df934fd",
+                                "width": 460,
+                                "height": 460
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f683c18875d4da1b8d72f68e639249ca/c31f8d56",
+                                "width": 460,
+                                "height": 460
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Product Designer/UX Consultant"
+                ],
+                "speaker_company": [
+                    "DesignCogito"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
