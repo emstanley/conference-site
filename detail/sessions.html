@@ -411,17 +411,28 @@
                 <div class="row mt15" v-for="session in sessions" :session="session" :key="session.id">
                     <a :name="session.fields.anchor_truncated"></a>
                     <div class="col-md-12">
-                        <div class="inner-content">
-                            <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                            <br>
-                            <p>{{ session.fields.Abstract }}</p>
-
-                            <span>Speakers</span><br>
-                            
-                            <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
-                                
-                            <hr>
-                        </div>
+                            <div class="inner-content">
+                                    <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+        
+                                    <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+        
+                                    <p>{{ session.fields.Abstract }}</p>
+        
+                                    <span class="speaker-header">Speakers</span>
+        
+                                    <div class="mb40">
+                                        <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                            <p class="m0">
+                                                <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                                <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                            </p>
+                                            <p style="clear:left"></p>
+                                        </a>
+                                    </div>
+                                        
+                                    <hr>
+                                </div>
                     </div>
                     <hr>
                 </div>
@@ -3221,7 +3232,7 @@ const vueApp = new Vue({
         {
             "id": "recQxA8TPnzEz9J28",
             "fields": {
-                "session_title": "IoT for the Introvert",
+                "title": "IoT for the Introvert",
                 "Abstract": "You can’t spell “introvert” without “IoT”, which is why Chloe is here to show us how she used Azure IoT services to help her get out of not-so-fun social situations. In this talk, she’ll walk through how you can use a simple Flic button and Azure IoT to save yourself from your next awkward convo.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3233,21 +3244,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:00 AM",
                 "anchor": "iot-for-the-introvert",
+                "schedule_url": "../schedule/day2.html#day2-1000",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#chloe-condon"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#iot-for-the-introvert",
                 "anchor_truncated": "iot-for-the-introvert",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Chloe Condon"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#iot-for-the-introvert"
+                "speaker_pic": [
+                    {
+                        "id": "attiAcjiTSZ6v25iO",
+                        "url": "https://dl.airtable.com/.attachments/684ceb8151043e87bd90821c52bc15c9/6838c34b/Chloe-Headshot.jpg",
+                        "filename": "Chloe-Headshot.jpg",
+                        "size": 78086,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a1c448d340eb87a99c407b0f5c816a2b/df952107",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/471e768126f3fe21d30f990bedc024d6/980a93f0",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9756dd55d82e99c1f503b1754d911f4c/67e1ee79",
+                                "width": 679,
+                                "height": 679
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Cloud Developer Advocate"
+                ],
+                "speaker_company": [
+                    "Microsoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "rechPGuOwelvbz4Lp",
             "fields": {
-                "session_title": "The \"R\" in AR means data and Augmented Images makes it happen",
+                "title": "The \"R\" in AR means data and Augmented Images makes it happen",
                 "Abstract": "Today there are lots of case studies for Spatial Computing (Augmented Reality, Virtual Reality, Mixed Reality etc) in education and entertainment. Unfortunately, the newly released ARCore features like Augmented Images still lack tutorials and practical examples.\n \n In this interactive session, Noble Ackerson, a seasoned Technical Product Lead and GDE, shares insights with examples through a fun \"choose your own adventure\" technical talk (Bandersnatch-style), on how to build marker-based AR with Augmented Images to create experiences to transform data from the world into practical utility for your users.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3259,21 +3304,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:00 AM",
                 "anchor": "the-r-in-ar-means-data-and-augmented-images-makes-it-happen",
+                "schedule_url": "../schedule/day2.html#day2-1100",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#noble-ackerson"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#the-r-in-ar-means-data-and-augmented-images-makes-",
                 "anchor_truncated": "the-r-in-ar-means-data-and-augmented-images-makes-",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Noble Ackerson"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#the-r-in-ar-means-data-and-augmented-images-makes-"
+                "speaker_pic": [
+                    {
+                        "id": "atthJLKsisVaeS4wD",
+                        "url": "https://dl.airtable.com/.attachments/3d2a728f0bb71ea725a911611128838c/83d5fc92/download1.jpeg",
+                        "filename": "download (1).jpeg",
+                        "size": 20958,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bdb04e2a30ebe8d293226e962bf7b568/a8795bc8",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/784cf140cd62ecb2794e64b13a6a0e7b/4db0f30a",
+                                "width": 460,
+                                "height": 460
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d851385dc79c6782f214f9b506b7778/422e5b8b",
+                                "width": 460,
+                                "height": 460
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Sr Manager, Product, Engineering"
+                ],
+                "speaker_company": [
+                    "National Democratic Institute"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recoZ0MdRwRGasU0u",
             "fields": {
-                "session_title": "How to Make a Programming Language",
+                "title": "How to Make a Programming Language",
                 "Abstract": "Have you've ever wondered how a programming language is made? Come see for yourself! In this talk, you'll be treated to an overview of the parts a typical programming language is made out of, and you'll see a new language invented right in front of your eyes.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3285,21 +3364,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "12:00 PM",
                 "anchor": "how-to-make-a-programming-language",
+                "schedule_url": "../schedule/day2.html#day2-1200",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#toby-ho"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#how-to-make-a-programming-language",
                 "anchor_truncated": "how-to-make-a-programming-language",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Toby Ho"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#how-to-make-a-programming-language"
+                "speaker_pic": [
+                    {
+                        "id": "attJIq16aEkTZw91z",
+                        "url": "https://dl.airtable.com/.attachments/d4ea01d661da47b853151ab8d18cba9d/1f3c8825/avatar_400x400.jpg",
+                        "filename": "avatar_400x400.jpg",
+                        "size": 27905,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1d67651d1ae51fffb350a9436e891c4a/c5c2b3c7",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9372fdefbea09e45f36f6d85aec69a54/32a48a43",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/110c9b5f3974b4f655907ef56b1ef7ce/e9c0fff4",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Software Mentor"
+                ],
+                "speaker_company": [
+                    "Prospect Consulting Inc."
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recAy8WQbbg9hYeRH",
             "fields": {
-                "session_title": "Quantum Computing Demystified",
+                "title": "Quantum Computing Demystified",
                 "Abstract": "To some Quantum computing is the next big frontier in Tech that is going to be revolutionary while to others it is all hype. In this talk we will explore the brave new world of Quantum Computing, how it works, its applications today and the big players in this space. We will also get our feet wet with a Hello World program written for a Quantum Computer and run it on the Cloud!",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3311,21 +3424,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:45 PM",
                 "anchor": "quantum-computing-demystified",
+                "schedule_url": "../schedule/day2.html#day2-245",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#sangeeta-nori"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#quantum-computing-demystified",
                 "anchor_truncated": "quantum-computing-demystified",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Sangeeta Nori"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#quantum-computing-demystified"
+                "speaker_pic": [
+                    {
+                        "id": "attnstNTSWFWZrZf8",
+                        "url": "https://dl.airtable.com/.attachments/f28e24f585130ef07fe3a816ad714511/6bcabda0/SangeetaNori_03.2019.JPG",
+                        "filename": "SangeetaNori_03.2019.JPG",
+                        "size": 25212,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/593925f9ee282c944a77d0a3b2ca887c/c689a97f",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4945c588bc93785deeff356ecca945f8/168f8d52",
+                                "width": 366,
+                                "height": 366
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/26999822adef50f6770a32bf0acb68c0/b6b093de",
+                                "width": 366,
+                                "height": 366
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Software Developer"
+                ],
+                "speaker_company": [
+                    "General Motors"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recSgRieJcHY8hhK5",
             "fields": {
-                "session_title": "Getting started with AI for free",
+                "title": "Getting started with AI for free",
                 "Abstract": "Curious about AI? Find out how you can get started today! We’ll walk through several tools that are open source and commonly used in data science. I’ll also provide information about the algorithms being used and use-cases you can try after the session.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3337,21 +3484,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "3:45 PM",
                 "anchor": "getting-started-with-ai-for-free",
+                "schedule_url": "../schedule/day2.html#day2-345",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#dan-barker"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#getting-started-with-ai-for-free",
                 "anchor_truncated": "getting-started-with-ai-for-free",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Dan Barker"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#getting-started-with-ai-for-free"
+                "speaker_pic": [
+                    {
+                        "id": "attQs9gG7krOeftbc",
+                        "url": "https://dl.airtable.com/.attachments/38f99b251730db2abc21ccaa856f4c30/d6417b8e/dpPpMEIo_400x400.jpg",
+                        "filename": "dpPpMEIo_400x400.jpg",
+                        "size": 15133,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/594054dde7f0ca36503ebd2aaf34e29a/689536b7",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4861db70054ef81e7f4118325a962a44/0738e0f0",
+                                "width": 309,
+                                "height": 309
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b8fad0b914ad59fc0e5f4d3ccacc1146/fbacfd94",
+                                "width": 309,
+                                "height": 309
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Chief Architect"
+                ],
+                "speaker_company": [
+                    "RSA Security"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recvjlk4ZLzuiYLAG",
             "fields": {
-                "session_title": "Intersection of Awesome: Building AI enabled IoT solutions powered by the cloud",
+                "title": "Intersection of Awesome: Building AI enabled IoT solutions powered by the cloud",
                 "Abstract": "As you all have probably heard by now the Internet of Things (IoT) is one of the most exciting trends in the tech industry. By 2030, IoT is projected to explode into a technical industry that will be around $14 trillion that’s almost the size of the China’s current economy. Simultaneously, artificial intelligence (AI) is taking the world by storm and creating technical solutions we never thought possible. By combining AI and IoT using the cloud and Edge capabilities, we can build something that can only be described as the intersection of awesome.\nIn this session, we will explore and join AI cloud-native deep learning technologies and IoT cloud enabled devices by walking through and building an IoT solution with AI superpowers. Join for a demo session exploring the awesomeness of IoT and AI.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3363,21 +3544,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "9:45 AM",
                 "anchor": "intersection-of-awesome-building-ai-enabled-iot-solutions-powered-by-the-cloud",
+                "schedule_url": "../schedule/day3.html#day3-945",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#tara-walker"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#intersection-of-awesome-building-ai-enabled-iot-so",
                 "anchor_truncated": "intersection-of-awesome-building-ai-enabled-iot-so",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Tara Walker"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#intersection-of-awesome-building-ai-enabled-iot-so"
+                "speaker_pic": [
+                    {
+                        "id": "att4SVHgkokXhwwet",
+                        "url": "https://dl.airtable.com/.attachments/2de1563f667ca84ae55ece99b117a042/8c4b5979/tara-walker.jpg",
+                        "filename": "tara-walker.jpg",
+                        "size": 55105,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7d3447dc1eac6f6430f48a87dcf78714/35c248fd",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/78ea1a6893cbf811cf1b77723a8c35ec/a10f2dfc",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5070af51fe4ce9bc897795f352b49ed6/36746370",
+                                "width": 800,
+                                "height": 800
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Principal Software Engineer"
+                ],
+                "speaker_company": [
+                    "Microsoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "rec3mLn6uawjmFGei",
             "fields": {
-                "session_title": "Learning From Machines",
+                "title": "Learning From Machines",
                 "Abstract": "Why can't you tickle yourself? How do you know where you are? Why do DeepDream images look so trippy? Why does trauma come in waves, washing over us again and again? Computational neuroscience provides insight into these questions and more. In visually lush presentation, I'll take us on a journey through biological and artificial minds, exploring how models of cognition informed by machine learning and computation can help us illuminate and reconfigure our own processes of being.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3389,21 +3604,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:45 AM",
                 "anchor": "learning-from-machines",
+                "schedule_url": "../schedule/day3.html#day3-1045",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#ashi-krishnan"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#learning-from-machines",
                 "anchor_truncated": "learning-from-machines",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Ashi Krishnan"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#learning-from-machines"
+                "speaker_pic": [
+                    {
+                        "id": "attt7bg3ZuU7wzsWT",
+                        "url": "https://dl.airtable.com/.attachments/214f61f26025ee06d61c4baa26a02298/d4903071/ashikrishnan.jpg",
+                        "filename": "ashikrishnan.jpg",
+                        "size": 18916,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b5c49de99416ca4e32a0fe3e25638ecb/8e298e7c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b7a528bda58a235b86859113b46dde77/8d904c42",
+                                "width": 246,
+                                "height": 246
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1c313badc1ecbb8810a3bc14014d598a/dd068bfa",
+                                "width": 246,
+                                "height": 246
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Senior Software Engineer"
+                ],
+                "speaker_company": [
+                    "GitHub"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recbz0mC19BqE1JDK",
             "fields": {
-                "session_title": "Solving diabetes in 2019 with an Open Source Artificial Pancreas",
+                "title": "Solving diabetes in 2019 with an Open Source Artificial Pancreas",
                 "Abstract": "Scott has been a Type 1 diabetic for nearly 25 years. When he first became diabetic he did what every engineer would do...he wrote an app to solve his problem. Fast forward to 2019 and Scott lives 24 hours a day connected to an open source artificial pancreas. After years of waiting, the diabetes community online creating solutions. Now the future of diabetes care is more promising than ever and open source (and open data standards) are making it possible. \n Scott will go through the history of diabetes online, the components (both hardware and software) needed for an artificial pancreas, and discuss the architectural design of two popular systems (LoopKit and OpenAPS). We’ll also learn how social networking can influence national health policy. Plus, you'll see Scott *not die* live on stage as he's been \"looping\" for over a year!",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3415,21 +3664,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:45 AM",
                 "anchor": "solving-diabetes-in-2019-with-an-open-source-artificial-pancreas",
+                "schedule_url": "../schedule/day3.html#day3-1145",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#scott-hanselman"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#solving-diabetes-in-2019-with-an-open-source-artif",
                 "anchor_truncated": "solving-diabetes-in-2019-with-an-open-source-artif",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Scott Hanselman"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#solving-diabetes-in-2019-with-an-open-source-artif"
+                "speaker_pic": [
+                    {
+                        "id": "attoWqFpbrZjvZ1e0",
+                        "url": "https://dl.airtable.com/.attachments/f9761f4b087126d67f287512b2c11885/fba7018d/scott-400x399.jpg",
+                        "filename": "scott-400x399.jpg",
+                        "size": 23438,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c833947ba60e37c1a3114220ccb7b909/a1c7b437",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eb2074af5a940e35dce6e3362e50e7fb/82d73df3",
+                                "width": 400,
+                                "height": 399
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f309edf657646b9600c16afe4089bf6d/186978dd",
+                                "width": 400,
+                                "height": 399
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Partner Program Manager"
+                ],
+                "speaker_company": [
+                    "Microsoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recbTQljZiVr8f1BU",
             "fields": {
-                "session_title": "Blockchain Imaginarium",
+                "title": "Blockchain Imaginarium",
                 "Abstract": "What does the future look like for blockchain as it converges with IoT, AI and other new emerging technologies? We will discuss the impact and the disruption that is to come.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3441,21 +3724,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "1:30 PM",
                 "anchor": "blockchain-imaginarium",
+                "schedule_url": "../schedule/day3.html#day3-130",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#angeleen-wilson"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#blockchain-imaginarium",
                 "anchor_truncated": "blockchain-imaginarium",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Angeleen Wilson"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#blockchain-imaginarium"
+                "speaker_pic": [
+                    {
+                        "id": "attwNlBFn47VyHjup",
+                        "url": "https://dl.airtable.com/.attachments/7595644b8fdc5fddffcf3f41a226f92b/18b502cb/angeleen-wilson.jpg",
+                        "filename": "angeleen-wilson.jpg",
+                        "size": 577123,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/17ecdcfdead2afec017cf953ab58a832/b7e2b26b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/dac53e24b939425138039ef05dc5e695/74a4e5db",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5986871941add5b50fbc8b25a364d0e7/06cf2172",
+                                "width": 1622,
+                                "height": 1622
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Director/Founder"
+                ],
+                "speaker_company": [
+                    "Georgia Blockchain Coalition"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "rectxSlu8oMNZpi67",
             "fields": {
-                "session_title": "How Big Data is Powering the Internet of Things (IoT) Revolution",
+                "title": "How Big Data is Powering the Internet of Things (IoT) Revolution",
                 "Abstract": "The Internet of Things has made easier for people to create and invent new devices due to lower costs and greater access. As a result, there has been an exponential growth of data in the IoT. Come to explore with me how Big Data is helping to generate insights from it.",
                 "session_type": "Session",
                 "Track": "Cool Shit",
@@ -3467,14 +3784,48 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:30 PM",
                 "anchor": "how-big-data-is-powering-the-internet-of-things-iot-revolution",
+                "schedule_url": "../schedule/day3.html#day3-230",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#aida-martinez"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#how-big-data-is-powering-the-internet-of-things-io",
                 "anchor_truncated": "how-big-data-is-powering-the-internet-of-things-io",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Aida Martinez"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#how-big-data-is-powering-the-internet-of-things-io"
+                "speaker_pic": [
+                    {
+                        "id": "attcKpqZpM3JHvs2h",
+                        "url": "https://dl.airtable.com/.attachments/315b929217360b4cf957447da388d764/feac88d4/A_Martinez_400x400.jpg",
+                        "filename": "A_Martinez_400x400.jpg",
+                        "size": 23123,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ffcee26ab4ca4f626b73a92d1b5fdc6c/5032bc70",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/155ca97cd07c3a028e845f33500a352b/b9437da6",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3cbe104120e0b646e5756b987c8342d0/f3946e89",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Data Integration Developer"
+                ],
+                "speaker_company": [
+                    "Juice Analytics"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
