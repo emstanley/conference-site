@@ -35,7 +35,7 @@
     <!--Lightbox Css-->
     <link rel="stylesheet" href="../assets/css/vendor/lightbox.css">
     <!--Style Css-->
-    <link rel="stylesheet" href="../assets/css/style.css?567">
+    <link rel="stylesheet" href="../assets/css/style.css?23">
     <!--Responsive Css-->
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <!--Modernizr Css-->
@@ -198,8 +198,8 @@
             <div id="vapp-swe-sessions" class="container">
 
                     <a name="swe-sessions"></a>
-                <div class="section-title">
-                    <div class="title-text pl mt30 mb30">
+                <div class="section-title mt40 mb30">
+                    <div class="title-text pl">
                         <h2>Software Engineering</h2>
                     </div>
                 </div>
@@ -207,13 +207,24 @@
                     <a :name="session.fields.anchor_truncated"></a>
                     <div class="col-md-12">
                         <div class="inner-content">
-                            <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                            <br>
+                            <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+
+                            <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+
                             <p>{{ session.fields.Abstract }}</p>
 
-                            <span>Speakers</span><br>
-                            
-                            <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
+                            <span class="speaker-header">Speakers</span>
+
+                            <div class="mb40">
+                                <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                    <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                    <p class="m0">
+                                        <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                        <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                    </p>
+                                    <p style="clear:left"></p>
+                                </a>
+                            </div>
                                 
                             <hr>
                         </div>
@@ -611,14 +622,14 @@ const vueApp = new Vue({
 
 
 
-        const vueApp2 = new Vue({
-          el: '#vapp-swe-sessions',
-          data: {
+    const vueApp2 = new Vue({
+          "el": "#vapp-swe-sessions",
+          "data": {
     "sessions": [
         {
             "id": "rec1IYqKZ8TnKRHS6",
             "fields": {
-                "session_title": "Rapid Prototyping and the Future of Software",
+                "title": "Rapid Prototyping and the Future of Software",
                 "Abstract": "Rapid prototyping as an art presents a unique approach to creating software products. This talk argues that rapid prototyping presents a novel solution to the new software crisis. It further explores how engineers can leverage prototyping to provide value to their companies. Lastly, it presents several strategies for incorporating rapid prototyping into the software life-cycle.",
                 "session_type": "Session",
                 "Track": "Software Engineering",
@@ -630,21 +641,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:00 AM",
                 "anchor": "rapid-prototyping-and-the-future-of-software",
+                "schedule_url": "../schedule/day2.html#day2-1000",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#osa-gaius"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#rapid-prototyping-and-the-future-of-software",
                 "anchor_truncated": "rapid-prototyping-and-the-future-of-software",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Osa Gaius"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#rapid-prototyping-and-the-future-of-software"
+                "speaker_pic": [
+                    {
+                        "id": "attIFwyMSM6TeZ2Up",
+                        "url": "https://dl.airtable.com/.attachments/bc2911f2576b48c174c2f37434f42a70/90c384ac/jP07Rsrs_400x400.jpg",
+                        "filename": "jP07Rsrs_400x400.jpg",
+                        "size": 14591,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d56a199cf3be319363a1abb2fd584349/25015113",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4ac5446a6a6c35be8f94c56169ec4456/a28e2d2d",
+                                "width": 331,
+                                "height": 331
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4283e37566df1ccf4ca79952e9699008/4f08c47d",
+                                "width": 331,
+                                "height": 331
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Software Engineer"
+                ],
+                "speaker_company": [
+                    "Mailchimp"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recj6bcCGrBXVUJtF",
             "fields": {
-                "session_title": "Serverless Architecture: The New New Cloud Native",
+                "title": "Serverless Architecture: The New New Cloud Native",
                 "Abstract": "Serverless doesn’t mean no servers—it’s a metaphor for a new way of designing applications that builds on microservices. Moving to serverless allows you to take your application development, deployment, and economics to a new level while delivering software to your customers faster and with cheaper. But there are also significant trade-offs to keep in mind. Pratik Patel walks you through a short introduction to serverless architecture and explains why it’s an architectural style to pay attention to, especially if your company is already deploying cloud applications. You’ll learn how serverless architecture fits into the world of microservices and examine the pyramid of application development and deployment. You’ll then put on your architect hat to look at serverless options and how they impact applications architecture. You’ll leave with a solid understanding of the benefits (faster deployment, more often, with lower cost) and challenges (debugging, data stores, testing, and more) of moving to a serverless architecture.",
                 "session_type": "Session",
                 "Track": "Software Engineering",
@@ -656,21 +701,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:00 AM",
                 "anchor": "serverless-architecture-the-new-new-cloud-native",
+                "schedule_url": "../schedule/day2.html#day2-1100",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#pratik-patel"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#serverless-architecture-the-new-new-cloud-native",
                 "anchor_truncated": "serverless-architecture-the-new-new-cloud-native",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Pratik Patel"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#serverless-architecture-the-new-new-cloud-native"
+                "speaker_pic": [
+                    {
+                        "id": "attlPshPx9DnnuWNR",
+                        "url": "https://dl.airtable.com/.attachments/c8db733fdcfcf811698017af3bc6537b/563f5b83/pratik-patel_400x400.png",
+                        "filename": "pratik-patel_400x400.png",
+                        "size": 274747,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e3e3d7fab21f9b0044c6d8dd1db54ea9/5d147409",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d86b8a678b8c3ab64e24d8eab83c545f/2649a749",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c48b99153672625bb6954f710208be8d/11547896",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Lead Developer Advocate"
+                ],
+                "speaker_company": [
+                    "IBM"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recKV4wtshl78nJzo",
             "fields": {
-                "session_title": "Creating a Culture of Quality",
+                "title": "Creating a Culture of Quality",
                 "Abstract": "A culture of quality gives your company the ability to build and launch high-quality products that meet your stakeholders’ needs.\n \n The idea of quality is often synonymous with the role of Quality Assurance Engineer, and the responsibility of quality considerations is often relegated to those with the title. I believe software companies can do better, and create a culture of quality that allows everyone to contribute to quality practices!",
                 "session_type": "Session",
                 "Track": "Software Engineering",
@@ -682,21 +761,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "12:00 PM",
                 "anchor": "creating-a-culture-of-quality",
+                "schedule_url": "../schedule/day2.html#day2-1200",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#angela-riggs"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#creating-a-culture-of-quality",
                 "anchor_truncated": "creating-a-culture-of-quality",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Angela Riggs"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#creating-a-culture-of-quality"
+                "speaker_pic": [
+                    {
+                        "id": "attgmcxzmZBE8E9KQ",
+                        "url": "https://dl.airtable.com/.attachments/efe0961e20b531527f7ce0b7661930c1/2bd2c0bf/hc9vCf___400x400.jpg",
+                        "filename": "hc9vCf___400x400.jpg",
+                        "size": 40711,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7909b4a2ac0a545a070526fa4dcde636/f4cbb34e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7393685ad49ce906599aebee2cfaea13/70eb881c",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c30ac8db400c88aec4f0f6fa918a60a8/cedb2428",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "QA engineer"
+                ],
+                "speaker_company": [
+                    "Vacasa"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recjxzjEBbqRvrArU",
             "fields": {
-                "session_title": "DevOps: A Love Story",
+                "title": "DevOps: A Love Story",
                 "Abstract": "This romance involves the partnership of Docker, Kubernetes, and Jenkins. These technologies are a huge part of the DevOps movement, and are making the heart of many development teams flutter. Let me introduce you to these three. You’re going to fall head over heels.",
                 "session_type": "Session",
                 "Track": "Software Engineering",
@@ -708,22 +821,56 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:45 PM",
                 "anchor": "devops-a-love-story",
+                "schedule_url": "../schedule/day2.html#day2-245",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#valarie-regas"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#devops-a-love-story",
                 "anchor_truncated": "devops-a-love-story",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Valarie Regas"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#devops-a-love-story"
+                "speaker_pic": [
+                    {
+                        "id": "attTa3V1FGJ2B47VK",
+                        "url": "https://dl.airtable.com/.attachments/6533b6af2f60204e87d26297fc3fb0db/2729d45f/valarie-regas.jpg",
+                        "filename": "valarie-regas.jpg",
+                        "size": 57708,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d598898797cf3fffddea18e147f8da59/1bd229bc",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0281b75b6ee5a060c2476684530eb885/9158e8ae",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/77e95bbdf19f40d68a97c8cd67cbfd1d/9900a056",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Jr. DevOps Engineer"
+                ],
+                "speaker_company": [
+                    "Airbus Aerial"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recW6tx68oqUmYPay",
             "fields": {
-                "session_title": "Phoenix: the Rise of the Live Web",
-                "Abstract": "Phoenix allows us to create rich and interactive web applications written in the beautiful and elegant Elixir syntax. Under the hood the battle-proven Erlang VM allows us to handle millions of concurrent processes. The Channel and LiveView technologies enable us to build real-time, stream-based, interactive products. We'll discover how all those features are wrapped in a simple and modular architecture which makes Phoenix one of the most productive, stable and scalable frameworks currently available. ",
+                "title": "Phoenix: the Rise of the Live Web ",
+                "Abstract": "Phoenix allows us to create rich and interactive web applications written in the beautiful and elegant Elixir syntax. Under the hood the battle-proven Erlang VM allows us to handle millions of concurrent processes. The Channel and LiveView technologies enable us to build real-time, stream-based, interactive products. We'll discover how all those features are wrapped in a simple and modular architecture which makes Phoenix one of the most productive, stable and scalable frameworks currently available.",
                 "session_type": "Session",
                 "Track": "Software Engineering",
                 "Speakers": [
@@ -734,144 +881,48 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "3:45 PM",
                 "anchor": "phoenix-the-rise-of-the-live-web",
+                "schedule_url": "../schedule/day2.html#day2-345",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#marco-dell'olio"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#phoenix-the-rise-of-the-live-web",
                 "anchor_truncated": "phoenix-the-rise-of-the-live-web",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Marco Dell'Olio"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#phoenix-the-rise-of-the-live-web"
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
-            "id": "recGGydksM730ufDr",
-            "fields": {
-                "session_title": "DevOps 101: Automation without frustration!",
-                "Abstract": "The world of infrastructure is rare for many. One of the most amazing \"gifts\" of this era is to be able to provision and deploy infrastructure as code. It doesn't have to be obscure and complicated. In this talk I have a practical example of migrating a complex infrastructure to the automation world and share how I eliminated the frustration factor from the automation process!",
-                "session_type": "Session",
-                "Track": "Software Engineering",
-                "Speakers": [
-                    "recPuTovJ5yFpXait"
+                "speaker_pic": [
+                    {
+                        "id": "att9NyiYNoPmn068d",
+                        "url": "https://dl.airtable.com/.attachments/4fb0c920a9eb2b46ab8641e49657dedc/e83070b9/0-2.jpg",
+                        "filename": "0-2.jpg",
+                        "size": 65103,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/03ef8b35cd0649860df6f47e9c2c675a/8b4cdc63",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/628db5a65511459c7831ed44650b6880/16ff507e",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/91b9d3239b9cc479e7837a36b6fe03b5/5623ac19",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
                 ],
-                "Day": "Friday",
-                "start_time": "2019-06-07T13:45:00.000Z",
-                "Duration": 2700,
-                "Time": "9:45 AM",
-                "anchor": "devops-101-automation-without-frustration-",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#diana-rodriguez"
+                "speaker_role": [
+                    "Support Engineer"
                 ],
-                "anchor_truncated": "devops-101-automation-without-frustration-",
-                "speaker_name": [
-                    "Diana Rodriguez"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#devops-101-automation-without-frustration-"
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
-            "id": "recgx7zjcU0EWAA7q",
-            "fields": {
-                "session_title": "Visual Studio Code Sparks Joy",
-                "Abstract": "Microsoft's Visual Studio Code is on the rise! It is now a preferred tool of many developers. If you're new to VS Code come learn some beginner tips, and tricks that will make you a faster and more efficient developer. We'll dive into useful keyboard shortcuts, snippets, plugins, themes and debugging!",
-                "session_type": "Session",
-                "Track": "Software Engineering",
-                "Speakers": [
-                    "recERBtUbzrm5YUT0"
-                ],
-                "Day": "Friday",
-                "start_time": "2019-06-07T14:45:00.000Z",
-                "Duration": 2700,
-                "Time": "10:45 AM",
-                "anchor": "visual-studio-code-sparks-joy",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#craig-rodrigues"
-                ],
-                "anchor_truncated": "visual-studio-code-sparks-joy",
-                "speaker_name": [
-                    "Craig Rodrigues"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#visual-studio-code-sparks-joy"
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
-            "id": "recsUJxWq7n31YrQV",
-            "fields": {
-                "session_title": "WebAssembly: Your Browser is the new OS",
-                "Abstract": "WebAssembly, or Wasm for short, is a stack-based virtual machine that runs on existing browser engines. It is a cross-platform binary portable target for language compilers. WebAssembly makes it possible to build high performance Single Page Applications (SPA) without relying on JavaScript and/or other front-end frameworks. Learn what Wasm is and does and see it in action with examples using Go, Rust, and C#.",
-                "session_type": "Session",
-                "Track": "Software Engineering",
-                "Speakers": [
-                    "recq7zB56joNQAM2A"
-                ],
-                "Day": "Friday",
-                "start_time": "2019-06-07T15:45:00.000Z",
-                "Duration": 2700,
-                "Time": "11:45 AM",
-                "anchor": "webassembly-your-browser-is-the-new-os",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#jeremy-likness"
-                ],
-                "anchor_truncated": "webassembly-your-browser-is-the-new-os",
-                "speaker_name": [
-                    "Jeremy Likness"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#webassembly-your-browser-is-the-new-os"
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
-            "id": "recSU2ieSsBhl3uSx",
-            "fields": {
-                "session_title": "Cultivating Production Excellence",
-                "Abstract": "Taming the complex distributed systems we're responsible for requires changing not just the tools and technical approaches we use; it also requires changing who is involved in production, how they collaborate, and how we measure success.\n\nIn this talk, you'll learn about several practices core to production excellence: giving everyone a stake in production, collaborating to ensure observability, measuring with Service Level Objectives, and prioritizing improvements using risk analysis.\n\n",
-                "session_type": "Session",
-                "Track": "Software Engineering",
-                "Speakers": [
-                    "recQoLxCFBZH2WBaJ"
-                ],
-                "Day": "Friday",
-                "start_time": "2019-06-07T17:30:00.000Z",
-                "Duration": 2700,
-                "Time": "1:30 PM",
-                "anchor": "cultivating-production-excellence",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#liz-fong-jones"
-                ],
-                "anchor_truncated": "cultivating-production-excellence",
-                "speaker_name": [
-                    "Liz Fong-Jones"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#cultivating-production-excellence"
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
-            "id": "recWMkxPJziAwtKsT",
-            "fields": {
-                "session_title": "\"When do you say “this” is a problem?” Lessons on implementing a plan to clean-up technical debt",
-                "Abstract": "One thing that every application has is technical debt. We’ve all seen the skeleton’s in the closet (and may have even hid some in there), but at some point the crows come to visit and in order for the business to move forward we have to clean-up some of the accumulated debt. But when management is being stubborn what can you do to at least get the ball rolling? We’ll talk about technical debt, how it accumulates, and why the business doesn’t have any interest in cleaning it up. As well as, how to implement practices around your engineering practice that can help alleviate you of future debt accumulation.",
-                "session_type": "Session",
-                "Track": "Software Engineering",
-                "Speakers": [
-                    "recgUR3j2FezIJoCu"
-                ],
-                "Day": "Friday",
-                "start_time": "2019-06-07T18:30:00.000Z",
-                "Duration": 2700,
-                "Time": "2:30 PM",
-                "anchor": "-when-do-you-say-this-is-a-problem-lessons-on-implementing-a-plan-to-clean-up-technical-debt",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#reginald-davis"
-                ],
-                "anchor_truncated": "-when-do-you-say-this-is-a-problem-lessons-on-impl",
-                "speaker_name": [
-                    "Reginald Davis"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#-when-do-you-say-this-is-a-problem-lessons-on-impl"
+                "speaker_company": [
+                    "SalesLoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
