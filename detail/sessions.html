@@ -329,17 +329,28 @@
                 <div class="row mt15" v-for="session in sessions" :session="session" :key="session.id">
                     <a :name="session.fields.anchor_truncated"></a>
                     <div class="col-md-12">
-                        <div class="inner-content">
-                            <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                            <br>
-                            <p>{{ session.fields.Abstract }}</p>
-
-                            <span>Speakers</span><br>
-                            
-                            <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
-                                
-                            <hr>
-                        </div>
+                            <div class="inner-content">
+                                    <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+        
+                                    <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+        
+                                    <p>{{ session.fields.Abstract }}</p>
+        
+                                    <span class="speaker-header">Speakers</span>
+        
+                                    <div class="mb40">
+                                        <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                            <p class="m0">
+                                                <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                                <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                            </p>
+                                            <p style="clear:left"></p>
+                                        </a>
+                                    </div>
+                                        
+                                    <hr>
+                                </div>
                     </div>
                     <hr>
                 </div>
@@ -359,17 +370,28 @@
                 <div class="row mt15" v-for="session in sessions" :session="session" :key="session.id">
                     <a :name="session.fields.anchor_truncated"></a>
                     <div class="col-md-12">
-                        <div class="inner-content">
-                            <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                            <br>
-                            <p>{{ session.fields.Abstract }}</p>
-
-                            <span>Speakers</span><br>
-                            
-                            <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
-                                
-                            <hr>
-                        </div>
+                            <div class="inner-content">
+                                    <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+        
+                                    <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+        
+                                    <p>{{ session.fields.Abstract }}</p>
+        
+                                    <span class="speaker-header">Speakers</span>
+        
+                                    <div class="mb40">
+                                        <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                            <p class="m0">
+                                                <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                                <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                            </p>
+                                            <p style="clear:left"></p>
+                                        </a>
+                                    </div>
+                                        
+                                    <hr>
+                                </div>
                     </div>
                     <hr>
                 </div>
@@ -419,24 +441,28 @@
                     <div class="row mt15" v-for="session in sessions" :session="session" :key="session.id">
                             <a :name="session.fields.anchor_truncated"></a>
                             <div class="col-md-12">
-                                <div class="inner-content">
-                                    <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                                    <br>
-                                    <p>{{ session.fields.Abstract }}</p>
-    
-                                    <span>Speakers</span><br>
-                                    <!-- <ul>
-                                        <li v-for="(speaker, index) in session.Speakers" 
-                                            :speaker_name="session.speaker_name" 
-                                            :speaker_url="session.speaker_url"
-                                            :index="index">
-                                            <a :href="speaker_url[index]" rel="noreferrer noopener" target="_blank">{{ speaker_name[index] }}</a>
-                                        </li>
-                                    </ul> -->
-                                    <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
-                                        
-                                    <hr>
-                                </div>
+                                    <div class="inner-content">
+                                            <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+                
+                                            <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+                
+                                            <p>{{ session.fields.Abstract }}</p>
+                
+                                            <span class="speaker-header">Speakers</span>
+                
+                                            <div class="mb40">
+                                                <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                                    <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                                    <p class="m0">
+                                                        <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                                        <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                                    </p>
+                                                    <p style="clear:left"></p>
+                                                </a>
+                                            </div>
+                                                
+                                            <hr>
+                                        </div>
                             </div>
                         <!-- /.col end-->
                         <hr>
@@ -558,35 +584,9 @@ const vueApp = new Vue({
           data: {
     "sessions": [
         {
-            "id": "recTeqZ37d2IWME1V",
-            "fields": {
-                "session_title": "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY",
-                "Abstract": "Everyone is talking about diversity and inclusion these days. But why does it really matter? And if you’ve had a hard time finding women to hire, how do you solve that problem? What are some ways companies have done D&I right, and how can you learn from them?\n\nWe’ll explore some practical reasons why you should be aware of how D&I impacts your business and easy tips to begin changing how you and your team think today. We’ll also cover do’s and don’ts of how to build an inclusive team culture and creating a sustainable environment that includes everyone.\n",
-                "session_type": "Keynote",
-                "Track": "Keynote",
-                "Speakers": [
-                    "recS8zTlkvvn2RdTp"
-                ],
-                "Day": "Thursday",
-                "start_time": "2019-06-06T13:00:00.000Z",
-                "Duration": 1800,
-                "Time": "9:00 AM",
-                "anchor": "diversity-is-it-a-pipeline-problem-inclusion-is-it-that-hard-how-to-create-a-better-culture-in-technology-your-company-and-the-community",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#tracy-lee"
-                ],
-                "anchor_truncated": "diversity-is-it-a-pipeline-problem-inclusion-is-it",
-                "speaker_name": [
-                    "Tracy Lee"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it"
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
             "id": "recIU1blMI54yOyWq",
             "fields": {
-                "session_title": "Finding Purpose Through the Things We Build",
+                "title": "Finding Purpose Through the Things We Build",
                 "Abstract": "Developing software that addresses some of the world's most pressing problems relies on a human centered approach as it provides a context in which to investigate solutions and their potential impact. It can help us to create better, more useful software, while also questioning the proper ways to develop and design products. By examining the trajectory of Appolition, a software product designed to make contributing in bail relief easy for users and that centers the black experience, I will talk about how community engagement and empathy and have been crucial to its success and how Appolition serves as a template for future innovations.",
                 "session_type": "Keynote",
                 "Track": "Keynote",
@@ -598,16 +598,50 @@ const vueApp = new Vue({
                 "Duration": 1800,
                 "Time": "9:00 AM",
                 "anchor": "finding-purpose-through-the-things-we-build",
+                "schedule_url": "../schedule/day3.html#day3-900",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#kortney-ziegler"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#finding-purpose-through-the-things-we-build",
                 "anchor_truncated": "finding-purpose-through-the-things-we-build",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Kortney Ziegler"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#finding-purpose-through-the-things-we-build",
-                "personal_title": [
+                "speaker_personal_title": [
                     "Dr."
+                ],
+                "speaker_pic": [
+                    {
+                        "id": "att6bXx740jWUXENl",
+                        "url": "https://dl.airtable.com/.attachments/befd552d7d946d9f3455269c2844b75d/a7cd452f/kortney-ziegler.jpg",
+                        "filename": "kortney-ziegler.jpg",
+                        "size": 645047,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e16d1f9b77a81614d2d66e8cdef53e4a/7588ed95",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/06e7b38254e30495345186084281c85a/7e1af969",
+                                "width": 514,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/2e8ae11cdcd1520a7eb300ca601fb1bf/9620dbb0",
+                                "width": 1397,
+                                "height": 1392
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Director of Research & Design"
+                ],
+                "speaker_company": [
+                    "ZaMLabs, Inc"
                 ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
@@ -615,7 +649,7 @@ const vueApp = new Vue({
         {
             "id": "recZyhM635Le3Mkam",
             "fields": {
-                "session_title": "Empowering the Mind",
+                "title": "Empowering the Mind",
                 "Abstract": "What is the next way we interact with technology? The input source is getting closer and closer to the brain. Alex Castillo will share how Neurosity empowers the mind with JavaScript and AI. There is an evolution taking place in how humans interact with their computing devices. In 1985 when Apple introduced the Macintosh, consumers began using a mouse instead of only their keyboards to interact with their personal computers. Today, where would we be without a mouse, trackpad or touchscreen? We are on a path, and at Neurosity, we are working on the next logical step; interacting with our devices through our minds.",
                 "session_type": "Keynote",
                 "Track": "Keynote",
@@ -627,14 +661,108 @@ const vueApp = new Vue({
                 "Duration": 1800,
                 "Time": "3:30 PM",
                 "anchor": "empowering-the-mind",
+                "schedule_url": "../schedule/day3.html#day3-330",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#alex-castillo"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#empowering-the-mind",
                 "anchor_truncated": "empowering-the-mind",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Alex Castillo"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#empowering-the-mind"
+                "speaker_pic": [
+                    {
+                        "id": "attVXXpdYxTLbKwD8",
+                        "url": "https://dl.airtable.com/.attachments/9847a2f62eb927b39f3170a07a3fc662/2ad436a4/alex-castillo-headshot-square.jpg",
+                        "filename": "alex-castillo-headshot-square.jpg",
+                        "size": 3595954,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b06be6c2f26aa781be9b79bdd9f5c63a/b54adb67",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b0afb795fc9e8d06b39206867f5af9a2/6366cb57",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/559243734986944edef487b2fa31df14/a87740fa",
+                                "width": 2663,
+                                "height": 2663
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Co-founder"
+                ],
+                "speaker_company": [
+                    "Neurosity"
+                ]
+            },
+            "createdTime": "2019-03-26T21:02:17.000Z"
+        },
+        {
+            "id": "recTeqZ37d2IWME1V",
+            "fields": {
+                "title": "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY",
+                "Abstract": "Everyone is talking about diversity and inclusion these days. But why does it really matter? And if you’ve had a hard time finding women to hire, how do you solve that problem? What are some ways companies have done D&I right, and how can you learn from them?\n\nWe’ll explore some practical reasons why you should be aware of how D&I impacts your business and easy tips to begin changing how you and your team think today. We’ll also cover do’s and don’ts of how to build an inclusive team culture and creating a sustainable environment that includes everyone.\n",
+                "session_type": "Keynote",
+                "Track": "Keynote",
+                "Speakers": [
+                    "recS8zTlkvvn2RdTp"
+                ],
+                "Day": "Thursday",
+                "start_time": "2019-06-06T13:00:00.000Z",
+                "Duration": 1800,
+                "Time": "9:15 AM",
+                "anchor": "diversity-is-it-a-pipeline-problem-inclusion-is-it-that-hard-how-to-create-a-better-culture-in-technology-your-company-and-the-community",
+                "schedule_url": "../schedule/day2.html#day2-915",
+                "date_friendly": "June 6",
+                "speaker_url": [
+                    "https://refactr.tech/detail/speakers.html#tracy-lee"
+                ],
+                "url": "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it",
+                "anchor_truncated": "diversity-is-it-a-pipeline-problem-inclusion-is-it",
+                "speaker_display_name": [
+                    "Tracy Lee"
+                ],
+                "speaker_pic": [
+                    {
+                        "id": "att0QNK6UGF1P2bMr",
+                        "url": "https://dl.airtable.com/.attachments/c2049f0fdbfa9f1b2256f7e6be826f40/8d219037/tracy-lee.jpeg",
+                        "filename": "tracy-lee.jpeg",
+                        "size": 39130,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/18d7d7bf6ffeef3ae50be14490766ba0/c8fb2916",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f62d9cebf27404907e324af5f7546cc3/78b39466",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/66df859fc6b064c6fd688c79db0d947f/3f421928",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "CEO"
+                ],
+                "speaker_company": [
+                    "This Dot Labs"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
@@ -1865,6 +1993,7 @@ const vueApp = new Vue({
         el: '#vapp-product-sessions',
         data: {
     "sessions": [
+        
         {
             "id": "recGC7In1uxCYtqfz",
             "fields": {
@@ -1986,61 +2115,61 @@ const vueApp = new Vue({
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
-            "id": "recHOUeBk7u4czYwe",
+            "id": "recOwJ5fl6iA0v5EP",
             "fields": {
-                "title": "Secrets for innovating disruptive products",
-                "Abstract": "Everyone wants to create the next great product, but often the team's efforts fall flat. Teams that really want to disrupt their market can use a few easy techniques to create a vision for the future, transform their conversations from talking about features to describing experiences, and take the incremental steps needed to get there.",
+                "title": "UX, Empathy and inclusivity in the age of Intelligence",
+                "Abstract": "We'll walk through what UX looks like in the age of smart products with AI and Machine Learning (ML). Touch base on the basic 508 accessibility requirements and create a checklist of how we can make simple solutions for them. You'll also learn about a list of UX principles you can take with you to help fend against the unintended consequences of what we can call Artificial Unintelligence and unintentional biases in the age of intelligence because smarter isn't always better.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
                 "Speakers": [
-                    "recPWTmKOD942zS8d"
+                    "rec7hg1S0uhYjoRlY"
                 ],
                 "Day": "Thursday",
                 "start_time": "2019-06-06T16:00:00.000Z",
                 "Duration": 2700,
                 "Time": "12:00 PM",
-                "anchor": "secrets-for-innovating-disruptive-products",
+                "anchor": "ux-empathy-and-inclusivity-in-the-age-of-intelligence",
                 "schedule_url": "../schedule/day2.html#day2-1200",
                 "date_friendly": "June 6",
                 "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#susa-hart"
+                    "https://refactr.tech/detail/speakers.html#a-frenz"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#secrets-for-innovating-disruptive-products",
-                "anchor_truncated": "secrets-for-innovating-disruptive-products",
+                "url": "https://refactr.tech/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intellige",
+                "anchor_truncated": "ux-empathy-and-inclusivity-in-the-age-of-intellige",
                 "speaker_display_name": [
-                    "Susa Hart"
+                    "A. Frenz"
                 ],
                 "speaker_pic": [
                     {
-                        "id": "attHzyJaHyWsegkcV",
-                        "url": "https://dl.airtable.com/.attachments/6873d8a7da282fa6429ed914198f3795/69ddf24a/susa-hart.jpg",
-                        "filename": "susa-hart.jpg",
-                        "size": 13652,
+                        "id": "attLWlVw9TS45zEip",
+                        "url": "https://dl.airtable.com/.attachments/4fc6e2a2067265801b552ee7ecc514e5/a219c0a1/6478125.jpeg",
+                        "filename": "6478125.jpeg",
+                        "size": 31077,
                         "type": "image/jpeg",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/a7f24c1f9ff2a665172cae766271e7e7/582c2fd5",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/47ac44433ae99852ef36a6a11d7f511d/29218537",
                                 "width": 36,
                                 "height": 36
                             },
                             "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/e39b4a0e18ecd57d13b736e2fa99a10e/6207ceb1",
-                                "width": 288,
-                                "height": 288
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7fb4c7f3d865436f2b60637a5029a470/7df934fd",
+                                "width": 460,
+                                "height": 460
                             },
                             "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d4e196c2868a5bbb493e6e37ec70bd3/97c47917",
-                                "width": 288,
-                                "height": 288
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f683c18875d4da1b8d72f68e639249ca/c31f8d56",
+                                "width": 460,
+                                "height": 460
                             }
                         }
                     }
                 ],
                 "speaker_role": [
-                    "Director User Experience"
+                    "Product Designer/UX Consultant"
                 ],
                 "speaker_company": [
-                    "ADP"
+                    "DesignCogito"
                 ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
@@ -2106,61 +2235,61 @@ const vueApp = new Vue({
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
-            "id": "recOwJ5fl6iA0v5EP",
+            "id": "recHOUeBk7u4czYwe",
             "fields": {
-                "title": "UX, Empathy and inclusivity in the age of Intelligence",
-                "Abstract": "We'll walk through what UX looks like in the age of smart products with AI and Machine Learning (ML). Touch base on the basic 508 accessibility requirements and create a checklist of how we can make simple solutions for them. You'll also learn about a list of UX principles you can take with you to help fend against the unintended consequences of what we can call Artificial Unintelligence and unintentional biases in the age of intelligence because smarter isn't always better.",
+                "title": "Secrets for innovating disruptive products",
+                "Abstract": "Everyone wants to create the next great product, but often the team's efforts fall flat. Teams that really want to disrupt their market can use a few easy techniques to create a vision for the future, transform their conversations from talking about features to describing experiences, and take the incremental steps needed to get there.",
                 "session_type": "Session",
                 "Track": "Product/UX/UI",
                 "Speakers": [
-                    "rec7hg1S0uhYjoRlY"
+                    "recPWTmKOD942zS8d"
                 ],
                 "Day": "Thursday",
                 "start_time": "2019-06-06T19:45:00.000Z",
                 "Duration": 2700,
                 "Time": "3:45 PM",
-                "anchor": "ux-empathy-and-inclusivity-in-the-age-of-intelligence",
+                "anchor": "secrets-for-innovating-disruptive-products",
                 "schedule_url": "../schedule/day2.html#day2-345",
                 "date_friendly": "June 6",
                 "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#a-frenz"
+                    "https://refactr.tech/detail/speakers.html#susa-hart"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intellige",
-                "anchor_truncated": "ux-empathy-and-inclusivity-in-the-age-of-intellige",
+                "url": "https://refactr.tech/detail/sessions.html#secrets-for-innovating-disruptive-products",
+                "anchor_truncated": "secrets-for-innovating-disruptive-products",
                 "speaker_display_name": [
-                    "A. Frenz"
+                    "Susa Hart"
                 ],
                 "speaker_pic": [
                     {
-                        "id": "attLWlVw9TS45zEip",
-                        "url": "https://dl.airtable.com/.attachments/4fc6e2a2067265801b552ee7ecc514e5/a219c0a1/6478125.jpeg",
-                        "filename": "6478125.jpeg",
-                        "size": 31077,
+                        "id": "attHzyJaHyWsegkcV",
+                        "url": "https://dl.airtable.com/.attachments/6873d8a7da282fa6429ed914198f3795/69ddf24a/susa-hart.jpg",
+                        "filename": "susa-hart.jpg",
+                        "size": 13652,
                         "type": "image/jpeg",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/47ac44433ae99852ef36a6a11d7f511d/29218537",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a7f24c1f9ff2a665172cae766271e7e7/582c2fd5",
                                 "width": 36,
                                 "height": 36
                             },
                             "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/7fb4c7f3d865436f2b60637a5029a470/7df934fd",
-                                "width": 460,
-                                "height": 460
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e39b4a0e18ecd57d13b736e2fa99a10e/6207ceb1",
+                                "width": 288,
+                                "height": 288
                             },
                             "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/f683c18875d4da1b8d72f68e639249ca/c31f8d56",
-                                "width": 460,
-                                "height": 460
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5d4e196c2868a5bbb493e6e37ec70bd3/97c47917",
+                                "width": 288,
+                                "height": 288
                             }
                         }
                     }
                 ],
                 "speaker_role": [
-                    "Product Designer/UX Consultant"
+                    "Director User Experience"
                 ],
                 "speaker_company": [
-                    "DesignCogito"
+                    "ADP"
                 ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
@@ -2176,7 +2305,7 @@ const vueApp = new Vue({
         {
             "id": "recXtDKM9olwIM7zB",
             "fields": {
-                "session_title": "Refactor your body for better performance",
+                "title": "Refactor your body for better performance",
                 "Abstract": "Our bodies are like codebases — the more we take care of them, the longer they last and the more we get out of them. We all know what “technical debt” is, but what about “fitness debt?” Fitness debt is what we owe our body in order to be back in good health and get the most out of our bodies.\n Just as there are simple steps we can take to lower the amount of technical debt we accrue in our code, there are simple steps that we can take to lower the amount of fitness debt we accrue in our bodies. This talk will focus on introducing some simple steps as well as providing information about going further.",
                 "session_type": "Session",
                 "Track": "Social Impact",
@@ -2188,21 +2317,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "9:45 AM",
                 "anchor": "refactor-your-body-for-better-performance",
+                "schedule_url": "../schedule/day3.html#day3-945",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#j-c-hiatt"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#refactor-your-body-for-better-performance",
                 "anchor_truncated": "refactor-your-body-for-better-performance",
-                "speaker_name": [
+                "speaker_display_name": [
                     "J.C. Hiatt"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#refactor-your-body-for-better-performance"
+                "speaker_pic": [
+                    {
+                        "id": "attN9kCWsnkPMlMmC",
+                        "url": "https://dl.airtable.com/.attachments/5345dd2f51d3ee275faa2b62d1fa3f77/5e9081e0/vlJ1CGHV_400x400.jpg",
+                        "filename": "vlJ1CGHV_400x400.jpg",
+                        "size": 30545,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5612688a81c908aa75e38e601fabf05e/1175225d",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3cc84e6e7cb47d3785fea9217025e9c7/1366bc28",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5b3b7a8a1133de35572eea94c90364fa/b355698c",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Founder"
+                ],
+                "speaker_company": [
+                    "DevLifts"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recnq9psXs0kKF8X9",
             "fields": {
-                "session_title": "Web Accessibility 101: Intersectional inclusion in the digital world",
+                "title": "Web Accessibility 101: Intersectional inclusion in the digital world",
                 "Abstract": "According to the World Health Organization, there are 1 billion people with some form of disability. To mitigate the negative social and economic effects produced by an inaccessible digital world, and given that the world wide web is still the most popular form of accessing the internet, we have to think of web accessibility as one of our top priorities.\n\nWeb accessibility can be an intimidating subject for web developers, information is hard to find and gather, and sometimes, out of date. I will provide the basic information that developers need to dive into the complex world of web accessibility.\n\nThe starting point will be a review of the POUR principles that dictate that websites should Perceivable, Operable, Understandable and Robust, and after that, I will dive into more hands-on topics related to the coding and development of accessible websites and the testing tools and techniques available for determining how accessible our applications are. I will do live demos of tools like screen readers and visual impairments simulators with the goal of helping attendees understand the challenges faced by people with disabilities when surfing the web and to show the difference that accessible coding can make for users of assistive technologies. disabilities who are excluded from the amazing opportunities created by the digital revolution, given its transformative power the United Nations now considers access to the internet a basic human right and since the world-wide-web is the most popular way to access the internet, web accessibility has to be one of our top priorities as an industry.",
                 "session_type": "Session",
                 "Track": "Social Impact",
@@ -2214,21 +2377,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:45 AM",
                 "anchor": "web-accessibility-101-intersectional-inclusion-in-the-digital-world",
+                "schedule_url": "../schedule/day3.html#day3-1045",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#leonardo-graterol"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#web-accessibility-101-intersectional-inclusion-in-",
                 "anchor_truncated": "web-accessibility-101-intersectional-inclusion-in-",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Leonardo Graterol"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#web-accessibility-101-intersectional-inclusion-in-"
+                "speaker_pic": [
+                    {
+                        "id": "att6rOb8opsqMzGmE",
+                        "url": "https://dl.airtable.com/.attachments/83d57d417fa75074f0b63c9077864ac9/675b605c/LeonardoGraterol-Headshot-RefactrTech.jpg",
+                        "filename": "Leonardo Graterol - Headshot - RefactrTech.jpg",
+                        "size": 294974,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bf4738df6902444e325fe57a91588f62/7a07d641",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a6a4a76011dd5e8bde5a99d30be50a2c/21bd509b",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0c38405e16b99022e79aa420cbcd9176/0b1d3a60",
+                                "width": 1365,
+                                "height": 1365
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Web UI Engineer"
+                ],
+                "speaker_company": [
+                    "Globant"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recRjAunuGkQeBubG",
             "fields": {
-                "session_title": "Writing inclusive docs",
+                "title": "Writing inclusive docs",
                 "Abstract": "I believe that docs—particularly those in English—are for everyone.\n \n They're not just for native speakers, or people exposed to the same pop culture, or from the same generation, or with the same abilities and preferences as me.\n \n In this talk, I'll share concrete strategies we use to make the Vue docs more globally accessible, including how these refactors also improve the experience of native speakers.",
                 "session_type": "Session",
                 "Track": "Social Impact",
@@ -2240,21 +2437,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:45 AM",
                 "anchor": "writing-inclusive-docs",
+                "schedule_url": "../schedule/day3.html#day3-1145",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#chris-fritz"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#writing-inclusive-docs",
                 "anchor_truncated": "writing-inclusive-docs",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Chris Fritz"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#writing-inclusive-docs"
+                "speaker_pic": [
+                    {
+                        "id": "attOVBn1Czcj0BAgl",
+                        "url": "https://dl.airtable.com/.attachments/e94a9a1025126178fdb2266c140900c2/fb649ae6/-b6cwxVU_400x400.jpg",
+                        "filename": "-b6cwxVU_400x400.jpg",
+                        "size": 19602,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/27dc4e979ce67b56f0ba6be4aeb76e6d/7d97e593",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/01154a2e8ed4fea93b455f8f40d416c1/9fa665ba",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f835bc0287622ba13bff12a380067a25/b996c5cf",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Core Team Member"
+                ],
+                "speaker_company": [
+                    "Vue.js"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recAS9es9EEqJUqsH",
             "fields": {
-                "session_title": "Reconfiguring Our Mindset from “Self-taught” to “Community-taught”",
+                "title": "Reconfiguring Our Mindset from “Self-taught” to “Community-taught”",
                 "Abstract": "We learn from those around us, whether it be through articles, walkthroughs, well-written code, videos, meetup and conference talks, Twitter, StackOverflow, etc. No matter our educational background, we have all benefited greatly from the vast number of resources available in the community. Together, we’ll see how shifting our mindset from \"self-taught\" to \"community-taught\" recognizes these resources as well as the responsibility we all have as members of the community to be responsible in and with it, to help sustain it, and to make it available to others who are in different stages of their educational journey.",
                 "session_type": "Session",
                 "Track": "Social Impact",
@@ -2266,21 +2497,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "1:30 PM",
                 "anchor": "reconfiguring-our-mindset-from-“self-taught”-to-“community-taught”",
+                "schedule_url": "../schedule/day3.html#day3-130",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#ray-gesualdo"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#reconfiguring-our-mindset-from-“self-taught”-to-“c",
                 "anchor_truncated": "reconfiguring-our-mindset-from-“self-taught”-to-“c",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Ray Gesualdo"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#reconfiguring-our-mindset-from-“self-taught”-to-“c"
+                "speaker_pic": [
+                    {
+                        "id": "attjWwDBdMugWsee9",
+                        "url": "https://dl.airtable.com/.attachments/3690e1cd818b725b496d1c45ec28594e/4205ea3a/Ray-Gesualdo.jpg",
+                        "filename": "Ray-Gesualdo.jpg",
+                        "size": 10907,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bb3f9ba4f99f231a27631960b29e7b06/20465d44",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c68f07d20ab277203796b4e677118535/570db57e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1cb5803111bfef185a578d8e9707ec07/c9f6633c",
+                                "width": 300,
+                                "height": 300
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "UI Engineer"
+                ],
+                "speaker_company": [
+                    "SalesLoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recjQeNsELPexiAfE",
             "fields": {
-                "session_title": "The challenges in building a social app",
+                "title": "The challenges in building a social app",
                 "Abstract": "Anyone can create and change the way things are by using tech to solve a problem in the community. How I, as a woman seeing my female family members and friends being abused, decided to do something about it. That is why I created a social app - PEVO - that can change the world.",
                 "session_type": "Session",
                 "Track": "Social Impact",
@@ -2292,14 +2557,48 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:30 PM",
                 "anchor": "the-challenges-in-building-a-social-app",
+                "schedule_url": "../schedule/day3.html#day3-230",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#alicia-carr"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#the-challenges-in-building-a-social-app",
                 "anchor_truncated": "the-challenges-in-building-a-social-app",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Alicia Carr"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#the-challenges-in-building-a-social-app"
+                "speaker_pic": [
+                    {
+                        "id": "attcDruYQGjg8uGaR",
+                        "url": "https://dl.airtable.com/.attachments/4a1a15f8a7dff321aa0bf0d32a24742c/a5d78775/AliciaCarr.jpeg",
+                        "filename": "Alicia Carr.jpeg",
+                        "size": 30364,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fc041422981327844aba76bfee0d1cdb/93b79f7e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b73d940f2169c884e571d2f4954eb6a2/46ad715d",
+                                "width": 424,
+                                "height": 422
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/bff84c6da1dc201c60ba201b140b0080/92bad84b",
+                                "width": 424,
+                                "height": 422
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "CEO/Founder"
+                ],
+                "speaker_company": [
+                    "Purple Evolution Inc (PEVO)"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
@@ -2314,7 +2613,7 @@ const vueApp = new Vue({
         {
             "id": "recJptRr8k1m3jj7F",
             "fields": {
-                "session_title": "How we change the world: Ethics, power, and leadership in tech",
+                "title": "How we change the world: Ethics, power, and leadership in tech",
                 "Abstract": "Knowledge is power and software is leverage. We have the ability to create change with each commit made, feature built, team led, product shipped. How can you use your power for good? Whether you’re a tester, developer, engineer, designer, manager, product owner, or founder, your voice and actions matter. We’ll think about some common situations and patterns and how we make changes large and small. \n \n Unfortunately, the dark side has cookies.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2326,21 +2625,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:00 AM",
                 "anchor": "how-we-change-the-world-ethics-power-and-leadership-in-tech",
+                "schedule_url": "../schedule/day2.html#day2-1000",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#laurel-lawson"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#how-we-change-the-world-ethics-power-and-leadershi",
                 "anchor_truncated": "how-we-change-the-world-ethics-power-and-leadershi",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Laurel Lawson"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#how-we-change-the-world-ethics-power-and-leadershi"
+                "speaker_pic": [
+                    {
+                        "id": "attWxVyPWNmHI4TtE",
+                        "url": "https://dl.airtable.com/.attachments/787a66d154974d0a39b770a9eee95ae5/d62f9e93/laurel-lawson.png",
+                        "filename": "laurel-lawson.png",
+                        "size": 925099,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f27ed503af4ffe3e31fdc663002feebb/cb019a00",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/54a8a9a551eb758b4b105c0cd387b90b/f750c69b",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a8244def954232fb1730573351787cbf/b853eead",
+                                "width": 970,
+                                "height": 970
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "CTO/Product Designer"
+                ],
+                "speaker_company": [
+                    "CyCore Systems"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recWXnHztIb2hTAJV",
             "fields": {
-                "session_title": "Influence - Witchcraft and Wizardry",
+                "title": "Influence - Witchcraft and Wizardry",
                 "Abstract": "Knowing the right path, and having managers, coworkers, or family dismiss your hard-won wisdom? You need influence; a thin web that is far too ignored by those who need it because all who wield it aren’t noticed as magical creatures, but leaders.\n \n Turn your words into magic.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2352,21 +2685,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:00 AM",
                 "anchor": "influence-witchcraft-and-wizardry",
+                "schedule_url": "../schedule/day2.html#day2-1100",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#gant-laborde"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#influence-witchcraft-and-wizardry",
                 "anchor_truncated": "influence-witchcraft-and-wizardry",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Gant Laborde"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#influence-witchcraft-and-wizardry"
+                "speaker_pic": [
+                    {
+                        "id": "attQZshmsChy6JdUG",
+                        "url": "https://dl.airtable.com/.attachments/03800f55d3633ba61980fca8b9250c9e/9ab41f66/download.jpeg",
+                        "filename": "download.jpeg",
+                        "size": 1109355,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/2ffc7216e476a8027441ca160ca70dfa/43627581",
+                                "width": 38,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ade174018cbcd311c6188b53055b5f0f/813169bd",
+                                "width": 541,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/220b283e97cec40050b8ed172fe1ea23/04d1f581",
+                                "width": 2727,
+                                "height": 2580
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Chief Technology Strategist"
+                ],
+                "speaker_company": [
+                    "Infinite Red"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recg95fdHIcJFnKrK",
             "fields": {
-                "session_title": "Not a Born Developer",
+                "title": "Not a Born Developer",
                 "Abstract": "In recent years, a lot of people have wanted to break into the technology world, whether they are just starting their careers or switching career paths even decades into a different industry. Unfortunately, there are often both actual and perceived blockers into technology from a broad spectrum of sources, both internal and external. I will share my journey through a tech career path (a lot of which has been intentional, but also a lot of which has not!), how to move past some of these blockers, and how to realize that any requirement to be a \"natural born developer\" doesn't need to be (and probably shouldn't be) fulfilled",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2378,44 +2745,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "12:00 PM",
                 "anchor": "not-a-born-developer",
+                "schedule_url": "../schedule/day2.html#day2-1200",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#whitley-talmadge"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#not-a-born-developer",
                 "anchor_truncated": "not-a-born-developer",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Whitley Talmadge"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#not-a-born-developer"
+                "speaker_pic": [
+                    {
+                        "id": "attJHnesCKUQg7tto",
+                        "url": "https://dl.airtable.com/.attachments/95dc031acec24877cd12125cf0420f17/ae7a136d/whitely.jpeg",
+                        "filename": "whitely.jpeg",
+                        "size": 32202,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ea11f797ee033295dad4c63b07bb4ee5/5b94d7dd",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/43b3d4c4e338fa277f5d5cde745cbd95/43430e3d",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d3b6463c3565665de6c25702cad41e64/ed18beba",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Customer Engineer"
+                ],
+                "speaker_company": [
+                    "Google"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
-            "id": "reciDtZ6ihKq8S6R4",
-            "fields": {
-                "url": "https://refactr.tech/detail/sessions.html#mentoring-the-way-to-diversity-and-inclusion",
-                "Speakers": [
-                    "rec8y66v2EvCekJZs"
-                ],
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#alexandra-millatmal"
-                ],
-                "speaker_name": [
-                    "Alexandra Millatmal"
-                ],
-                "session_type": "Session",
-                "Track": "Career & Leadership",
-                "session_title": "Mentoring the way to diversity and inclusion",
-                "Abstract": "Do you work at a company that is “difficult” or “not set up for” juniors? Do you care about diversity and inclusion of under-represented groups at your workplace? Do you ever stay awake at night with the gnawing feeling that these two ideas are somehow incompatible, but can’t put a finger on why or explain to your company how?\nThis talk is for you.\nOften, the endeavors of hiring and mentoring junior engineers and of bolstering diversity and inclusion efforts are seen as “nice to haves” at best and “extraneous” (or even “impossible”!) at worst. But in reality, building diversity and inclusivity and fostering the ability to incorporate and mentor junior engineers go hand-in-hand. Engineering teams would do well to approach each of these efforts in service of the other.\nTogether, we’ll articulate the value of investing in mentorship efforts in terms of its impact on the ability to attract and retain diversity at your company. As an attendee, you will walk away with a clearer understanding of the connection between the two efforts, and ideas for incorporating mentorship and D&I processes at your place of work.",
-                "anchor": "mentoring-the-way-to-diversity-and-inclusion",
-                "anchor_truncated": "mentoring-the-way-to-diversity-and-inclusion",
-                "Duration": 2700
-            },
-            "createdTime": "2019-05-06T18:30:18.000Z"
-        },
-        {
             "id": "recRz14qRqUZ0nZc5",
             "fields": {
-                "session_title": "Building Inclusive Engineering Teams",
+                "title": "Building Inclusive Engineering Teams",
                 "Abstract": "Mekka has built inclusive engineering teams both at start-ups, and major tech companies like Google. In this talk, Mekka shares practical, effective tips for building inclusive teams.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2427,21 +2805,115 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:45 PM",
                 "anchor": "building-inclusive-engineering-teams",
+                "schedule_url": "../schedule/day2.html#day2-245",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#mekka-okereke"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#building-inclusive-engineering-teams",
                 "anchor_truncated": "building-inclusive-engineering-teams",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Mekka Okereke"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#building-inclusive-engineering-teams"
+                "speaker_pic": [
+                    {
+                        "id": "attTStcGVfNvUXtLU",
+                        "url": "https://dl.airtable.com/.attachments/b76de4c07bbd831b890d8d0856b89667/ab24b5a6/mekka-okereke.png",
+                        "filename": "mekka-okereke.png",
+                        "size": 174858,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/89b6770987aedf339a423cd7aa71ccc0/da97f2ef",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eaa5c292475aa1da4be5b7af1f51587b/832ef8fe",
+                                "width": 358,
+                                "height": 354
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c45d1006f9dfcc43d6a8b2656636d8e7/28caa78a",
+                                "width": 358,
+                                "height": 354
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Engineering Director"
+                ],
+                "speaker_company": [
+                    "Google"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
+            "id": "reciDtZ6ihKq8S6R4",
+            "fields": {
+                "title": "Mentoring the way to diversity and inclusion",
+                "Abstract": "Do you work at a company that is “difficult” or “not set up for” juniors? Do you care about diversity and inclusion of under-represented groups at your workplace? Do you ever stay awake at night with the gnawing feeling that these two ideas are somehow incompatible, but can’t put a finger on why or explain to your company how?\nThis talk is for you.\nOften, the endeavors of hiring and mentoring junior engineers and of bolstering diversity and inclusion efforts are seen as “nice to haves” at best and “extraneous” (or even “impossible”!) at worst. But in reality, building diversity and inclusivity and fostering the ability to incorporate and mentor junior engineers go hand-in-hand. Engineering teams would do well to approach each of these efforts in service of the other.\nTogether, we’ll articulate the value of investing in mentorship efforts in terms of its impact on the ability to attract and retain diversity at your company. As an attendee, you will walk away with a clearer understanding of the connection between the two efforts, and ideas for incorporating mentorship and D&I processes at your place of work.",
+                "session_type": "Session",
+                "Track": "Career & Leadership",
+                "Speakers": [
+                    "rec8y66v2EvCekJZs"
+                ],
+                "Day": "Thursday",
+                "start_time": "2019-06-06T19:45:00.000Z",
+                "Duration": 2700,
+                "Time": "3:45 PM",
+                "anchor": "mentoring-the-way-to-diversity-and-inclusion",
+                "schedule_url": "../schedule/day2.html#day2-345",
+                "date_friendly": "June 6",
+                "speaker_url": [
+                    "https://refactr.tech/detail/speakers.html#alexandra-millatmal"
+                ],
+                "url": "https://refactr.tech/detail/sessions.html#mentoring-the-way-to-diversity-and-inclusion",
+                "anchor_truncated": "mentoring-the-way-to-diversity-and-inclusion",
+                "speaker_display_name": [
+                    "Alexandra Millatmal"
+                ],
+                "speaker_pic": [
+                    {
+                        "id": "attLFTU116rRDMQWR",
+                        "url": "https://dl.airtable.com/.attachments/e0884981d2d2b955ca50aa71b7d90521/26bd6cb6/alexandra-millatmal.jpg",
+                        "filename": "alexandra-millatmal.jpg",
+                        "size": 27098,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f04062c029d8b919fda186eed1451b18/ee2a1d9b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eb55e65963dda5bf0abb9c7341f73c99/72e7b2a5",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/53e28b310027aa2c68ab8d435a03735d/9272ab1a",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Web Application Developer"
+                ],
+                "speaker_company": [
+                    "Newsela"
+                ]
+            },
+            "createdTime": "2019-05-06T18:30:18.000Z"
+        },
+        {
             "id": "recIAkeamPUMI6a9x",
             "fields": {
-                "session_title": "\"Navigating Your Career\" Panel",
+                "title": "\"Navigating Your Career\" Panel",
                 "Abstract": "Coming Soon",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2453,21 +2925,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "9:45 AM",
                 "anchor": "-navigating-your-career-panel",
+                "schedule_url": "../schedule/day3.html#day3-945",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jared-jordan"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#-navigating-your-career-panel",
                 "anchor_truncated": "-navigating-your-career-panel",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jared Jordan"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#-navigating-your-career-panel"
+                "speaker_pic": [
+                    {
+                        "id": "attiYnUVhqCMFSMsp",
+                        "url": "https://dl.airtable.com/.attachments/ef84d84bcb480dbe9fa3a68b5921151e/6e271751/jared-jordan.jpg",
+                        "filename": "jared-jordan.jpg",
+                        "size": 29009,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f31a95341fb703b6a4eb8b736d8fd662/ef854a34",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d96759a0a371ed32e42c5ef0095eaf4a/8fa7e9d6",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/8f3b661d192db3be3583907dea4546d0/f499ac3f",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "UI Engineering Manager"
+                ],
+                "speaker_company": [
+                    "Netflix"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recc3K4KdioZAEuWu",
             "fields": {
-                "session_title": "Bootstrapping Inclusion",
+                "title": "Bootstrapping Inclusion",
                 "Abstract": "Diversity and Inclusion are hot topics right now. But, year after year, our industry fails to move the numbers significantly. It seems everyone is talking about it, but how do you actually bring about change?\n In this presentation, I’ll share the concrete actions from my efforts to bring inclusive practices into an engineering organization. From conceptualization to communication and implementation, you’ll hear about what worked and where I struggled. You’ll walk away with real world tactics—going beyond unconscious bias training and rooney rules—that you can use to start building your own inclusive workplaces.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2479,22 +2985,56 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:45 AM",
                 "anchor": "bootstrapping-inclusion",
+                "schedule_url": "../schedule/day3.html#day3-1045",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jason-wong"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#bootstrapping-inclusion",
                 "anchor_truncated": "bootstrapping-inclusion",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jason Wong"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#bootstrapping-inclusion"
+                "speaker_pic": [
+                    {
+                        "id": "attzARXOWdVriLpoE",
+                        "url": "https://dl.airtable.com/.attachments/023bc23bb2533256026475098065cffe/79e97e5c/jwong_headshot_2018_V2.jpg",
+                        "filename": "jwong_headshot_2018_V2.jpg",
+                        "size": 350021,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/71a02cb114f7cd5d05aa587dd63fb570/8fd0506f",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c5e212a0577224c85c6b792c20f368f8/3925b608",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/720e0ca16c8c53301b5c23b9f63b9efc/ff4be223",
+                                "width": 550,
+                                "height": 550
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Founder"
+                ],
+                "speaker_company": [
+                    "JWong Works LLC"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recd72Mb1n7ybBQ4k",
             "fields": {
-                "session_title": "Inclusive Architecture - Designing your applications and team for the future.",
-                "Abstract": "\"We are all too familiar with projects and companies that only seem to be able to support senior developers, but this can get expensive, unsustainable, and your team can begin to look very myopic. Teams begin groupthink, ideas become stale, and it can be difficult to reinvigorate the growing sense of mundane development. It doesn't have to be this way. In fact, creating an inclusive architecture can help development go faster and become more cost effective.\n \n It's not difficult to begin adjusting your sails and create an architecture and process that is inclusive in nature to support junior developers, project managers, and designers. No application is too critical, complicated, or obscure to be able to achieve this. We'll talk through frameworks, tools, abstractions, and simple steps that can help you start building inclusively.\n \n We will also talk through how you can build a corresponding culture that allows inclusivity on your team, and why this is so critical to your business. We'll walk through processes you can incorporate, team roles, and how you can build a better template for the future of your business.\"",
+                "title": "Inclusive Architecture - Designing your applications and team for the future.",
+                "Abstract": "We are all too familiar with projects and companies that only seem to be able to support senior developers, but this can get expensive, unsustainable, and your team can begin to look very myopic. Teams begin groupthink, ideas become stale, and it can be difficult to reinvigorate the growing sense of mundane development. It doesn't have to be this way. In fact, creating an inclusive architecture can help development go faster and become more cost effective.\n \n It's not difficult to begin adjusting your sails and create an architecture and process that is inclusive in nature to support junior developers, project managers, and designers. No application is too critical, complicated, or obscure to be able to achieve this. We'll talk through frameworks, tools, abstractions, and simple steps that can help you start building inclusively.\n \n We will also talk through how you can build a corresponding culture that allows inclusivity on your team, and why this is so critical to your business. We'll walk through processes you can incorporate, team roles, and how you can build a better template for the future of your business.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
                 "Speakers": [
@@ -2505,21 +3045,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:45 AM",
                 "anchor": "inclusive-architecture-designing-your-applications-and-team-for-the-future-",
+                "schedule_url": "../schedule/day3.html#day3-1145",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#rob-ocel"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#inclusive-architecture-designing-your-applications",
                 "anchor_truncated": "inclusive-architecture-designing-your-applications",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Rob Ocel"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#inclusive-architecture-designing-your-applications"
+                "speaker_pic": [
+                    {
+                        "id": "attZv9FRZMXx6qcnD",
+                        "url": "https://dl.airtable.com/.attachments/ae04e30976606869bcbd33ace4aabc93/22a81259/rob-ocel.png",
+                        "filename": "rob-ocel.png",
+                        "size": 342237,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/53bbabea90e0fb717a53efa5a1862d16/f1081112",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0b2b36d90a3f69db8ddda0b97abd58ea/fad8decd",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7845141e0da9f814136204089156a17f/7ea429da",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Senior Software Engineer"
+                ],
+                "speaker_company": [
+                    "This Dot Labs"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recSqtCwKGcx4qoG3",
             "fields": {
-                "session_title": "Harnessing your team superpowers",
+                "title": "Harnessing your team superpowers",
                 "Abstract": "Joining a new company or team can be terrifying but imagine joining a team where you are expected to lead and have very little context. I'm prepared to share stories and tips from my six year management journey on how to lead with empathy while harnessing your team superpowers. Will share an exercise we used at Slack to determine everyone's superpower and how it can be used for good or cause harm.\n \nThe audience for this talk should be managers or inspiring managers.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2531,21 +3105,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "1:30 PM",
                 "anchor": "harnessing-your-team-superpowers",
+                "schedule_url": "../schedule/day3.html#day3-130",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#tia-caldwell"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#harnessing-your-team-superpowers",
                 "anchor_truncated": "harnessing-your-team-superpowers",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Tia Caldwell"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#harnessing-your-team-superpowers"
+                "speaker_pic": [
+                    {
+                        "id": "attSFTzs9psSM0Jc9",
+                        "url": "https://dl.airtable.com/.attachments/b7997f4116a7bbe223e974627c7b3202/5ce89295/tia-caldwell.jpeg",
+                        "filename": "tia-caldwell.jpeg",
+                        "size": 59023,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/61ba413ef2ed5b5219e6a251f33f66c3/86e29e8a",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/21769c2d7dcb62a9352abf9279b2a546/0b399756",
+                                "width": 513,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/db7754e929f644ada5680b5e47254230/b9bdf64d",
+                                "width": 600,
+                                "height": 599
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Senior Engineering Manager"
+                ],
+                "speaker_company": [
+                    "Slack"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "rechoRbjB8RuBcixl",
             "fields": {
-                "session_title": "Let's talk about money",
+                "title": "Let's talk about money",
                 "Abstract": "Setting other people’s salaries is terrifying business. Often HR doesn’t give useful advice and the system is set up to perpetuate inequality. Let’s talk about a better way of approaching performance reviews and how that can lead to easier conversations about compensation and promotions.",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
@@ -2557,14 +3165,48 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:30 PM",
                 "anchor": "let's-talk-about-money",
+                "schedule_url": "../schedule/day3.html#day3-230",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jess-mink"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#let's-talk-about-money",
                 "anchor_truncated": "let's-talk-about-money",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jess Mink"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#let's-talk-about-money"
+                "speaker_pic": [
+                    {
+                        "id": "atthtENFMZWPyriV7",
+                        "url": "https://dl.airtable.com/.attachments/c32c5d383fe69dc565e74711e162fd2a/8a4d0557/jessica_mink.jpg",
+                        "filename": "jessica_mink.jpg",
+                        "size": 58794,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/569b214b2c2cde3980cd6d85cd4f613e/17c033fc",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/74b6a0e48dfeda0faa9c8ba07fde27df/e9d9c625",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/babe231a7c9e8d18b2e2ac812533de9d/c62f201d",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Sr. Director of Engineering"
+                ],
+                "speaker_company": [
+                    "Auth0"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
