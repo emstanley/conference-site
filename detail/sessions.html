@@ -247,17 +247,28 @@
                 <div class="row mt15" v-for="session in sessions" :session="session" :key="session.id">
                     <a :name="session.fields.anchor_truncated"></a>
                     <div class="col-md-12">
-                        <div class="inner-content">
-                            <span style="font-weight:600">{{ session.fields.session_title }}</span>
-                            <br>
-                            <p>{{ session.fields.Abstract }}</p>
-
-                            <span>Speakers</span><br>
-                            
-                            <a :href="session.fields.speaker_url[0]">{{ session.fields.speaker_name[0] }}</a>
-                                
-                            <hr>
-                        </div>
+                            <div class="inner-content">
+                                    <p class="session-title"><span class="m0">{{ session.fields.title }}</span></p>
+        
+                                    <p><a class="detail-view" :href="session.fields.schedule_url">{{session.fields.Day}} {{session.fields.date_friendly}}, {{session.fields.Time}} (45 min)</a></p>
+        
+                                    <p>{{ session.fields.Abstract }}</p>
+        
+                                    <span class="speaker-header">Speakers</span>
+        
+                                    <div class="mb40">
+                                        <a class="detail-view" :href="session.fields.speaker_url[0]">
+                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                            <p class="m0">
+                                                <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
+                                                <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                            </p>
+                                            <p style="clear:left"></p>
+                                        </a>
+                                    </div>
+                                        
+                                    <hr>
+                                </div>
                     </div>
                     <hr>
                 </div>
@@ -1233,11 +1244,12 @@ const vueApp = new Vue({
     const vueApp3 = new Vue({
         el: '#vapp-frontend-sessions',
         data: {
+    
     "sessions": [
         {
             "id": "recBGj0iBqttd1gWs",
             "fields": {
-                "session_title": "Progressive Web Apps across all frameworks",
+                "title": "Progressive Web Apps across all frameworks",
                 "Abstract": "Progressive Web Apps! You may have heard of them, but how does one actually go about building one? In this session we'll go over the basics of PWAs and what tools exist in the JavaScript ecosystem & frameworks that can make writing PWAs simple for everyone.",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1249,21 +1261,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:00 AM",
                 "anchor": "progressive-web-apps-across-all-frameworks",
+                "schedule_url": "../schedule/day2.html#day2-1000",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#mike-hartington"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#progressive-web-apps-across-all-frameworks",
                 "anchor_truncated": "progressive-web-apps-across-all-frameworks",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Mike Hartington"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#progressive-web-apps-across-all-frameworks"
+                "speaker_pic": [
+                    {
+                        "id": "attNHTvgc6dJ0lRNX",
+                        "url": "https://dl.airtable.com/.attachments/1c1c9de345dd34e8cfa1eafc53ab950b/3a90bb13/mike-hartington.png",
+                        "filename": "mike-hartington.png",
+                        "size": 353996,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a7cf7ff7adaeac8fb47bd30e3dcff889/4f85f035",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ea7ee0c14f0633c09deade34096b5f8e/05f7e7f9",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ffaa5fffa07a8be862d539b76b8102fd/b4b55b88",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Developer Advocate"
+                ],
+                "speaker_company": [
+                    "Ionic"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "reciegZt3wd00QNBV",
             "fields": {
-                "session_title": "Build Accessible UI with React!",
+                "title": "Build Accessible UI with React!",
                 "Abstract": "If you browse web applications today, you'll often find issues that are found in modern web applications and lack of empathy for disabled users. You may be unaware or uncertain on how to go about implementing accessibility into your code. In my presentation, I'll provide solutions to those issues that can quickly be implemented and show a simple and efficient example of making your React application more accessible!",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1275,21 +1321,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:00 AM",
                 "anchor": "build-accessible-ui-with-react-",
+                "schedule_url": "../schedule/day2.html#day2-1100",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#tae'lur-alexis"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#build-accessible-ui-with-react-",
                 "anchor_truncated": "build-accessible-ui-with-react-",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Tae'lur Alexis"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#build-accessible-ui-with-react-"
+                "speaker_pic": [
+                    {
+                        "id": "attMYwXkuJ5YrjQIy",
+                        "url": "https://dl.airtable.com/.attachments/95ef4f7a8df4aa641aed9c7a1bffbcf3/4f21bd66/0.jpg",
+                        "filename": "0.jpg",
+                        "size": 76965,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d14e1e23ea2353476a2847b22adc426f/f7697fea",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a31f19c22f9bd3a9b2e6db77021bb1d7/05aaf009",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ddb8e9c3441e08e30e820b2a64aea33e/eb6052dc",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Founder"
+                ],
+                "speaker_company": [
+                    "codeeveryday.io"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "rec2UxdiEkmpGphZi",
             "fields": {
-                "session_title": "Diving into GatsbyJS",
+                "title": "Diving into GatsbyJS",
                 "Abstract": "Have you ever used a website template before? Well, that's how the original Refactr website was built. It was a template that included lots of html, css and javascript written by someone else. We took things a step further by moving that template into a GatsbyJS project. In doing so, the Refactr offers a better user experience and is much easier to sustain. Join this session to learn about my experience using GatsbyJS for the first time and the lessons learned along the way. ",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1301,21 +1381,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "12:00 PM",
                 "anchor": "diving-into-gatsbyjs",
+                "schedule_url": "../schedule/day2.html#day2-1200",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#alicia-barrett"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#diving-into-gatsbyjs",
                 "anchor_truncated": "diving-into-gatsbyjs",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Alicia Barrett"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#diving-into-gatsbyjs"
+                "speaker_pic": [
+                    {
+                        "id": "attb4dUkn7XnRrsKy",
+                        "url": "https://dl.airtable.com/.attachments/b193fd3603432d28829152814999da41/9799d607/alicia-barrett.jpg",
+                        "filename": "alicia-barrett.jpg",
+                        "size": 35539,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/07d721df8f5fa0e18a50b05ac81eb3a2/14affaa6",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e0b9e3427dee6fea14f2ca981edb7c22/fd58cb3e",
+                                "width": 450,
+                                "height": 450
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d488eee037e7bf49f50f8fb0b20bb07b/91c5f237",
+                                "width": 450,
+                                "height": 450
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Support Software Engineer"
+                ],
+                "speaker_company": [
+                    "SalesLoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recFmuEHeDWQMzBTK",
             "fields": {
-                "session_title": "The Great MiniBar Challenge: MixoLogy",
+                "title": "The Great MiniBar Challenge: MixoLogy",
                 "Abstract": "How many hours of human potential are wasted by standing in front of a refrigerator, trying to figure out what kind of ingredients can pair together to create a meal? For folks who travel, the end of a day at work is often brought to a crashing halt as you stare sadly into your hotel’s minibar, trying to figure out a nightcap from the odd assortment of tiny bottles on the shelf. What if there was a mobile app that could intelligently scan the bottles and use machine learning with a custom trained model to suggest for you the World’s Greatest Minibar Cocktail? What if that app was written using NativeScript-Vue, and the training was done using TensorFlow? \n \n In this talk, we’ll learn how to create a native mobile app using Vue.js, and how to integrate TensorFlow custom models, allowing your mobile app to train data on device. Join me as we walk through the creation of MixoLogy, sampling an original creation concocted for you via machine learning, based on a scan of a minibar. One more of life’s little problems, solved through technology.",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1327,21 +1441,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:45 PM",
                 "anchor": "the-great-minibar-challenge-mixology",
+                "schedule_url": "../schedule/day2.html#day2-245",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jen-looper"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#the-great-minibar-challenge-mixology",
                 "anchor_truncated": "the-great-minibar-challenge-mixology",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jen Looper"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#the-great-minibar-challenge-mixology"
+                "speaker_pic": [
+                    {
+                        "id": "attzBN1AmoED9bRng",
+                        "url": "https://dl.airtable.com/.attachments/4c04f8c5037bd8e22f1b8661421461f9/cea17ee0/jen-looper-firstchoice.jpg",
+                        "filename": "jen-looper-firstchoice.jpg",
+                        "size": 23578,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1c8bbf598fcb6e170f5e5485f130ea07/c20ff090",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5bf52c6a2dad89a7a72a0273949c7964/bf4d0ae7",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b6e091500563632dd20a3a5cc47398bb/00ee5927",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Cloud Developer Advocate Lead"
+                ],
+                "speaker_company": [
+                    "Microsoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recyMSNiVgH5OpVUE",
             "fields": {
-                "session_title": "Don't Be Afraid of the JavaScript Stack Trace",
+                "title": "Don't Be Afraid of the JavaScript Stack Trace",
                 "Abstract": "At some point, your code will not work. You could spend hours trying to google for a solution. Instead, use the JavaScript stack trace to find the problem. A beginner-friendly overview of the JavaScript stack trace and tips on how to use it.",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1353,21 +1501,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "3:45 PM",
                 "anchor": "don't-be-afraid-of-the-javascript-stack-trace",
+                "schedule_url": "../schedule/day2.html#day2-345",
+                "date_friendly": "June 6",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jennifer-bland"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#don't-be-afraid-of-the-javascript-stack-trace",
                 "anchor_truncated": "don't-be-afraid-of-the-javascript-stack-trace",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jennifer Bland"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#don't-be-afraid-of-the-javascript-stack-trace"
+                "speaker_pic": [
+                    {
+                        "id": "atttgJoFN9wqHpyjr",
+                        "url": "https://dl.airtable.com/.attachments/73734be2113a95a1bb8e4246befd0c89/e11192d5/jennifer-bland.jpeg",
+                        "filename": "jennifer-bland.jpeg",
+                        "size": 46831,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1ce31a84cb0d21b9b1727ba9992d5395/8075244b",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fc7ed35ed55da005c447ba2eae8ebe06/31929800",
+                                "width": 500,
+                                "height": 500
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/73a6c4c67a8452d7585a69e5b2a2c2f9/63c68316",
+                                "width": 500,
+                                "height": 500
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Senior Software Engineer"
+                ],
+                "speaker_company": [
+                    "Stanley Black & Decker"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recCWpRtHzvpmAxk1",
             "fields": {
-                "session_title": "Planet Of The APIs",
+                "title": "Planet Of The APIs",
                 "Abstract": "A quarter century has passed since the first browser was released. Tim Berners-Lee’s pioneering followed by Marc Andreessen's groundbreaking Mosaic browser come Navigator, spawned an industry that regaled in loading information onto a screen for users of the internet all over. But in 2019, webpage complexities have resulted in resource loading and rendering intricacies. Added, consumer comportment has shifted dramatically. Late 2016 saw the mobile client usage eclipse the desktop one for the 1st time in history. This has left developers with new found duties, notably: the disciplined delivery of data.\n\nWe once referred to raw timing data provided by the browser to measure performance. The modern web experience soon demanded metrics beyond DOMContentLoaded and onLoad events. We've now introduced more complex measurements with Paint Timing API, Network Information API and Time To Interactive to name a few.\n\nPlanet Of The APIs peruses present-day and even experimental APIs employed in assessing and accelerate resource loading and measuring page renders. And with an increasingly favourable browser landscape, we will look at how we can start to use these in the on going pursuit of providing stellar and speedy mobile user experiences.\n\n",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1379,21 +1561,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "9:45 AM",
                 "anchor": "planet-of-the-apis",
+                "schedule_url": "../schedule/day3.html#day3-945",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#henri-helvetica"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#planet-of-the-apis",
                 "anchor_truncated": "planet-of-the-apis",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Henri Helvetica"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#planet-of-the-apis"
+                "speaker_pic": [
+                    {
+                        "id": "attsAPqc5o3EDI53j",
+                        "url": "https://dl.airtable.com/.attachments/ca2896ca324376e5ab9ad08cbe601039/b721ab2f/henri-option2.jpeg",
+                        "filename": "henri-option2.jpeg",
+                        "size": 562190,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/51572b43a0301d55aefc8ec0619c9b12/39f688fe",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4398bafdfab155d858d9befe2f2d4974/7116ca0d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/50fede0330ebfbca417bf051b72bade3/e52eb1e0",
+                                "width": 2738,
+                                "height": 2738
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "dev"
+                ],
+                "speaker_company": [
+                    "command-h"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recU4S4dmG7ovwHoM",
             "fields": {
-                "session_title": "The Schematic Rises: Schematics for noobs",
+                "title": "The Schematic Rises: Schematics for noobs",
                 "Abstract": "Schematics is a workflow tool for the modern web. They are generators that transform an existing file system. It can apply transforms to your project, such as create new components, or updating your code to fix breaking changes in dependencies. In this talk, we will use schematics to build a game.",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1405,21 +1621,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "10:45 AM",
                 "anchor": "the-schematic-rises-schematics-for-noobs",
+                "schedule_url": "../schedule/day3.html#day3-1045",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#yvonne-allen"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#the-schematic-rises-schematics-for-noobs",
                 "anchor_truncated": "the-schematic-rises-schematics-for-noobs",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Yvonne Allen"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#the-schematic-rises-schematics-for-noobs"
+                "speaker_pic": [
+                    {
+                        "id": "attGXYyb8jL7pXsVX",
+                        "url": "https://dl.airtable.com/.attachments/8f79514d5f0c5013f736b002fb8c4183/26b2690b/yvonne.jpg",
+                        "filename": "yvonne.jpg",
+                        "size": 165591,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/736377449ccbfc939d52691394b43165/e4c4593e",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/80fe0af4af3c1506188638d24c2f37c2/242a3869",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/74003cac0db13fbfb71257188fcb4856/9e30d7f6",
+                                "width": 600,
+                                "height": 600
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Fullstack Developer"
+                ],
+                "speaker_company": [
+                    "NCR"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recXh3pB4jtyOdh3b",
             "fields": {
-                "session_title": "Complexity Management with NgRx",
+                "title": "Complexity Management with NgRx",
                 "Abstract": "As your Angular application grows and becomes more complex, you need a consistent way of describing and controlling application flows. NgRx is a reactive framework for managing state and side effects in your Angular application. NgRx allows you to decrease responsibility of your components, isolate interactions with external APIs, and organize your application into smaller modules of code. We'll look at using state management with common patterns, practices that help you scale up your application, and how to keep your state management infrastructure manageable.",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1431,21 +1681,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "11:45 AM",
                 "anchor": "complexity-management-with-ngrx",
+                "schedule_url": "../schedule/day3.html#day3-1145",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#brandon-roberts"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#complexity-management-with-ngrx",
                 "anchor_truncated": "complexity-management-with-ngrx",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Brandon Roberts"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#complexity-management-with-ngrx"
+                "speaker_pic": [
+                    {
+                        "id": "attV5WswfssvWOuv6",
+                        "url": "https://dl.airtable.com/.attachments/1dd66db150ee50ba7fe72ed7284cba61/615304ed/Brandon-Roberts.jpg",
+                        "filename": "Brandon-Roberts.jpg",
+                        "size": 24114,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/49fb16e136e015a9bec08f2a9b563025/43ef56bb",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1a4e95c93e619ce35121858ae1faae0f/b67a00df",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d430c7705f582cc4c475fe1c1feaa151/42deb971",
+                                "width": 512,
+                                "height": 512
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Developer/Technical Writer"
+                ],
+                "speaker_company": [
+                    "Angular Team"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recyTC112SfxBf1zZ",
             "fields": {
-                "session_title": "Stuck in Class? React Hooks is your \"Get Out of Class\" Pass",
+                "title": "Stuck in Class? React Hooks is your \"Get Out of Class\" Pass",
                 "Abstract": "There are 11 new React Hooks functions that enable a full range of functionality and possibilities. These hooks are different and set the bar high for fewer re-writes and highly sustainable code. React Hooks enable the functional component use of the state, context, lifecycle methods, etc. without writing the class component. Basic hooks that we have seen are UseState, UseEffect, and UseContext. In this talk, we will look at some advanced React hooks and how they will optimize your code.",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1457,21 +1741,55 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "1:30 PM",
                 "anchor": "stuck-in-class-react-hooks-is-your-get-out-of-class-pass",
+                "schedule_url": "../schedule/day3.html#day3-130",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#jennifer-ponder"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#stuck-in-class-react-hooks-is-your-get-out-of-clas",
                 "anchor_truncated": "stuck-in-class-react-hooks-is-your-get-out-of-clas",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Jennifer Ponder"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#stuck-in-class-react-hooks-is-your-get-out-of-clas"
+                "speaker_pic": [
+                    {
+                        "id": "attY7XIC76EBgUqxo",
+                        "url": "https://dl.airtable.com/.attachments/653bcdaca3f8b3b18233e490585b3e40/b4cca733/970oO0rd_400x400.jpg",
+                        "filename": "970oO0rd_400x400.jpg",
+                        "size": 20154,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/9628faa0fab4dbce1141c5cbd86356da/2d2f0e81",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5b6a9dc8dd57b334c5c1f113e86b67da/9e981c92",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c3909b710ef37e91b5599076ab1df8be/f36ce492",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Leadership Fellow, Frontend Development Architect"
+                ],
+                "speaker_company": [
+                    "Women Who Code"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
         {
             "id": "recdaJ1qXTgq4t11b",
             "fields": {
-                "session_title": "A React Developer’s Guide to Tech Interviews",
+                "title": "A React Developer’s Guide to Tech Interviews",
                 "Abstract": "React is one of the latest and greatest frameworks everyone is buzzing about. You've done some projects and you want to become an official React Developer. We will talk about the most important concepts that every React Developer should know and questions they might ask you in your next interview. I will also include any new ES6 and ES7 features that will be very helpful. ",
                 "session_type": "Session",
                 "Track": "Front-End",
@@ -1483,14 +1801,48 @@ const vueApp = new Vue({
                 "Duration": 2700,
                 "Time": "2:30 PM",
                 "anchor": "a-react-developer’s-guide-to-tech-interviews",
+                "schedule_url": "../schedule/day3.html#day3-230",
+                "date_friendly": "June 7",
                 "speaker_url": [
                     "https://refactr.tech/detail/speakers.html#adrianna-valdivia"
                 ],
+                "url": "https://refactr.tech/detail/sessions.html#a-react-developer’s-guide-to-tech-interviews",
                 "anchor_truncated": "a-react-developer’s-guide-to-tech-interviews",
-                "speaker_name": [
+                "speaker_display_name": [
                     "Adrianna Valdivia"
                 ],
-                "url": "https://refactr.tech/detail/sessions.html#a-react-developer’s-guide-to-tech-interviews"
+                "speaker_pic": [
+                    {
+                        "id": "attsMuvkh0qGewWmV",
+                        "url": "https://dl.airtable.com/.attachments/f6292879f622e41b94bf8c94db64bc45/a0085720/adrianna.jpeg",
+                        "filename": "adrianna.jpeg",
+                        "size": 130446,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/22c263be916ba9b1c680b9fd747beac7/b15a3521",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/84922ad908ecce79282fc2a91837bda3/cf8a61f3",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/99c93bf115f9ec46cda87473688708fe/ec820e36",
+                                "width": 1514,
+                                "height": 1514
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "UI Engineer"
+                ],
+                "speaker_company": [
+                    "SalesLoft"
+                ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }
