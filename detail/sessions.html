@@ -378,18 +378,19 @@
                                     <p>{{ session.fields.Abstract }}</p>
         
                                     <span class="speaker-header">Speakers</span>
+                                    <p style="clear:left"></p>
         
-                                    <div class="mb40">
-                                        <a class="detail-view" :href="session.fields.speaker_url[0]">
-                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                    <div class="mb40" v-for="index in session.fields.speakerCount" :key="index" style="float:left" :class="[ session.fields.speakerCount > 2 ? 'col-lg-4' : 'col-lg-6' ]">
+                                        <a class="detail-view" :href="session.fields.speaker_url[index-1]">
+                                            <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[index-1].thumbnails.large.url" :alt="session.fields.speaker_display_name[index-1]">
                                             <p class="m0">
-                                                <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
-                                                <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                                <span class="speaker-text">{{ session.fields.speaker_display_name[index-1] }}</span>
+                                                <p>{{ session.fields.speaker_role[index-1] }}, {{ session.fields.speaker_company[index-1] }}</p>
                                             </p>
-                                            <p style="clear:left"></p>
+                                            
                                         </a>
                                     </div>
-                                        
+                                    <p style="clear:left"></p> 
                                     <hr>
                                 </div>
                     </div>
@@ -460,18 +461,19 @@
                                             <p>{{ session.fields.Abstract }}</p>
                 
                                             <span class="speaker-header">Speakers</span>
+                                            <p style="clear:left"></p> 
                 
-                                            <div class="mb40">
-                                                <a class="detail-view" :href="session.fields.speaker_url[0]">
-                                                    <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[0].thumbnails.large.url" :alt="session.fields.speaker_display_name">
+                                            <div class="mb40" v-for="index in session.fields.speakerCount" :key="index" style="float:left" :class="[ session.fields.speakerCount > 2 ? 'col-lg-4' : 'col-lg-6' ]">
+                                                <a class="detail-view" :href="session.fields.speaker_url[index-1]">
+                                                    <img class="img-fluid speaker-avatar" :src="session.fields.speaker_pic[index-1].thumbnails.large.url" :alt="session.fields.speaker_display_name[index-1]">
                                                     <p class="m0">
-                                                        <span class="speaker-text">{{ session.fields.speaker_display_name[0] }}</span>
-                                                        <p>{{ session.fields.speaker_role[0] }}, {{ session.fields.speaker_company[0] }}</p>
+                                                        <span class="speaker-text">{{ session.fields.speaker_display_name[index-1] }}</span>
+                                                        <p>{{ session.fields.speaker_role[index-1] }}, {{ session.fields.speaker_company[index-1] }}</p>
                                                     </p>
-                                                    <p style="clear:left"></p>
+                                                    
                                                 </a>
                                             </div>
-                                                
+                                            <p style="clear:left"></p> 
                                             <hr>
                                         </div>
                             </div>
@@ -595,6 +597,277 @@ const vueApp = new Vue({
           data: {
     "sessions": [
         {
+            "id": "recTeqZ37d2IWME1V",
+            "fields": {
+                "title": "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY",
+                "Abstract": "Everyone is talking about diversity and inclusion these days. But why does it really matter? And if you’ve had a hard time finding women to hire, how do you solve that problem? What are some ways companies have done D&I right, and how can you learn from them?\n\nWe’ll explore some practical reasons why you should be aware of how D&I impacts your business and easy tips to begin changing how you and your team think today. We’ll also cover do’s and don’ts of how to build an inclusive team culture and creating a sustainable environment that includes everyone.\n",
+                "session_type": "Keynote",
+                "Track": "Keynote",
+                "Speakers": [
+                    "recS8zTlkvvn2RdTp"
+                ],
+                "speakerCount": 1,
+                "Room": "Ballroom",
+                "Day": "Thursday",
+                "start_time": "2019-06-06T13:00:00.000Z",
+                "Duration": 1800,
+                "Time": "9:15 AM",
+                "anchor": "diversity-is-it-a-pipeline-problem-inclusion-is-it-that-hard-how-to-create-a-better-culture-in-technology-your-company-and-the-community",
+                "schedule_url": "../schedule/day2.html#day2-915",
+                "date_friendly": "June 6",
+                "speaker_url": [
+                    "https://refactr.tech/detail/speakers.html#tracy-lee"
+                ],
+                "url": "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it",
+                "anchor_truncated": "diversity-is-it-a-pipeline-problem-inclusion-is-it",
+                "speaker_display_name": [
+                    "Tracy Lee"
+                ],
+                "speaker_pic": [
+                    {
+                        "id": "att0QNK6UGF1P2bMr",
+                        "url": "https://dl.airtable.com/.attachments/c2049f0fdbfa9f1b2256f7e6be826f40/8d219037/tracy-lee.jpeg",
+                        "filename": "tracy-lee.jpeg",
+                        "size": 39130,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/18d7d7bf6ffeef3ae50be14490766ba0/c8fb2916",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f62d9cebf27404907e324af5f7546cc3/78b39466",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/66df859fc6b064c6fd688c79db0d947f/3f421928",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "CEO"
+                ],
+                "speaker_company": [
+                    "This Dot Labs"
+                ]
+            },
+            "createdTime": "2019-03-26T21:02:17.000Z"
+        },
+        {
+            "id": "recpyprOf320CjxRr",
+            "fields": {
+                "title": " Forging a Path Through Inclusive Entrepreneurship",
+                "Abstract": "Being an entrepreneur is hard and there is more than one path to success. But what happens when you don't fit the mold of a typical tech entrepreneur or investor? What are some of the barriers to inclusion in entrepreneurship? And how do you find ways to make it work as a founder from an underserved group? Panelists will discuss the challenges that they have faced, as entrepreneurs from diverse backgrounds, as they look to raise money, build their businesses and build community. They’ll discuss what has worked, things they would have done differently and the resources that kept them moving.",
+                "session_type": "Keynote Panel",
+                "Track": "Keynote",
+                "Speakers": [
+                    "reckW4W6uCLZk3dhH",
+                    "recQDjvxnth4cYhg1",
+                    "reca7vICCLqzNCe8S",
+                    "receWYyBwQK4e6Snv",
+                    "rec3BeQoarcF0Ndny",
+                    "recPPgtS14g0yGYlj"
+                ],
+                "speakerCount": 6,
+                "Room": "Ballroom",
+                "Day": "Thursday",
+                "start_time": "2019-06-06T17:45:00.000Z",
+                "Duration": 2700,
+                "Time": "1:45 PM",
+                "anchor": "forging-a-path-through-inclusive-entrepreneurship",
+                "date_friendly": "June 6",
+                "speaker_url": [
+                    "https://refactr.tech/detail/speakers.html#kortney-ziegler",
+                    "https://refactr.tech/detail/speakers.html#alex-castillo",
+                    "https://refactr.tech/detail/speakers.html#lynnette-mcKissic",
+                    "https://refactr.tech/detail/speakers.html#stefanie-jewett",
+                    "https://refactr.tech/detail/speakers.html#nael-alismail",
+                    "https://refactr.tech/detail/speakers.html#jamie-harrell-mba"
+                ],
+                "url": "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship",
+                "anchor_truncated": "forging-a-path-through-inclusive-entrepreneurship",
+                "speaker_display_name": [
+                    "Kortney Ziegler",
+                    "Alex Castillo",
+                    "Lynnette McKissic",
+                    "Stefanie M. Jewett",
+                    "Nael Alismail",
+                    "Jamie Harrell. MBA"
+                ],
+                "speaker_personal_title": [
+                    "Dr."
+                ],
+                "speaker_pic": [
+                    {
+                        "id": "att6bXx740jWUXENl",
+                        "url": "https://dl.airtable.com/.attachments/befd552d7d946d9f3455269c2844b75d/a7cd452f/kortney-ziegler.jpg",
+                        "filename": "kortney-ziegler.jpg",
+                        "size": 645047,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e16d1f9b77a81614d2d66e8cdef53e4a/7588ed95",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/06e7b38254e30495345186084281c85a/7e1af969",
+                                "width": 514,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/2e8ae11cdcd1520a7eb300ca601fb1bf/9620dbb0",
+                                "width": 1397,
+                                "height": 1392
+                            }
+                        }
+                    },
+                    {
+                        "id": "attVXXpdYxTLbKwD8",
+                        "url": "https://dl.airtable.com/.attachments/9847a2f62eb927b39f3170a07a3fc662/2ad436a4/alex-castillo-headshot-square.jpg",
+                        "filename": "alex-castillo-headshot-square.jpg",
+                        "size": 3595954,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b06be6c2f26aa781be9b79bdd9f5c63a/b54adb67",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b0afb795fc9e8d06b39206867f5af9a2/6366cb57",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/559243734986944edef487b2fa31df14/a87740fa",
+                                "width": 2663,
+                                "height": 2663
+                            }
+                        }
+                    },
+                    {
+                        "id": "attMKqoCbuuwqAJ9V",
+                        "url": "https://dl.airtable.com/.attachments/55dc13f159bf316d2b98d66596595b3a/703dcc49/LynnetteMcKissic.jpg",
+                        "filename": "Lynnette McKissic.jpg",
+                        "size": 374552,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1052382e233d4dba492bf56918450383/2f3de7d0",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a42a7ec09574c4e47ecbec49e343aafa/947973c7",
+                                "width": 512,
+                                "height": 513
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3c0798e2150278a40fe4d53b9fe23ea2/0febb98f",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    },
+                    {
+                        "id": "att0cQzbzydbSuRSr",
+                        "url": "https://dl.airtable.com/.attachments/5780c2fa4ef2790fd01506f16c2acb67/970748f5/stephanie_jewett.jpg",
+                        "filename": "stephanie_jewett.jpg",
+                        "size": 18443,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/92522ac652716106e127911857677598/2bd6f339",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d2b28c18c1d2b05e5d9e9c262706cf5c/3cf0b413",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0bb451840d0459e0242d61f3d8a71ca7/ed16f49c",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    },
+                    {
+                        "id": "attQo13wS7sp9UQxO",
+                        "url": "https://dl.airtable.com/.attachments/1dc2a9c52c6a1a115448a5199e7e162a/fe9821a6/Nael-Alismail.jpg",
+                        "filename": "Nael-Alismail.jpg",
+                        "size": 114383,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a393ed60bbad2a5534b197e87ab7c6d6/146821b5",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/21d456f7e1716996d7643e3b62975e36/d2a73f5d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ef56022889da9a1826254a1cd240f7c5/a67c8cb4",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    },
+                    {
+                        "id": "attNFxBT4lhENkgnq",
+                        "url": "https://dl.airtable.com/.attachments/00ca2f14025134c03c68d1914a126bfa/3bb8e216/jamie-harrell.jpg",
+                        "filename": "jamie-harrell.jpg",
+                        "size": 6440514,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0d12afe96aa7c397ec68ad70b23eca74/121f687c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c707b14def04b00b015fc78b01c28e97/d6f1407d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/4af2f2f6da32f914119185f299417ee5/cbd3075b",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "speaker_role": [
+                    "Director of Research & Design",
+                    "Co-founder",
+                    "Vice President of Operations",
+                    "Founder + CEO",
+                    "CTO",
+                    "BI & Analytics Lead"
+                ],
+                "speaker_company": [
+                    "ZaMLabs, Inc",
+                    "Neurosity",
+                    "Goodr, Inc.",
+                    "Activvely",
+                    "The Labz",
+                    "Emory University"
+                ]
+            },
+            "createdTime": "2019-06-03T06:31:42.000Z"
+        },
+        {
             "id": "recIU1blMI54yOyWq",
             "fields": {
                 "title": "Finding Purpose Through the Things We Build",
@@ -604,6 +877,8 @@ const vueApp = new Vue({
                 "Speakers": [
                     "reckW4W6uCLZk3dhH"
                 ],
+                "speakerCount": 1,
+                "Room": "Ballroom",
                 "Day": "Friday",
                 "start_time": "2019-06-07T13:00:00.000Z",
                 "Duration": 1800,
@@ -667,6 +942,8 @@ const vueApp = new Vue({
                 "Speakers": [
                     "recQDjvxnth4cYhg1"
                 ],
+                "speakerCount": 1,
+                "Room": "Ballroom",
                 "Day": "Friday",
                 "start_time": "2019-06-07T19:30:00.000Z",
                 "Duration": 1800,
@@ -713,66 +990,6 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Neurosity"
-                ]
-            },
-            "createdTime": "2019-03-26T21:02:17.000Z"
-        },
-        {
-            "id": "recTeqZ37d2IWME1V",
-            "fields": {
-                "title": "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY",
-                "Abstract": "Everyone is talking about diversity and inclusion these days. But why does it really matter? And if you’ve had a hard time finding women to hire, how do you solve that problem? What are some ways companies have done D&I right, and how can you learn from them?\n\nWe’ll explore some practical reasons why you should be aware of how D&I impacts your business and easy tips to begin changing how you and your team think today. We’ll also cover do’s and don’ts of how to build an inclusive team culture and creating a sustainable environment that includes everyone.\n",
-                "session_type": "Keynote",
-                "Track": "Keynote",
-                "Speakers": [
-                    "recS8zTlkvvn2RdTp"
-                ],
-                "Day": "Thursday",
-                "start_time": "2019-06-06T13:00:00.000Z",
-                "Duration": 1800,
-                "Time": "9:15 AM",
-                "anchor": "diversity-is-it-a-pipeline-problem-inclusion-is-it-that-hard-how-to-create-a-better-culture-in-technology-your-company-and-the-community",
-                "schedule_url": "../schedule/day2.html#day2-915",
-                "date_friendly": "June 6",
-                "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#tracy-lee"
-                ],
-                "url": "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it",
-                "anchor_truncated": "diversity-is-it-a-pipeline-problem-inclusion-is-it",
-                "speaker_display_name": [
-                    "Tracy Lee"
-                ],
-                "speaker_pic": [
-                    {
-                        "id": "att0QNK6UGF1P2bMr",
-                        "url": "https://dl.airtable.com/.attachments/c2049f0fdbfa9f1b2256f7e6be826f40/8d219037/tracy-lee.jpeg",
-                        "filename": "tracy-lee.jpeg",
-                        "size": 39130,
-                        "type": "image/jpeg",
-                        "thumbnails": {
-                            "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/18d7d7bf6ffeef3ae50be14490766ba0/c8fb2916",
-                                "width": 36,
-                                "height": 36
-                            },
-                            "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/f62d9cebf27404907e324af5f7546cc3/78b39466",
-                                "width": 400,
-                                "height": 400
-                            },
-                            "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/66df859fc6b064c6fd688c79db0d947f/3f421928",
-                                "width": 400,
-                                "height": 400
-                            }
-                        }
-                    }
-                ],
-                "speaker_role": [
-                    "CEO"
-                ],
-                "speaker_company": [
-                    "This Dot Labs"
                 ]
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
@@ -2677,7 +2894,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "CyCore Systems"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -2737,7 +2955,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Infinite Red"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -2749,7 +2968,11 @@ const vueApp = new Vue({
                 "session_type": "Session",
                 "Track": "Career & Leadership",
                 "Speakers": [
-                    "recTV840Zg6wV0zIZ"
+                    "recTV840Zg6wV0zIZ",
+                    "recwKIXfan6Qpzppu",
+                    "recWvZiHJsStcUQl7",
+                    "recPQ8Y9hclSj1py1",
+                    "recwtZA08tbWTlHNP"
                 ],
                 "Day": "Thursday",
                 "start_time": "2019-06-06T16:00:00.000Z",
@@ -2759,12 +2982,20 @@ const vueApp = new Vue({
                 "schedule_url": "../schedule/day2.html#day2-1200",
                 "date_friendly": "June 6",
                 "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#jared-jordan"
+                    "https://refactr.tech/detail/speakers.html#jared-jordan",
+                    "https://refactr.tech/detail/speakers.html#tara-ellis",
+                    "https://refactr.tech/detail/speakers.html#steven-ojo",
+                    "https://refactr.tech/detail/speakers.html#lawrence-jones",
+                    "https://refactr.tech/detail/speakers.html#marvin-ojwang"
                 ],
                 "url": "https://refactr.tech/detail/sessions.html#being-original-and-leading-in-software-engineering",
                 "anchor_truncated": "being-original-and-leading-in-software-engineering",
                 "speaker_display_name": [
-                    "Jared Jordan"
+                    "Jared Jordan",
+                    "Tara Ellis",
+                    "Steven Ojo",
+                    "Lawrence Jones",
+                    "Marvin Ojwang"
                 ],
                 "speaker_pic": [
                     {
@@ -2790,14 +3021,119 @@ const vueApp = new Vue({
                                 "height": 400
                             }
                         }
+                    },
+                    {
+                        "id": "attxzsFWv4Jxw1Xws",
+                        "url": "https://dl.airtable.com/.attachments/546eb6c9b82cfa16a67bc0cb7b5e6f36/e1467d2e/Tara-Ellis.png",
+                        "filename": "Tara-Ellis.png",
+                        "size": 1605998,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/50de8a9a0bf7be42b6c0acd5d57178e2/bdfb4995",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/942d93b2c265ec18d2054d6789375d88/a6195b64",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7132ffe6606509864811cff822c0caac/56107885",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    },
+                    {
+                        "id": "att4XvzlBGa7UFlRV",
+                        "url": "https://dl.airtable.com/.attachments/c0491d7f9049ad10e487e93b55c8e49d/a1427c28/steven-ojo.jpeg",
+                        "filename": "steven-ojo.jpeg",
+                        "size": 154120,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e38291fd271b13cca314cd9b3f4375c4/17adc397",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5cf8c6349f34a0851f86e366ab6426fc/62557bc2",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/cc342624935e740cb4b3eb2e097f9c19/9a1c7046",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    },
+                    {
+                        "id": "atttSwkimjh2jVFvE",
+                        "url": "https://dl.airtable.com/.attachments/07080bb758a41e467993ca448b0b2f28/886cdbfd/lawrence-jones.jpeg",
+                        "filename": "lawrence-jones.jpeg",
+                        "size": 17778,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fd16c3065148b7252fd40ef097e9a29a/b139ee7c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f97d0b8c4c0721b46a4db598ba1ff588/2a16a42f",
+                                "width": 314,
+                                "height": 314
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c3fb0169bdbda63e018003e774fce7ae/931d6661",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    },
+                    {
+                        "id": "attclzNtizXLBBwCz",
+                        "url": "https://dl.airtable.com/.attachments/7404749f06f1182cbe0dc97151189d4b/ab1ccfee/Marvin-Ojwang.jpeg",
+                        "filename": "Marvin-Ojwang.jpeg",
+                        "size": 18667,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/80ddfde8070478bb7d06b24f3144330d/8b12fa30",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c63b052fc6993d8a52d29e9c7a857649/5d8afc90",
+                                "width": 259,
+                                "height": 259
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b4dbaf718158e3fab3dceb52b155f96a/8f1a9292",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
                     }
                 ],
                 "speaker_role": [
-                    "UI Engineering Manager"
+                    "UI Engineering Manager",
+                    "Payments Manager",
+                    "iOS Platform Manager",
+                    "Sr. iOS UI Engineer",
+                    "Chromecast Software Engineer"
                 ],
                 "speaker_company": [
+                    "Netflix",
+                    "Netflix",
+                    "Netflix",
+                    "Netflix",
                     "Netflix"
-                ]
+                ],
+                "speakerCount": 5
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -2857,7 +3193,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Google"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -2917,15 +3254,16 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Newsela"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-05-06T18:30:18.000Z"
         },
         {
             "id": "rechVlI1qyCI0WiH0",
             "fields": {
-                "title": "Ignite the Fire: How Managers Can Spark New Leaders",
-                "Abstract": "Nick discusses the three ingredients for inspiring your non-manager leaders to emerge and provides simple techniques any new manager can apply.\n",
+                "title": "Ignite the Fire: How Managers Can Sparks New Leaders",
+                "Abstract": "Nick discusses the three ingredients for inspiring your non-manager leaders to emerge and provides a simple techniques any new manager can apply.\n",
                 "session_type": "Session",
                 "Track": "Career & Leadership",
                 "Speakers": [
@@ -2977,7 +3315,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Looker"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-05-23T05:06:19.000Z"
         },
@@ -3037,7 +3376,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "JWong Works LLC"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -3049,7 +3389,8 @@ const vueApp = new Vue({
                 "session_type": "Session",
                 "Track": "Career & Leadership",
                 "Speakers": [
-                    "rectd64IuplulnaRO"
+                    "rectd64IuplulnaRO",
+                    "recS8zTlkvvn2RdTp"
                 ],
                 "Day": "Friday",
                 "start_time": "2019-06-07T15:45:00.000Z",
@@ -3059,12 +3400,14 @@ const vueApp = new Vue({
                 "schedule_url": "../schedule/day3.html#day3-1145",
                 "date_friendly": "June 7",
                 "speaker_url": [
-                    "https://refactr.tech/detail/speakers.html#rob-ocel"
+                    "https://refactr.tech/detail/speakers.html#rob-ocel",
+                    "https://refactr.tech/detail/speakers.html#tracy-lee"
                 ],
                 "url": "https://refactr.tech/detail/sessions.html#inclusive-architecture-designing-your-applications",
                 "anchor_truncated": "inclusive-architecture-designing-your-applications",
                 "speaker_display_name": [
-                    "Rob Ocel"
+                    "Rob Ocel",
+                    "Tracy Lee"
                 ],
                 "speaker_pic": [
                     {
@@ -3090,14 +3433,41 @@ const vueApp = new Vue({
                                 "height": 500
                             }
                         }
+                    },
+                    {
+                        "id": "att0QNK6UGF1P2bMr",
+                        "url": "https://dl.airtable.com/.attachments/c2049f0fdbfa9f1b2256f7e6be826f40/8d219037/tracy-lee.jpeg",
+                        "filename": "tracy-lee.jpeg",
+                        "size": 39130,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/18d7d7bf6ffeef3ae50be14490766ba0/c8fb2916",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f62d9cebf27404907e324af5f7546cc3/78b39466",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/66df859fc6b064c6fd688c79db0d947f/3f421928",
+                                "width": 400,
+                                "height": 400
+                            }
+                        }
                     }
                 ],
                 "speaker_role": [
-                    "Senior Software Engineer"
+                    "Senior Software Engineer",
+                    "CEO"
                 ],
                 "speaker_company": [
+                    "This Dot Labs",
                     "This Dot Labs"
-                ]
+                ],
+                "speakerCount": 2
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -3157,7 +3527,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Slack"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         },
@@ -3217,7 +3588,8 @@ const vueApp = new Vue({
                 ],
                 "speaker_company": [
                     "Auth0"
-                ]
+                ],
+                "speakerCount": 1
             },
             "createdTime": "2019-03-26T21:02:17.000Z"
         }

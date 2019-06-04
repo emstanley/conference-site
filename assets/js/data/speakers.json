@@ -1,5 +1,5 @@
 {
-    "records": [
+    "speakers": [
         {
             "id": "recOzGrBiECEXgJfO",
             "fields": {
@@ -42,15 +42,21 @@
                 ],
                 "anchor": "tae'lur-alexis",
                 "order": 1,
-                "url": "https://refactr.tech/detail/speakers.html#tae'lur-alexis",
+                "Sessions copy": [
+                    "rechOc4ZzfEjKi09A"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Build Accessible UI with React!"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#tae'lur-alexis",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#build-accessible-ui-with-react-"
+                ],
+                "session_anchor": [
+                    "build-accessible-ui-with-react-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -96,15 +102,21 @@
                 ],
                 "anchor": "leonardo-graterol",
                 "order": 2,
-                "url": "https://refactr.tech/detail/speakers.html#leonardo-graterol",
+                "Sessions copy": [
+                    "recm05uYtbrDu7lvO"
+                ],
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Web Accessibility 101: Intersectional inclusion in the digital world"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#leonardo-graterol",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#web-accessibility-101-intersectional-inclusion-in-"
+                ],
+                "session_anchor": [
+                    "web-accessibility-101-intersectional-inclusion-in-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -114,7 +126,7 @@
             "fields": {
                 "speaker_name": "Diana Rodriguez",
                 "role": "Chief DevOps Architect",
-                "company": "Voicethread",
+                "company": "VoiceThread",
                 "twitter": "https://twitter.com/cotufa82",
                 "linkedIn": "https://www.linkedin.com/in/nerdattack82/",
                 "company_url": "https://voicethread.com/",
@@ -151,15 +163,21 @@
                 ],
                 "anchor": "diana-rodriguez",
                 "order": 3,
-                "url": "https://refactr.tech/detail/speakers.html#diana-rodriguez",
+                "Sessions copy": [
+                    "recFguiQYvymKWsb6"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "DevOps 101: Automation without frustration!"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#diana-rodriguez",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#devops-101-automation-without-frustration-"
+                ],
+                "session_anchor": [
+                    "devops-101-automation-without-frustration-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -206,15 +224,21 @@
                 ],
                 "anchor": "mekka-okereke",
                 "order": 4,
-                "url": "https://refactr.tech/detail/speakers.html#mekka-okereke",
+                "Sessions copy": [
+                    "recQ9X9Wn9liKPcKK"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Building Inclusive Engineering Teams"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#mekka-okereke",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#building-inclusive-engineering-teams"
+                ],
+                "session_anchor": [
+                    "building-inclusive-engineering-teams"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -260,15 +284,21 @@
                 ],
                 "anchor": "scott-hanselman",
                 "order": 5,
-                "url": "https://refactr.tech/detail/speakers.html#scott-hanselman",
+                "Sessions copy": [
+                    "reca9Wr8xS2JotWbp"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Solving diabetes in 2019 with an Open Source Artificial Pancreas"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#scott-hanselman",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#solving-diabetes-in-2019-with-an-open-source-artif"
+                ],
+                "session_anchor": [
+                    "solving-diabetes-in-2019-with-an-open-source-artif"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -315,15 +345,21 @@
                 ],
                 "anchor": "liz-fong-jones",
                 "order": 6,
-                "url": "https://refactr.tech/detail/speakers.html#liz-fong-jones",
+                "Sessions copy": [
+                    "recRuYnKob2A5vHqc"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Cultivating Production Excellence"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#liz-fong-jones",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#cultivating-production-excellence"
+                ],
+                "session_anchor": [
+                    "cultivating-production-excellence"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -370,15 +406,21 @@
                 ],
                 "anchor": "pratik-patel",
                 "order": 7,
-                "url": "https://refactr.tech/detail/speakers.html#pratik-patel",
+                "Sessions copy": [
+                    "reciG7h8ca2gFmW1k"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Serverless Architecture: The New New Cloud Native"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#pratik-patel",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#serverless-architecture-the-new-new-cloud-native"
+                ],
+                "session_anchor": [
+                    "serverless-architecture-the-new-new-cloud-native"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -387,8 +429,8 @@
             "id": "reckW4W6uCLZk3dhH",
             "fields": {
                 "speaker_name": "Kortney Ziegler",
-                "role": "ZaMLabs, Inc",
-                "company": "Director of Research & Design",
+                "role": "Director of Research & Design",
+                "company": "ZaMLabs, Inc",
                 "twitter": "https://twitter.com/fakerapper",
                 "linkedIn": "https://www.linkedin.com/in/dr-kortney-ziegler-65885845/",
                 "bio": "Dr. Kortney Ziegler is an award-winning writer, filmmaker and entrepreneur. His passion for social-justice-based work in the tech space, led him to found Trans*H4CK (2013) the first technology organization centered on sustaining transgender lives. He is also the co-founder of Appolition, a web app that collects spare change to pay bail for those that can't. Ziegler is the first person in history to receive the PhD of African American studies from Northwestern University (2011). Ziegler was named one of the most influential African Americans by TheRoot100 and one of the most powerful African Americans by Ebony Magazine.",
@@ -419,20 +461,31 @@
                     }
                 ],
                 "session": [
-                    "recIU1blMI54yOyWq"
+                    "recIU1blMI54yOyWq",
+                    "recpyprOf320CjxRr"
                 ],
                 "personal_title": "Dr.",
                 "anchor": "kortney-ziegler",
                 "order": 8,
-                "url": "https://refactr.tech/detail/speakers.html#kortney-ziegler",
+                "Sessions copy": [
+                    "recHuXgRirwnigLu5"
+                ],
                 "session_track": [
+                    "Keynote",
                     "Keynote"
                 ],
                 "session_title": [
-                    "Finding Purpose Through the Things We Build"
+                    "Finding Purpose Through the Things We Build",
+                    " Forging a Path Through Inclusive Entrepreneurship"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#kortney-ziegler",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#finding-purpose-through-the-things-we-build"
+                    "https://refactr.tech/detail/sessions.html#finding-purpose-through-the-things-we-build",
+                    "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship"
+                ],
+                "session_anchor": [
+                    "finding-purpose-through-the-things-we-build",
+                    "forging-a-path-through-inclusive-entrepreneurship"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -479,15 +532,21 @@
                 ],
                 "anchor": "alicia-carr",
                 "order": 9,
-                "url": "https://refactr.tech/detail/speakers.html#alicia-carr",
+                "Sessions copy": [
+                    "reciqaSYaugxhKNNj"
+                ],
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "The challenges in building a social app"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#alicia-carr",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#the-challenges-in-building-a-social-app"
+                ],
+                "session_anchor": [
+                    "the-challenges-in-building-a-social-app"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -496,8 +555,8 @@
             "id": "rec9Xm3XaaE4lc2F1",
             "fields": {
                 "speaker_name": "Jen Looper",
-                "role": "Developer Advocate",
-                "company": "Progress",
+                "role": "Cloud Developer Advocate Lead",
+                "company": "Microsoft",
                 "twitter": "https://twitter.com/jenlooper",
                 "linkedIn": "https://www.linkedin.com/in/jen-looper-3442413/",
                 "bio": "Jen Looper is a Google Developer Expert and a Senior Developer Advocate at Progress with over 15 years' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. She is the founder and CEO of Vue Vixens, an initiative promoting diversity in the Vue.js community. Visit her online at http://www.jenlooper.com, or via Twitter @jenlooper.",
@@ -529,23 +588,29 @@
                     }
                 ],
                 "session": [
-                    "recFmuEHeDWQMzBTK",
-                    "recnprTxdnSKBB03G"
+                    "recFmuEHeDWQMzBTK"
                 ],
                 "anchor": "jen-looper",
                 "order": 10,
-                "url": "https://refactr.tech/detail/speakers.html#jen-looper",
+                "Sessions copy": [
+                    "recEWqJdKmn9w1Orp",
+                    "recmZnY3J6j3l3dBl",
+                    "rect1RkgwwmrAgOqW",
+                    "recN7JqaVsB5ixY2X",
+                    "recRT5wJN1Ys338cq"
+                ],
                 "session_track": [
-                    "Front-End",
-                    "Workshop"
+                    "Front-End"
                 ],
                 "session_title": [
-                    "The Great MiniBar Challenge: MixoLogy",
-                    "Vue Vixens Skulk"
+                    "The Great MiniBar Challenge: MixoLogy"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jen-looper",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#the-great-minibar-challenge-mixology",
-                    "https://refactr.tech/detail/sessions.html#vue-vixens-skulk"
+                    "https://refactr.tech/detail/sessions.html#the-great-minibar-challenge-mixology"
+                ],
+                "session_anchor": [
+                    "the-great-minibar-challenge-mixology"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -591,15 +656,21 @@
                 ],
                 "anchor": "osa-gaius",
                 "order": 11,
-                "url": "https://refactr.tech/detail/speakers.html#osa-gaius",
+                "Sessions copy": [
+                    "rec0iUvgvRkGujUqL"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Rapid Prototyping and the Future of Software"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#osa-gaius",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#rapid-prototyping-and-the-future-of-software"
+                ],
+                "session_anchor": [
+                    "rapid-prototyping-and-the-future-of-software"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -644,15 +715,21 @@
                 ],
                 "anchor": "ashi-krishnan",
                 "order": 12,
-                "url": "https://refactr.tech/detail/speakers.html#ashi-krishnan",
+                "Sessions copy": [
+                    "rec2WHsC0TXC67TMX"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Learning From Machines"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#ashi-krishnan",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#learning-from-machines"
+                ],
+                "session_anchor": [
+                    "learning-from-machines"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -698,15 +775,21 @@
                 ],
                 "anchor": "chloe-condon",
                 "order": 13,
-                "url": "https://refactr.tech/detail/speakers.html#chloe-condon",
+                "Sessions copy": [
+                    "recP7wdpl60XjBWAN"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "IoT for the Introvert"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#chloe-condon",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#iot-for-the-introvert"
+                ],
+                "session_anchor": [
+                    "iot-for-the-introvert"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -751,15 +834,21 @@
                 ],
                 "anchor": "noble-ackerson",
                 "order": 14,
-                "url": "https://refactr.tech/detail/speakers.html#noble-ackerson",
+                "Sessions copy": [
+                    "recgpCzk2XMOV1hj4"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "The \"R\" in AR means data and Augmented Images makes it happen"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#noble-ackerson",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#the-r-in-ar-means-data-and-augmented-images-makes-"
+                ],
+                "session_anchor": [
+                    "the-r-in-ar-means-data-and-augmented-images-makes-"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -804,15 +893,21 @@
                 ],
                 "anchor": "jason-wong",
                 "order": 15,
-                "url": "https://refactr.tech/detail/speakers.html#jason-wong",
+                "Sessions copy": [
+                    "recbDG9gJ1Pik6Hu9"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Bootstrapping Inclusion"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jason-wong",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#bootstrapping-inclusion"
+                ],
+                "session_anchor": [
+                    "bootstrapping-inclusion"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -858,15 +953,21 @@
                 ],
                 "anchor": "tara-walker",
                 "order": 16,
-                "url": "https://refactr.tech/detail/speakers.html#tara-walker",
+                "Sessions copy": [
+                    "recuThpAvu0N2qY8l"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Intersection of Awesome: Building AI enabled IoT solutions powered by the cloud"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#tara-walker",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#intersection-of-awesome-building-ai-enabled-iot-so"
+                ],
+                "session_anchor": [
+                    "intersection-of-awesome-building-ai-enabled-iot-so"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -907,19 +1008,30 @@
                     }
                 ],
                 "session": [
-                    "recZyhM635Le3Mkam"
+                    "recZyhM635Le3Mkam",
+                    "recpyprOf320CjxRr"
                 ],
                 "anchor": "alex-castillo",
                 "order": 17,
-                "url": "https://refactr.tech/detail/speakers.html#alex-castillo",
+                "Sessions copy": [
+                    "recY8dRCzOcxNexI1"
+                ],
                 "session_track": [
+                    "Keynote",
                     "Keynote"
                 ],
                 "session_title": [
-                    "Empowering the Mind"
+                    "Empowering the Mind",
+                    " Forging a Path Through Inclusive Entrepreneurship"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#alex-castillo",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#empowering-the-mind"
+                    "https://refactr.tech/detail/sessions.html#empowering-the-mind",
+                    "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship"
+                ],
+                "session_anchor": [
+                    "empowering-the-mind",
+                    "forging-a-path-through-inclusive-entrepreneurship"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -965,15 +1077,24 @@
                 ],
                 "anchor": "brandon-kearns",
                 "order": 18,
-                "url": "https://refactr.tech/detail/speakers.html#brandon-kearns",
+                "Sessions copy": [
+                    "recds2THjiuiLopgK",
+                    "rec15BJkn1uUKnk3R",
+                    "recaeEWfaz5sKEcjh",
+                    "recKsiYRfEeFUNjqI"
+                ],
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "We're Not In East Egg, Anymore: Gatsby.js in Practice"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#brandon-kearns",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#we're-not-in-east-egg-anymore-gatsby-js-in-practic"
+                ],
+                "session_anchor": [
+                    "we're-not-in-east-egg-anymore-gatsby-js-in-practic"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1014,19 +1135,34 @@
                     }
                 ],
                 "session": [
-                    "recTeqZ37d2IWME1V"
+                    "recTeqZ37d2IWME1V",
+                    "recd72Mb1n7ybBQ4k"
                 ],
                 "anchor": "tracy-lee",
                 "order": 19,
-                "url": "https://refactr.tech/detail/speakers.html#tracy-lee",
+                "Sessions copy": [
+                    "recSOm4zDWt1GeRzA",
+                    "rectPfQhcAJKaV2qk",
+                    "recm137CRHGIvkUFW",
+                    "recNPLDp9z6Zpdkvz",
+                    "rec8qbQg7PLFoHVuF"
+                ],
                 "session_track": [
-                    "Keynote"
+                    "Keynote",
+                    "Career & Leadership"
                 ],
                 "session_title": [
-                    "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY"
+                    "DIVERSITY - IS IT A PIPELINE PROBLEM? INCLUSION - IS IT THAT HARD? HOW TO CREATE A BETTER CULTURE IN TECHNOLOGY, YOUR COMPANY, AND THE COMMUNITY",
+                    "Inclusive Architecture - Designing your applications and team for the future."
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#tracy-lee",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it"
+                    "https://refactr.tech/detail/sessions.html#diversity-is-it-a-pipeline-problem-inclusion-is-it",
+                    "https://refactr.tech/detail/sessions.html#inclusive-architecture-designing-your-applications"
+                ],
+                "session_anchor": [
+                    "diversity-is-it-a-pipeline-problem-inclusion-is-it",
+                    "inclusive-architecture-designing-your-applications"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1039,7 +1175,7 @@
                 "company": "Netflix",
                 "twitter": "https://twitter.com/jaredjordan",
                 "linkedIn": "https://www.linkedin.com/in/jkjordan/",
-                "bio": "Coming Soon",
+                "bio": "Jared has been leading engineering teams for nearly 15 years. Jared is currently driving a cross-platform team focused on building Netflix Original user interfaces. His core responsibilities include managing feature development and building an inclusive high-performance team for Netflix. In addition to day job, Jared has gotten involved in driving diversity efforts in engineering organizations and as a result, has helped reshape the company’s efforts in inclusivity.\n\nPrior to Netflix, Jared has run Evernote’s growth engineering and commerce platform organization. Jared successfully managed teams and led innovative dev programs at various Silicon Valley giants. At Ericsson, he launched cloud-based TV apps for mobile devices. At Microsoft, he helped the company’s for MSN Mobile, Bing Mobile, and worked on Skydrive the windows 8 modern file explorer. And at Motorola, he worked on the development of PBL, Razr 2 and Sidekick software for mobile devices.\n\nJared’s not just a software tinkerer and large-scale problem solver. He’s also a husband and father of three, an avid follower of Christ, and craft beer connoisseur. And on top of it all, he’s a member of Dev Color’s A* Program where he empowers fellow Black software engineers to help them achieve their career goals.",
                 "headshot": [
                     {
                         "id": "attiYnUVhqCMFSMsp",
@@ -1067,19 +1203,25 @@
                     }
                 ],
                 "session": [
-                    "recIAkeamPUMI6a9x"
+                    "recg95fdHIcJFnKrK"
                 ],
                 "anchor": "jared-jordan",
                 "order": 20,
-                "url": "https://refactr.tech/detail/speakers.html#jared-jordan",
+                "Sessions copy": [
+                    "recfJ1kJdrD2pPXZp"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
-                    "\"Navigating Your Career\" Panel"
+                    "Being Original and Leading in Software Engineering "
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jared-jordan",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#-navigating-your-career-panel"
+                    "https://refactr.tech/detail/sessions.html#being-original-and-leading-in-software-engineering"
+                ],
+                "session_anchor": [
+                    "being-original-and-leading-in-software-engineering"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1121,19 +1263,30 @@
                     }
                 ],
                 "session": [
-                    "recGC7In1uxCYtqfz"
+                    "recGC7In1uxCYtqfz",
+                    "recpyprOf320CjxRr"
                 ],
                 "anchor": "jamie-harrell-mba",
                 "order": 21,
-                "url": "https://refactr.tech/detail/speakers.html#jamie-harrell-mba",
+                "Sessions copy": [
+                    "recFc3NTxdYVIVDNe"
+                ],
                 "session_track": [
-                    "Product/UX/UI"
+                    "Product/UX/UI",
+                    "Keynote"
                 ],
                 "session_title": [
-                    "Intro to Data Analytics -- SSRS and PowerBI for data visualization"
+                    "Intro to Data Analytics -- SSRS and PowerBI for data visualization",
+                    " Forging a Path Through Inclusive Entrepreneurship"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jamie-harrell-mba",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#intro-to-data-analytics-ssrs-and-powerbi-for-data-"
+                    "https://refactr.tech/detail/sessions.html#intro-to-data-analytics-ssrs-and-powerbi-for-data-",
+                    "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship"
+                ],
+                "session_anchor": [
+                    "intro-to-data-analytics-ssrs-and-powerbi-for-data-",
+                    "forging-a-path-through-inclusive-entrepreneurship"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1179,15 +1332,21 @@
                 ],
                 "anchor": "toby-ho",
                 "order": 22,
-                "url": "https://refactr.tech/detail/speakers.html#toby-ho",
+                "Sessions copy": [
+                    "recnzWRJnfiZUU7y9"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "How to Make a Programming Language"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#toby-ho",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#how-to-make-a-programming-language"
+                ],
+                "session_anchor": [
+                    "how-to-make-a-programming-language"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1200,7 +1359,6 @@
                 "company": "Angular Team",
                 "twitter": "https://twitter.com/brandontroberts",
                 "bio": "Brandon is an Angular Team member working on guides, tutorials, application development, and infrastructure for the Angular docs. He enjoys learning new things, helping other developers solve problems, and contributing to open source. He is also a maintainer of the NgRx project, building reactive libraries for Angular.",
-                "featured": true,
                 "headshot": [
                     {
                         "id": "attV5WswfssvWOuv6",
@@ -1232,15 +1390,21 @@
                 ],
                 "anchor": "brandon-roberts",
                 "order": 23,
-                "url": "https://refactr.tech/detail/speakers.html#brandon-roberts",
+                "Sessions copy": [
+                    "recWRZu7A2URyFuBQ"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Complexity Management with NgRx"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#brandon-roberts",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#complexity-management-with-ngrx"
+                ],
+                "session_anchor": [
+                    "complexity-management-with-ngrx"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1281,19 +1445,28 @@
                     }
                 ],
                 "session": [
-                    "recFNU2I0tT1RN206"
+                    "recWcBFhnJ0pmfuve"
                 ],
                 "anchor": "pearl-latteier",
                 "order": 24,
-                "url": "https://refactr.tech/detail/speakers.html#pearl-latteier",
+                "Sessions copy": [
+                    "recEnQ7ewckkBffyL",
+                    "recuUMqKXkelKM9Fq",
+                    "recukEf7EkTdS0Qcu",
+                    "recOXWP9WYDJVdAhg"
+                ],
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "Get Flapping with Flutter"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#pearl-latteier",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#get-flapping-with-flutter"
+                ],
+                "session_anchor": [
+                    "get-flapping-with-flutter"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1339,15 +1512,21 @@
                 ],
                 "anchor": "valarie-regas",
                 "order": 25,
-                "url": "https://refactr.tech/detail/speakers.html#valarie-regas",
+                "Sessions copy": [
+                    "reci7voa7URafTNZz"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "DevOps: A Love Story"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#valarie-regas",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#devops-a-love-story"
+                ],
+                "session_anchor": [
+                    "devops-a-love-story"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1391,15 +1570,21 @@
                 ],
                 "anchor": "henri-helvetica",
                 "order": 26,
-                "url": "https://refactr.tech/detail/speakers.html#henri-helvetica",
+                "Sessions copy": [
+                    "recBwlWZdiWI62KSG"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Planet Of The APIs"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#henri-helvetica",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#planet-of-the-apis"
+                ],
+                "session_anchor": [
+                    "planet-of-the-apis"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1445,18 +1630,86 @@
                 ],
                 "anchor": "adrianna-valdivia",
                 "order": 27,
-                "url": "https://refactr.tech/detail/speakers.html#adrianna-valdivia",
+                "Sessions copy": [
+                    "reccKF6WtCHJOVezQ"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "A React Developer’s Guide to Tech Interviews"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#adrianna-valdivia",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#a-react-developer’s-guide-to-tech-interviews"
+                ],
+                "session_anchor": [
+                    "a-react-developer’s-guide-to-tech-interviews"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "rectfGMNmNuAhRSmr",
+            "fields": {
+                "speaker_name": "Nick Caldwell",
+                "role": "Chief Product Officer",
+                "company": "Looker",
+                "twitter": "nickcald",
+                "linkedIn": "https://www.linkedin.com/in/nickcaldwell/",
+                "company_url": "https://looker.com/",
+                "bio": "Nick Caldwell is the Chief Product Officer at Looker, creating a powerful platform for building modern data experiences.\n\nPrior to joining Looker he spent 2 years at Reddit as VP of Engineering, helping quintuple the engineering team while working on a bottoms-up revamp of every part of the world's 4th most popular website.\n\nHe also spent 13 years at Microsoft, culminating in a role as General Manager of the Power BI product family where he rapidly transformed the company's business intelligence suite.\n\nNick holds a degree in computer science and electrical engineering from MIT and an MBA from UC Berkeley.\n\nHe's also a board member of /dev/color, a non-profit whose mission is to maximize the impact of Black software engineers. Nick is a native of P.G. County Maryland, but is happy to call San Francisco home.",
+                "featured": true,
+                "location": "San Francisco, CA, US",
+                "headshot": [
+                    {
+                        "id": "attud5YbQrnRQBYDr",
+                        "url": "https://dl.airtable.com/.attachments/158a9233b1c5f980a2b4e0d9f3d2bb46/333ef845/nick-caldwell.jpg",
+                        "filename": "nick-caldwell.jpg",
+                        "size": 13814,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/93c6576f8c6fa42984f319400b01a791/7361ee8c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d171650974d1a320b61bcc0ca8ceeafd/37e2c1e2",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/82706b2cf859d5da41d0d5436fed8ec5/db833218",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "rechVlI1qyCI0WiH0"
+                ],
+                "anchor": "nick-caldwell",
+                "order": 28,
+                "Sessions copy": [
+                    "recHagjGSyl5synHc"
+                ],
+                "session_track": [
+                    "Career & Leadership"
+                ],
+                "session_title": [
+                    "Ignite the Fire: How Managers Can Sparks New Leaders"
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#nick-caldwell",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#ignite-the-fire-how-managers-can-spark-new-leaders"
+                ],
+                "session_anchor": [
+                    "ignite-the-fire-how-managers-can-spark-new-leaders"
+                ]
+            },
+            "createdTime": "2019-05-23T04:31:54.000Z"
         },
         {
             "id": "recIIsVXRxBSBt2CU",
@@ -1497,16 +1750,22 @@
                     "recBGj0iBqttd1gWs"
                 ],
                 "anchor": "mike-hartington",
-                "order": 28,
-                "url": "https://refactr.tech/detail/speakers.html#mike-hartington",
+                "order": 29,
+                "Sessions copy": [
+                    "recAgf5O79UMXttu7"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Progressive Web Apps across all frameworks"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#mike-hartington",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#progressive-web-apps-across-all-frameworks"
+                ],
+                "session_anchor": [
+                    "progressive-web-apps-across-all-frameworks"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1550,16 +1809,22 @@
                     "rechoRbjB8RuBcixl"
                 ],
                 "anchor": "jess-mink",
-                "order": 29,
-                "url": "https://refactr.tech/detail/speakers.html#jess-mink",
+                "order": 30,
+                "Sessions copy": [
+                    "recgYNgP7RiNlEv50"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Let's talk about money"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jess-mink",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#let's-talk-about-money"
+                ],
+                "session_anchor": [
+                    "let's-talk-about-money"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1604,16 +1869,22 @@
                     "rec2UxdiEkmpGphZi"
                 ],
                 "anchor": "alicia-barrett",
-                "order": 30,
-                "url": "https://refactr.tech/detail/speakers.html#alicia-barrett",
+                "order": 31,
+                "Sessions copy": [
+                    "rec1utiOa3NIqRuxX"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Diving into GatsbyJS"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#alicia-barrett",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#diving-into-gatsbyjs"
+                ],
+                "session_anchor": [
+                    "diving-into-gatsbyjs"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1657,16 +1928,22 @@
                     "recd72Mb1n7ybBQ4k"
                 ],
                 "anchor": "rob-ocel",
-                "order": 31,
-                "url": "https://refactr.tech/detail/speakers.html#rob-ocel",
+                "order": 32,
+                "Sessions copy": [
+                    "reccHYRHx6yRV33CZ"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Inclusive Architecture - Designing your applications and team for the future."
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#rob-ocel",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#inclusive-architecture-designing-your-applications"
+                ],
+                "session_anchor": [
+                    "inclusive-architecture-designing-your-applications"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1680,6 +1957,7 @@
                 "twitter": "https://twitter.com/smhart1",
                 "linkedIn": "https://www.linkedin.com/in/smhart1/",
                 "bio": "Susa Hart is a UX and Product leader with experience working in startups, enterprise, finance, commerce, and biotech applications. Susa specializes in building teams that leverage design thinking and lean UX to create near term and disruptive new technologies.",
+                "location": "Atlanta, GA, US",
                 "headshot": [
                     {
                         "id": "attHzyJaHyWsegkcV",
@@ -1710,71 +1988,22 @@
                     "recHOUeBk7u4czYwe"
                 ],
                 "anchor": "susa-hart",
-                "order": 32,
-                "url": "https://refactr.tech/detail/speakers.html#susa-hart",
+                "order": 33,
+                "Sessions copy": [
+                    "recGoQj7QQVnW1b4T"
+                ],
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Secrets for innovating disruptive products"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#susa-hart",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#secrets-for-innovating-disruptive-products"
-                ]
-            },
-            "createdTime": "2019-03-26T20:49:26.000Z"
-        },
-        {
-            "id": "recVM9oBEIvUDNhm8",
-            "fields": {
-                "speaker_name": "Faith H. Wallace",
-                "role": "Instructor, Frontend Developer",
-                "company": "Code Girl",
-                "twitter": "https://twitter.com/fwallacephd",
-                "linkedIn": "https://www.linkedin.com/in/faithwallacephd/",
-                "bio": "Web Developer. Professor. Writer. Hogwarts Student. Doctor Who Companion. Okay, so maybe I am not a student at Hogwarts… I am sure I'd be sorted into Ravenclaw! And, maybe I am not a Doctor Who companion… But wouldn’t time traveling in the TARDIS be amazing? I am a former college professor turned web developer with the goal of making teaching and learning code more accessible.",
-                "location": "Atlanta, GA, US",
-                "headshot": [
-                    {
-                        "id": "attmPuGxoZHudNIAr",
-                        "url": "https://dl.airtable.com/.attachments/7938f5d9358be7439981a34ceb82857d/960014db/QwjRf8qH_400x400.jpg",
-                        "filename": "QwjRf8qH_400x400.jpg",
-                        "size": 29505,
-                        "type": "image/jpeg",
-                        "thumbnails": {
-                            "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/877c873988e191e0a9ca6d66d7ea6955/4ccc6831",
-                                "width": 36,
-                                "height": 36
-                            },
-                            "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/db37575a3e9dc921474eecb2e34178c5/e35070a9",
-                                "width": 400,
-                                "height": 400
-                            },
-                            "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/3fcc08edbf868ff63cef05e3572507f7/62b0ab00",
-                                "width": 400,
-                                "height": 400
-                            }
-                        }
-                    }
                 ],
-                "session": [
-                    "recMUhzt2zgxOFPIa"
-                ],
-                "personal_title": "Dr.",
-                "anchor": "faith-h-wallace",
-                "order": 33,
-                "url": "https://refactr.tech/detail/speakers.html#faith-h-wallace",
-                "session_track": [
-                    "Career & Leadership"
-                ],
-                "session_title": [
-                    "5 Brain Science Hacks to Successfully Level up in Programming"
-                ],
-                "session_url": [
-                    "https://refactr.tech/detail/sessions.html#5-brain-science-hacks-to-successfully-level-up-in-"
+                "session_anchor": [
+                    "secrets-for-innovating-disruptive-products"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1783,8 +2012,8 @@
             "id": "recBsrdRiEDJ2o5Bd",
             "fields": {
                 "speaker_name": "Marco Dell'Olio",
-                "role": "Support Engineer",
-                "company": "Salesloft",
+                "role": "Full Stack Software Engineer",
+                "company": "SalesLoft",
                 "twitter": "https://twitter.com/mar_dello",
                 "linkedIn": "https://www.linkedin.com/in/marcodellolio/",
                 "bio": "Started hacking Excel files and ended up with an obsession with functional programming. Phoenix and ResonML is my stack of choice. Good patterns and clean code is my creed.",
@@ -1820,15 +2049,21 @@
                 ],
                 "anchor": "marco-dell'olio",
                 "order": 34,
-                "url": "https://refactr.tech/detail/speakers.html#marco-dell'olio",
+                "Sessions copy": [
+                    "recVGpCCE7Rd6q2Id"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
-                    "Contract based testing with PACT"
+                    "Phoenix: the Rise of the Live Web "
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#marco-dell'olio",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#contract-based-testing-with-pact"
+                    "https://refactr.tech/detail/sessions.html#phoenix-the-rise-of-the-live-web"
+                ],
+                "session_anchor": [
+                    "phoenix-the-rise-of-the-live-web"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1873,15 +2108,21 @@
                 ],
                 "anchor": "tia-caldwell",
                 "order": 35,
-                "url": "https://refactr.tech/detail/speakers.html#tia-caldwell",
+                "Sessions copy": [
+                    "recR0pH2gpDQOSBeI"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Harnessing your team superpowers"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#tia-caldwell",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#harnessing-your-team-superpowers"
+                ],
+                "session_anchor": [
+                    "harnessing-your-team-superpowers"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1926,15 +2167,21 @@
                 ],
                 "anchor": "gant-laborde",
                 "order": 36,
-                "url": "https://refactr.tech/detail/speakers.html#gant-laborde",
+                "Sessions copy": [
+                    "recVxjM5ZrCl1lNhA"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "Influence - Witchcraft and Wizardry"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#gant-laborde",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#influence-witchcraft-and-wizardry"
+                ],
+                "session_anchor": [
+                    "influence-witchcraft-and-wizardry"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -1980,15 +2227,21 @@
                 ],
                 "anchor": "yvonne-allen",
                 "order": 37,
-                "url": "https://refactr.tech/detail/speakers.html#yvonne-allen",
+                "Sessions copy": [
+                    "recTEO9JSpyHfYUWr"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "The Schematic Rises: Schematics for noobs"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#yvonne-allen",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#the-schematic-rises-schematics-for-noobs"
+                ],
+                "session_anchor": [
+                    "the-schematic-rises-schematics-for-noobs"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2034,69 +2287,21 @@
                 ],
                 "anchor": "craig-rodrigues",
                 "order": 38,
-                "url": "https://refactr.tech/detail/speakers.html#craig-rodrigues",
+                "Sessions copy": [
+                    "recf73EPIDrXG2NF5"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Visual Studio Code Sparks Joy"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#craig-rodrigues",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#visual-studio-code-sparks-joy"
-                ]
-            },
-            "createdTime": "2019-03-26T20:49:26.000Z"
-        },
-        {
-            "id": "recnwkBJgjdRJHHiE",
-            "fields": {
-                "speaker_name": "Whitley Talmadge",
-                "role": "Customer Engineer",
-                "company": "Google",
-                "twitter": "https://twitter.com/whitlllley",
-                "linkedIn": "https://www.linkedin.com/in/whitleytalmadge/",
-                "bio": "Whitley is a Customer Engineer for Google Cloud, where she helps Google Cloud customers reach their business goals by enabling them to continuously ramp up on all things Google Cloud Platform. She also spent several years as a software engineer for The Home Depot and Vanguard. She is a proud Notre Dame graduate (Go Irish!) and you can find her checking into local Atlanta spots to boost her Yelp Elite profile, running races all around Atlanta, and spending time with her feisty cocker spaniel-poodle mix, Sophie.",
-                "location": "Atlanta, GA, US",
-                "headshot": [
-                    {
-                        "id": "attJHnesCKUQg7tto",
-                        "url": "https://dl.airtable.com/.attachments/95dc031acec24877cd12125cf0420f17/ae7a136d/whitely.jpeg",
-                        "filename": "whitely.jpeg",
-                        "size": 32202,
-                        "type": "image/jpeg",
-                        "thumbnails": {
-                            "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/ea11f797ee033295dad4c63b07bb4ee5/5b94d7dd",
-                                "width": 36,
-                                "height": 36
-                            },
-                            "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/43b3d4c4e338fa277f5d5cde745cbd95/43430e3d",
-                                "width": 450,
-                                "height": 450
-                            },
-                            "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/d3b6463c3565665de6c25702cad41e64/ed18beba",
-                                "width": 450,
-                                "height": 450
-                            }
-                        }
-                    }
                 ],
-                "session": [
-                    "recg95fdHIcJFnKrK"
-                ],
-                "anchor": "whitley-talmadge",
-                "order": 39,
-                "url": "https://refactr.tech/detail/speakers.html#whitley-talmadge",
-                "session_track": [
-                    "Career & Leadership"
-                ],
-                "session_title": [
-                    "Not a Born Developer"
-                ],
-                "session_url": [
-                    "https://refactr.tech/detail/sessions.html#not-a-born-developer"
+                "session_anchor": [
+                    "visual-studio-code-sparks-joy"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2139,16 +2344,22 @@
                     "recRjAunuGkQeBubG"
                 ],
                 "anchor": "chris-fritz",
-                "order": 40,
-                "url": "https://refactr.tech/detail/speakers.html#chris-fritz",
+                "order": 39,
+                "Sessions copy": [
+                    "recQTwzT0pL9Y3HJl"
+                ],
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Writing inclusive docs"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#chris-fritz",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#writing-inclusive-docs"
+                ],
+                "session_anchor": [
+                    "writing-inclusive-docs"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2193,72 +2404,85 @@
                     "recyTC112SfxBf1zZ"
                 ],
                 "anchor": "jennifer-ponder",
-                "order": 41,
-                "url": "https://refactr.tech/detail/speakers.html#jennifer-ponder",
+                "order": 40,
+                "Sessions copy": [
+                    "recxty6xyBGQlHe7E"
+                ],
                 "session_track": [
                     "Front-End"
                 ],
                 "session_title": [
                     "Stuck in Class? React Hooks is your \"Get Out of Class\" Pass"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jennifer-ponder",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#stuck-in-class-react-hooks-is-your-get-out-of-clas"
+                ],
+                "session_anchor": [
+                    "stuck-in-class-react-hooks-is-your-get-out-of-clas"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
         },
         {
-            "id": "recexvfPpU4Jt0YNt",
+            "id": "rec8y66v2EvCekJZs",
             "fields": {
-                "speaker_name": "Sangeeta Nori",
-                "role": "Software Developer",
-                "company": "General Motors",
-                "twitter": "https://twitter.com/NoriSangeeta",
-                "linkedIn": "https://www.linkedin.com/in/sangeetanori/",
-                "bio": "Sangeeta is a full stack developer with 10+ years experience, currently working as a Lead Developer for General Motors in Georgia. Her focus recently has been building cloud native apps with Spring / Spring Boot on various PaaS platforms. She also tinkers with android development. Outside of her day job, she is a passionate advocate for girls and women in STEM, volunteering and coaching at several events.\n",
+                "speaker_name": "Alexandra Millatmal",
+                "role": "Web Application Developer",
+                "company": "Newsela",
+                "twitter": "https://twitter.com/halfghaninNE",
+                "linkedIn": "https://www.linkedin.com/in/alexandrajmh/",
+                "bio": "Alex is a programmer with a passion for work that has real-world impact. As a Web Application Developer at Newsela, she writes software that helps students read and teachers teach.\n\nWhen she's not thinking about refactoring her Ruby or good object-oriented front-end patterns, Alex spends a lot of time thinking about secular space/discourse, ethics in communicating “othered” experiences, how many cats are too many cats, and if she’ll ever write a novel.",
+                "location": "New York, NY, US",
                 "headshot": [
                     {
-                        "id": "attnstNTSWFWZrZf8",
-                        "url": "https://dl.airtable.com/.attachments/f28e24f585130ef07fe3a816ad714511/6bcabda0/SangeetaNori_03.2019.JPG",
-                        "filename": "SangeetaNori_03.2019.JPG",
-                        "size": 25212,
+                        "id": "attLFTU116rRDMQWR",
+                        "url": "https://dl.airtable.com/.attachments/e0884981d2d2b955ca50aa71b7d90521/26bd6cb6/alexandra-millatmal.jpg",
+                        "filename": "alexandra-millatmal.jpg",
+                        "size": 27098,
                         "type": "image/jpeg",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/593925f9ee282c944a77d0a3b2ca887c/c689a97f",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f04062c029d8b919fda186eed1451b18/ee2a1d9b",
                                 "width": 36,
                                 "height": 36
                             },
                             "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/4945c588bc93785deeff356ecca945f8/168f8d52",
-                                "width": 366,
-                                "height": 366
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/eb55e65963dda5bf0abb9c7341f73c99/72e7b2a5",
+                                "width": 400,
+                                "height": 400
                             },
                             "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/26999822adef50f6770a32bf0acb68c0/b6b093de",
-                                "width": 366,
-                                "height": 366
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/53e28b310027aa2c68ab8d435a03735d/9272ab1a",
+                                "width": 3000,
+                                "height": 3000
                             }
                         }
                     }
                 ],
                 "session": [
-                    "recAy8WQbbg9hYeRH"
+                    "reciDtZ6ihKq8S6R4"
                 ],
-                "anchor": "sangeeta-nori",
-                "order": 42,
-                "url": "https://refactr.tech/detail/speakers.html#sangeeta-nori",
+                "anchor": "alexandra-millatmal",
+                "order": 41,
+                "Sessions copy": [
+                    "rechdp4CO0bJSkjpJ"
+                ],
                 "session_track": [
-                    "Cool Shit"
+                    "Career & Leadership"
                 ],
                 "session_title": [
-                    "Quantum Computing Demystified"
+                    "Mentoring the way to diversity and inclusion"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#alexandra-millatmal",
                 "session_url": [
-                    "https://refactr.tech/detail/sessions.html#quantum-computing-demystified"
+                    "https://refactr.tech/detail/sessions.html#mentoring-the-way-to-diversity-and-inclusion"
+                ],
+                "session_anchor": [
+                    "mentoring-the-way-to-diversity-and-inclusion"
                 ]
             },
-            "createdTime": "2019-03-26T20:49:26.000Z"
+            "createdTime": "2019-05-06T18:16:47.000Z"
         },
         {
             "id": "recFHYckNl5IxTG5r",
@@ -2299,16 +2523,82 @@
                     "recSgRieJcHY8hhK5"
                 ],
                 "anchor": "dan-barker",
-                "order": 43,
-                "url": "https://refactr.tech/detail/speakers.html#dan-barker",
+                "order": 42,
+                "Sessions copy": [
+                    "recRQNnKfV8hSJuiK"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Getting started with AI for free"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#dan-barker",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#getting-started-with-ai-for-free"
+                ],
+                "session_anchor": [
+                    "getting-started-with-ai-for-free"
+                ]
+            },
+            "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recexvfPpU4Jt0YNt",
+            "fields": {
+                "speaker_name": "Sangeeta Nori",
+                "role": "Software Developer",
+                "company": "General Motors",
+                "twitter": "https://twitter.com/NoriSangeeta",
+                "linkedIn": "https://www.linkedin.com/in/sangeetanori/",
+                "bio": "Sangeeta is a full stack developer with 10+ years experience, currently working as a Lead Developer for General Motors in Georgia. Her focus recently has been building cloud native apps with Spring / Spring Boot on various PaaS platforms. She also tinkers with android development. Outside of her day job, she is a passionate advocate for girls and women in STEM, volunteering and coaching at several events.\n",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attaJ9HmJoaPUyrhj",
+                        "url": "https://dl.airtable.com/.attachments/3ab29961c0f76ec4eb9f6dc22dd911a4/c0ddf3b3/test.JPG",
+                        "filename": "SangeetaNori_03.2019.JPG",
+                        "size": 25212,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/8e0ef6ec4ee8bc6746dbc70c89767889/99024458",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c74e545a4a81c4e70d2cfe3722564b95/abaec104",
+                                "width": 366,
+                                "height": 366
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ad88d271088ee8a8ebddb5a583b16663/4f50ce37",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recAy8WQbbg9hYeRH"
+                ],
+                "anchor": "sangeeta-nori",
+                "order": 43,
+                "Sessions copy": [
+                    "recz841mHUHs1qrpm"
+                ],
+                "session_track": [
+                    "Cool Shit"
+                ],
+                "session_title": [
+                    "Quantum Computing Demystified"
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#sangeeta-nori",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#quantum-computing-demystified"
+                ],
+                "session_anchor": [
+                    "quantum-computing-demystified"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2324,26 +2614,26 @@
                 "bio": "Angela works as a QA Engineer at Vacasa. She believes that empathy and curiosity are driving forces of quality, and uses both to advocate for quality experiences for users and engineering teams.\n \n Outside of work, she enjoys exploring the aisles of Powell’s or the beautiful scenery of the PNW. She has an enthusiasm for karaoke, and serious debates about what can truly be categorized as a sandwich.",
                 "headshot": [
                     {
-                        "id": "attgmcxzmZBE8E9KQ",
-                        "url": "https://dl.airtable.com/.attachments/efe0961e20b531527f7ce0b7661930c1/2bd2c0bf/hc9vCf___400x400.jpg",
+                        "id": "attSGDi7BTuiEqeTX",
+                        "url": "https://dl.airtable.com/.attachments/9a58f16f9a835ae11b5abe67785ccc0d/ffc946ac/copied_picture.jpg",
                         "filename": "hc9vCf___400x400.jpg",
                         "size": 40711,
                         "type": "image/jpeg",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/7909b4a2ac0a545a070526fa4dcde636/f4cbb34e",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/428b4f4c82007780e157b947450add0c/f38cc65b",
                                 "width": 36,
                                 "height": 36
                             },
                             "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/7393685ad49ce906599aebee2cfaea13/70eb881c",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c7d1b79ddd39f75aef74eba784b9722b/428d159d",
                                 "width": 400,
                                 "height": 400
                             },
                             "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/c30ac8db400c88aec4f0f6fa918a60a8/cedb2428",
-                                "width": 400,
-                                "height": 400
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7c9aa262c747513a51b08cc7d7984a63/233c7c51",
+                                "width": 3000,
+                                "height": 3000
                             }
                         }
                     }
@@ -2353,15 +2643,21 @@
                 ],
                 "anchor": "angela-riggs",
                 "order": 44,
-                "url": "https://refactr.tech/detail/speakers.html#angela-riggs",
+                "Sessions copy": [
+                    "recJv0BZY0MqSPW73"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "Creating a Culture of Quality"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#angela-riggs",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#creating-a-culture-of-quality"
+                ],
+                "session_anchor": [
+                    "creating-a-culture-of-quality"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2406,15 +2702,21 @@
                 ],
                 "anchor": "j-c-hiatt",
                 "order": 45,
-                "url": "https://refactr.tech/detail/speakers.html#j-c-hiatt",
+                "Sessions copy": [
+                    "recW3zPiF7MPsek7g"
+                ],
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Refactor your body for better performance"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#j-c-hiatt",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#refactor-your-body-for-better-performance"
+                ],
+                "session_anchor": [
+                    "refactor-your-body-for-better-performance"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2460,15 +2762,21 @@
                 ],
                 "anchor": "laurel-lawson",
                 "order": 46,
-                "url": "https://refactr.tech/detail/speakers.html#laurel-lawson",
+                "Sessions copy": [
+                    "recIZpWXE3sFNLwFk"
+                ],
                 "session_track": [
                     "Career & Leadership"
                 ],
                 "session_title": [
                     "How we change the world: Ethics, power, and leadership in tech"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#laurel-lawson",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#how-we-change-the-world-ethics-power-and-leadershi"
+                ],
+                "session_anchor": [
+                    "how-we-change-the-world-ethics-power-and-leadershi"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2513,15 +2821,21 @@
                 ],
                 "anchor": "jeremy-likness",
                 "order": 47,
-                "url": "https://refactr.tech/detail/speakers.html#jeremy-likness",
+                "Sessions copy": [
+                    "recruFCsWQOmLqEoA"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "WebAssembly: Your Browser is the new OS"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jeremy-likness",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#webassembly-your-browser-is-the-new-os"
+                ],
+                "session_anchor": [
+                    "webassembly-your-browser-is-the-new-os"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2566,15 +2880,24 @@
                 ],
                 "anchor": "amir-rustamzadeh",
                 "order": 48,
-                "url": "https://refactr.tech/detail/speakers.html#amir-rustamzadeh",
+                "Sessions copy": [
+                    "recwLkqSepTX9PjGQ",
+                    "recvnKXmYhM2IuFj2",
+                    "recFUKz1KC9ZZx8eb",
+                    "rec5l1EsbfQmYNycJ"
+                ],
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "Next-Generation End-to-End Testing with Cypress"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#amir-rustamzadeh",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#next-generation-end-to-end-testing-with-cypress"
+                ],
+                "session_anchor": [
+                    "next-generation-end-to-end-testing-with-cypress"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2619,15 +2942,21 @@
                 ],
                 "anchor": "reginald-davis",
                 "order": 49,
-                "url": "https://refactr.tech/detail/speakers.html#reginald-davis",
+                "Sessions copy": [
+                    "recVmgClfiJTgVX0y"
+                ],
                 "session_track": [
                     "Software Engineering"
                 ],
                 "session_title": [
                     "\"When do you say “this” is a problem?” Lessons on implementing a plan to clean-up technical debt"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#reginald-davis",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#-when-do-you-say-this-is-a-problem-lessons-on-impl"
+                ],
+                "session_anchor": [
+                    "-when-do-you-say-this-is-a-problem-lessons-on-impl"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2673,15 +3002,21 @@
                 ],
                 "anchor": "angeleen-wilson",
                 "order": 50,
-                "url": "https://refactr.tech/detail/speakers.html#angeleen-wilson",
+                "Sessions copy": [
+                    "recatMqPv1mKSHe9z"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "Blockchain Imaginarium"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#angeleen-wilson",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#blockchain-imaginarium"
+                ],
+                "session_anchor": [
+                    "blockchain-imaginarium"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2726,15 +3061,21 @@
                 ],
                 "anchor": "abraham-williams",
                 "order": 51,
-                "url": "https://refactr.tech/detail/speakers.html#abraham-williams",
+                "Sessions copy": [
+                    "recVMxKNTsrI6HH3T"
+                ],
                 "session_track": [
                     "Workshop"
                 ],
                 "session_title": [
                     "Get Flapping with Flutter"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#abraham-williams",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#get-flapping-with-flutter"
+                ],
+                "session_anchor": [
+                    "get-flapping-with-flutter"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2781,7 +3122,13 @@
                 ],
                 "anchor": "jennifer-bland",
                 "order": 52,
-                "url": "https://refactr.tech/detail/speakers.html#jennifer-bland",
+                "Sessions copy": [
+                    "recxmOSOrZ8oyR8sj",
+                    "recZ3HT6rhXJR8a4q",
+                    "recpOmgIzXSdo6lWB",
+                    "recsmcIpbpOr6MAEu",
+                    "recY6FRfWLZilAu5b"
+                ],
                 "session_track": [
                     "Front-End",
                     "Workshop"
@@ -2790,9 +3137,14 @@
                     "Don't Be Afraid of the JavaScript Stack Trace",
                     "Let's Learn GraphQL: The End Of REST"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#jennifer-bland",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#don't-be-afraid-of-the-javascript-stack-trace",
                     "https://refactr.tech/detail/sessions.html#let's-learn-graphql-the-end-of-rest"
+                ],
+                "session_anchor": [
+                    "don't-be-afraid-of-the-javascript-stack-trace",
+                    "let's-learn-graphql-the-end-of-rest"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2808,26 +3160,26 @@
                 "bio": "Sarrah Vesselov is a UX professional, speaker, and author with over 10 years of experience in design, development, and management. As the UX Manager for GitLab, she led her department in setting the vision and direction of user experience, established an open source design system, and scaled the department from six to fourteen in a little over a year. Sarrah has spoken at conferences around the world on the topics of user experience and front-end development. Her co-authored book on design systems will be published by Apress in 2019.",
                 "headshot": [
                     {
-                        "id": "attgPKBVYSr7jd1Bc",
-                        "url": "https://dl.airtable.com/.attachments/d384e24b3ad40fe81e7d6acd5d93971f/a56f166d/sarrah-vesselov.jpg",
+                        "id": "attFTNj9ieEsN6uWN",
+                        "url": "https://dl.airtable.com/.attachments/f62a8970878b586952752607fff298bd/ebe8e7b4/sarah.jpeg",
                         "filename": "sarrah-vesselov.jpg",
-                        "size": 214391,
+                        "size": 345052,
                         "type": "image/jpeg",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/736988d711f05b95de23b4e5eefb90bd/c14157d8",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/de7747310b5862c47748802d8699ace3/cd8ccd79",
                                 "width": 36,
                                 "height": 36
                             },
                             "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/a2ccbd05338acbc4aad7ba6c3a68c43b/5bff6146",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/958c738da8659ebe4c7a4f6f4f553dc9/e5c219a3",
                                 "width": 512,
                                 "height": 512
                             },
                             "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/c7146814dc0de1b7f71e2db59baf7273/dc4a87cf",
-                                "width": 1440,
-                                "height": 1440
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/2cb85a6153b28251e1b7c8ac14f89e11/1c0a35bd",
+                                "width": 3000,
+                                "height": 3000
                             }
                         }
                     }
@@ -2837,15 +3189,21 @@
                 ],
                 "anchor": "sarrah-vesselov",
                 "order": 53,
-                "url": "https://refactr.tech/detail/speakers.html#sarrah-vesselov",
+                "Sessions copy": [
+                    "recneQuJez9JIZ107"
+                ],
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Aligning people and product through design systems"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#sarrah-vesselov",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#aligning-people-and-product-through-design-systems"
+                ],
+                "session_anchor": [
+                    "aligning-people-and-product-through-design-systems"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2891,15 +3249,21 @@
                 ],
                 "anchor": "ray-gesualdo",
                 "order": 54,
-                "url": "https://refactr.tech/detail/speakers.html#ray-gesualdo",
+                "Sessions copy": [
+                    "reczs5jYFn5JtmD0m"
+                ],
                 "session_track": [
                     "Social Impact"
                 ],
                 "session_title": [
                     "Reconfiguring Our Mindset from “Self-taught” to “Community-taught”"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#ray-gesualdo",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#reconfiguring-our-mindset-from-“self-taught”-to-“c"
+                ],
+                "session_anchor": [
+                    "reconfiguring-our-mindset-from-“self-taught”-to-“c"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2915,26 +3279,26 @@
                 "bio": "Aida Martinez is a Senior Software and Data Developer. She has more than 10 years of experience developing software and data solutions for clients on Brazil, Honduras and United States. She is currently a Data Integration Developer at Juice Analytics where she applies her data engineering skills to create faster and reliable pipelines. \n Aida holds a Computer Science degree from Honduras and a Master of Science in Software Engineering and AI from Spain. More recently, she earned a Master of Science in Analytics at Georgia State University where she became a graduate research assistant for the Institute for Insight. In his free time, Aida can be found practicing yoga and learning new cloud and open source technologies.",
                 "headshot": [
                     {
-                        "id": "attcKpqZpM3JHvs2h",
-                        "url": "https://dl.airtable.com/.attachments/315b929217360b4cf957447da388d764/feac88d4/A_Martinez_400x400.jpg",
+                        "id": "attqK1s5yYPprbl46",
+                        "url": "https://dl.airtable.com/.attachments/ef4b12f70318bb92f027495f2d2d4654/e764573f/A_Martinez_400x400.jpg",
                         "filename": "A_Martinez_400x400.jpg",
                         "size": 23123,
                         "type": "image/jpeg",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/ffcee26ab4ca4f626b73a92d1b5fdc6c/5032bc70",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1e6b99a8766cef11be8047519c68086f/a57b9033",
                                 "width": 36,
                                 "height": 36
                             },
                             "large": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/155ca97cd07c3a028e845f33500a352b/b9437da6",
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/102339ab251f8e5c373e87068ac65087/2bfa34a0",
                                 "width": 400,
                                 "height": 400
                             },
                             "full": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/3cbe104120e0b646e5756b987c8342d0/f3946e89",
-                                "width": 400,
-                                "height": 400
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/691599fbe472860697e32c9a1640e9dd/1c048439",
+                                "width": 3000,
+                                "height": 3000
                             }
                         }
                     }
@@ -2944,15 +3308,21 @@
                 ],
                 "anchor": "aida-martinez",
                 "order": 55,
-                "url": "https://refactr.tech/detail/speakers.html#aida-martinez",
+                "Sessions copy": [
+                    "recs7Oq0E7d6JRvEM"
+                ],
                 "session_track": [
                     "Cool Shit"
                 ],
                 "session_title": [
                     "How Big Data is Powering the Internet of Things (IoT) Revolution"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#aida-martinez",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#how-big-data-is-powering-the-internet-of-things-io"
+                ],
+                "session_anchor": [
+                    "how-big-data-is-powering-the-internet-of-things-io"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -2998,15 +3368,21 @@
                 ],
                 "anchor": "a-frenz",
                 "order": 56,
-                "url": "https://refactr.tech/detail/speakers.html#a-frenz",
+                "Sessions copy": [
+                    "recN6FaLRPJTKXicu"
+                ],
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "UX, Empathy and inclusivity in the age of Intelligence"
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#a-frenz",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#ux-empathy-and-inclusivity-in-the-age-of-intellige"
+                ],
+                "session_anchor": [
+                    "ux-empathy-and-inclusivity-in-the-age-of-intellige"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
@@ -3051,18 +3427,484 @@
                 ],
                 "anchor": "susan-lin",
                 "order": 57,
-                "url": "https://refactr.tech/detail/speakers.html#susan-lin",
+                "Sessions copy": [
+                    "recSgSwxTBOduEsQk"
+                ],
                 "session_track": [
                     "Product/UX/UI"
                 ],
                 "session_title": [
                     "Why designers should practice Integrative Thinking, the lesser known sibling of Design Thinking."
                 ],
+                "url": "https://refactr.tech/detail/speakers.html#susan-lin",
                 "session_url": [
                     "https://refactr.tech/detail/sessions.html#why-designers-should-practice-integrative-thinking"
+                ],
+                "session_anchor": [
+                    "why-designers-should-practice-integrative-thinking"
                 ]
             },
             "createdTime": "2019-03-26T20:49:26.000Z"
+        },
+        {
+            "id": "recGDIyTLSevDNf7m",
+            "fields": {
+                "speaker_name": "Marina Mosti",
+                "role": "Senior FE Developer",
+                "company": "VoiceThread",
+                "twitter": "https://twitter.com/MarinaMosti",
+                "linkedIn": "https://www.linkedin.com/in/marinamosti/",
+                "bio": "Marina is a full-stack web developer with over 13 years of experience in the field. She currently is part of the Vue Vixens community, where she enjoys mentoring other women on JavaScript and her favorite framework, Vue. She currently holds a position as Senior FE Developer at VoiceThread. In her spare time, she enjoys playing bass and videogames.",
+                "headshot": [
+                    {
+                        "id": "attxHrLMDYXoOUa1Q",
+                        "url": "https://dl.airtable.com/.attachments/0d890af832092ff1ee2c09259ca23bc1/28e51bde/ImagefromiOS.jpg",
+                        "filename": "Image from iOS.jpg",
+                        "size": 753159,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/99834b6ae8d811d33e3261438b2acb7e/9e0f0f5f",
+                                "width": 35,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/51d9cda20de52c396de336ca2a032251/f239cfda",
+                                "width": 512,
+                                "height": 520
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c93c37f3689ee9ddfbd264772f7cf11d/705054a6",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recnprTxdnSKBB03G"
+                ],
+                "anchor": "marina-mosti",
+                "order": 58,
+                "session_track": [
+                    "Workshop"
+                ],
+                "session_title": [
+                    "Vue Vixens Skulk"
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#marina-mosti",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#vue-vixens-skulk"
+                ],
+                "session_anchor": [
+                    "vue-vixens-skulk"
+                ]
+            },
+            "createdTime": "2019-05-26T17:10:22.000Z"
+        },
+        {
+            "id": "recwKIXfan6Qpzppu",
+            "fields": {
+                "speaker_name": "Tara Ellis",
+                "role": "Payments Manager",
+                "company": "Netflix",
+                "twitter": "https://twitter.com/maverick_mind",
+                "linkedIn": "https://www.linkedin.com/in/taraellis/",
+                "bio": "Tara is a Manager within Acquisition UI. She leads the team focused on Payments Integration and Partnerships.",
+                "headshot": [
+                    {
+                        "id": "attxzsFWv4Jxw1Xws",
+                        "url": "https://dl.airtable.com/.attachments/546eb6c9b82cfa16a67bc0cb7b5e6f36/e1467d2e/Tara-Ellis.png",
+                        "filename": "Tara-Ellis.png",
+                        "size": 1605998,
+                        "type": "image/png",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/50de8a9a0bf7be42b6c0acd5d57178e2/bdfb4995",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/942d93b2c265ec18d2054d6789375d88/a6195b64",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/7132ffe6606509864811cff822c0caac/56107885",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recg95fdHIcJFnKrK"
+                ],
+                "anchor": "tara-ellis",
+                "order": 59,
+                "Sessions copy": [
+                    "recfJ1kJdrD2pPXZp"
+                ],
+                "session_track": [
+                    "Career & Leadership"
+                ],
+                "session_title": [
+                    "Being Original and Leading in Software Engineering "
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#tara-ellis",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#being-original-and-leading-in-software-engineering"
+                ],
+                "session_anchor": [
+                    "being-original-and-leading-in-software-engineering"
+                ]
+            },
+            "createdTime": "2019-06-03T05:04:04.000Z"
+        },
+        {
+            "id": "recWvZiHJsStcUQl7",
+            "fields": {
+                "speaker_name": "Steven Ojo",
+                "role": "iOS Platform Manager",
+                "company": "Netflix",
+                "linkedIn": "https://www.linkedin.com/in/ojostev/",
+                "bio": "Steven has been entrepreneurial and curious about how things work for as long as he can remember. At an early age you could often find him deconstructing and reconstructing old computers, teaching himself to code, or learning about technology on the internet. Throughout middle school, high school and college; Steven was passionate about basketball and technology, and used his tech skills for various ventures repairing electronics and promoting events. \n\nAfter following one of those ventures into a startup, Steven found his new passion and left college early to focus on mobile development. \nAfter several years building apps at numerous startups, as well Apple, he honed his skills and found a passion in streaming. \nAs a result of his passion, expansive tech knowledge, and dedication to team development, Steven is proud to contribute to the next generation of entertainment in his current role in Engineering Management. ",
+                "headshot": [
+                    {
+                        "id": "att4XvzlBGa7UFlRV",
+                        "url": "https://dl.airtable.com/.attachments/c0491d7f9049ad10e487e93b55c8e49d/a1427c28/steven-ojo.jpeg",
+                        "filename": "steven-ojo.jpeg",
+                        "size": 154120,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/e38291fd271b13cca314cd9b3f4375c4/17adc397",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/5cf8c6349f34a0851f86e366ab6426fc/62557bc2",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/cc342624935e740cb4b3eb2e097f9c19/9a1c7046",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recg95fdHIcJFnKrK"
+                ],
+                "anchor": "steven-ojo",
+                "order": 60,
+                "Sessions copy": [
+                    "recfJ1kJdrD2pPXZp"
+                ],
+                "session_track": [
+                    "Career & Leadership"
+                ],
+                "session_title": [
+                    "Being Original and Leading in Software Engineering "
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#steven-ojo",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#being-original-and-leading-in-software-engineering"
+                ],
+                "session_anchor": [
+                    "being-original-and-leading-in-software-engineering"
+                ]
+            },
+            "createdTime": "2019-06-03T05:47:08.000Z"
+        },
+        {
+            "id": "recPQ8Y9hclSj1py1",
+            "fields": {
+                "speaker_name": "Lawrence Jones",
+                "role": "Sr. iOS UI Engineer",
+                "company": "Netflix",
+                "linkedIn": "https://www.linkedin.com/in/lawrence-jones-77016018/",
+                "bio": "After building his skills in UI development by creating animated experiences for the Cartoon Network, Lawrence switched to creating immersive mobile experiences for iOS. He currently works on the Netflix Originals UI team, and his breadth of experience spans a few exciting spaces including sports, entertainment, education, and style. Lawrence holds a BFA degree in new media from the Rochester Institute of Technology and is also a volunteer mentor at Code2040.",
+                "headshot": [
+                    {
+                        "id": "atttSwkimjh2jVFvE",
+                        "url": "https://dl.airtable.com/.attachments/07080bb758a41e467993ca448b0b2f28/886cdbfd/lawrence-jones.jpeg",
+                        "filename": "lawrence-jones.jpeg",
+                        "size": 17778,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/fd16c3065148b7252fd40ef097e9a29a/b139ee7c",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/f97d0b8c4c0721b46a4db598ba1ff588/2a16a42f",
+                                "width": 314,
+                                "height": 314
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c3fb0169bdbda63e018003e774fce7ae/931d6661",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recg95fdHIcJFnKrK"
+                ],
+                "anchor": "lawrence-jones",
+                "order": 61,
+                "Sessions copy": [
+                    "recfJ1kJdrD2pPXZp"
+                ],
+                "session_track": [
+                    "Career & Leadership"
+                ],
+                "session_title": [
+                    "Being Original and Leading in Software Engineering "
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#lawrence-jones",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#being-original-and-leading-in-software-engineering"
+                ],
+                "session_anchor": [
+                    "being-original-and-leading-in-software-engineering"
+                ]
+            },
+            "createdTime": "2019-06-03T06:06:41.000Z"
+        },
+        {
+            "id": "recwtZA08tbWTlHNP",
+            "fields": {
+                "speaker_name": "Marvin Ojwang",
+                "role": "Chromecast Software Engineer",
+                "company": "Netflix",
+                "linkedIn": "https://www.linkedin.com/in/mojwang/",
+                "bio": "Marvin is a Sr. Software Engineer working on improving the Netflix second-screen experience on devices such as Andriod phone, Google Chromecast, Google Home, and select Netflix-ready devices (i.e., Netflix-certified TVs, set top boxes, and game consoles). \n\nOn any given work day, he can be found be coding in JavaScript, TypeScript, Java, or C++.",
+                "headshot": [
+                    {
+                        "id": "attclzNtizXLBBwCz",
+                        "url": "https://dl.airtable.com/.attachments/7404749f06f1182cbe0dc97151189d4b/ab1ccfee/Marvin-Ojwang.jpeg",
+                        "filename": "Marvin-Ojwang.jpeg",
+                        "size": 18667,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/80ddfde8070478bb7d06b24f3144330d/8b12fa30",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c63b052fc6993d8a52d29e9c7a857649/5d8afc90",
+                                "width": 259,
+                                "height": 259
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/b4dbaf718158e3fab3dceb52b155f96a/8f1a9292",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recg95fdHIcJFnKrK"
+                ],
+                "anchor": "marvin-ojwang",
+                "order": 62,
+                "Sessions copy": [
+                    "recfJ1kJdrD2pPXZp"
+                ],
+                "session_track": [
+                    "Career & Leadership"
+                ],
+                "session_title": [
+                    "Being Original and Leading in Software Engineering "
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#marvin-ojwang",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#being-original-and-leading-in-software-engineering"
+                ],
+                "session_anchor": [
+                    "being-original-and-leading-in-software-engineering"
+                ]
+            },
+            "createdTime": "2019-06-03T06:22:02.000Z"
+        },
+        {
+            "id": "reca7vICCLqzNCe8S",
+            "fields": {
+                "speaker_name": "Lynnette McKissic",
+                "role": "Vice President of Operations",
+                "company": "Goodr, Inc.",
+                "twitter": "https://twitter.com/TheGoodrCo",
+                "linkedIn": "https://www.linkedin.com/in/lynnette-m-17595176/",
+                "bio": "Lynnette McKissic, an entrepreneurial, technically savvy operations leader with a solid background in managing large scale systems implementations, the ability to challenge teams throughout the entire business cycle, and the vision to strategically plan ensuring on-time and on-budget performance. Lynnette is an innovative thought leader with expertise in planning and execution, overseeing organizational transformations, and driving change management.  Over the years Lynnette realized that she wanted to focus her career on work that benefited those in vulnerable populations.  In 2017 she helped found Goodr, a tech enabled sustainable food waste management company with a goal to eliminate hunger and reduce food waste. Goodr has now diverted over one million pounds of food from landfills and serves clients including: Atlanta's Hartsfield Jackson Airport, NFL, The Georgia World Congress Center, MetLife and more.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attMKqoCbuuwqAJ9V",
+                        "url": "https://dl.airtable.com/.attachments/55dc13f159bf316d2b98d66596595b3a/703dcc49/LynnetteMcKissic.jpg",
+                        "filename": "Lynnette McKissic.jpg",
+                        "size": 374552,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/1052382e233d4dba492bf56918450383/2f3de7d0",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a42a7ec09574c4e47ecbec49e343aafa/947973c7",
+                                "width": 512,
+                                "height": 513
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/3c0798e2150278a40fe4d53b9fe23ea2/0febb98f",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recpyprOf320CjxRr"
+                ],
+                "anchor": "lynnette-mcKissic",
+                "order": 63,
+                "session_track": [
+                    "Keynote"
+                ],
+                "session_title": [
+                    " Forging a Path Through Inclusive Entrepreneurship"
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#lynnette-mcKissic",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship"
+                ],
+                "session_anchor": [
+                    "forging-a-path-through-inclusive-entrepreneurship"
+                ]
+            },
+            "createdTime": "2019-06-03T06:53:42.000Z"
+        },
+        {
+            "id": "receWYyBwQK4e6Snv",
+            "fields": {
+                "speaker_name": "Stefanie M. Jewett",
+                "role": "Founder + CEO",
+                "company": "Activvely",
+                "twitter": "https://twitter.com/StefanieJewett",
+                "linkedIn": "https://www.linkedin.com/in/stefaniejewett/",
+                "bio": "Stefanie Jewett is the founder and CEO of Activvely, the premiere social-pairing app that connects you with platonic fitness buddies.\n\nAfter​ ​five years of covering hard news at CNN her creativity breached the spillway and Activvely was born.\n\nA Miami native, Stefanie grew up in a Spanish-speaking household, her Cuban roots never too far from her heart.\n\nLiving in Central Virginia, Maryland and Washington D.C. inspired her to pursue a journalism career in earnest. This passion for news would see her at the U.S. Congress​,​ National Republican Senatorial Committee, WSET, the Alliance to Save Energy​ ​and eventually landing a job at CNN.\n\nWorking on several projects and shows including Crossfire and the Situation Room, she held her own among the most elite journalists at the World Headquarters and the Washington D.C. bureau.\n\nStefanie returned to Atlanta with a singular goal: to lift the stigma off swipe platforms solely being used for dating and help the people of this vibrant city connect.\n\nHer commitment to building intentional and impactful communities led her to create, Startup Sisters USA, a space where women of wild ambition can come together and collaborate.\n\nMost recently, Stefanie was selected for Atlanta Tech Village’s “It Takes a Village” pre-accelerator, and as one of the Metro Atlanta Chamber of Commerce’s #ChooseATL Influencers for 2019. She is also a graduate of the City of Atlanta’s Women’s Entrepreneurship Initiative (WEI ‘18), and LaunchPad2x.",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "att0cQzbzydbSuRSr",
+                        "url": "https://dl.airtable.com/.attachments/5780c2fa4ef2790fd01506f16c2acb67/970748f5/stephanie_jewett.jpg",
+                        "filename": "stephanie_jewett.jpg",
+                        "size": 18443,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/92522ac652716106e127911857677598/2bd6f339",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d2b28c18c1d2b05e5d9e9c262706cf5c/3cf0b413",
+                                "width": 400,
+                                "height": 400
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/0bb451840d0459e0242d61f3d8a71ca7/ed16f49c",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recpyprOf320CjxRr"
+                ],
+                "anchor": "stefanie-jewett",
+                "order": 64,
+                "session_track": [
+                    "Keynote"
+                ],
+                "session_title": [
+                    " Forging a Path Through Inclusive Entrepreneurship"
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#stefanie-jewett",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship"
+                ],
+                "session_anchor": [
+                    "forging-a-path-through-inclusive-entrepreneurship"
+                ]
+            },
+            "createdTime": "2019-06-03T11:46:19.000Z"
+        },
+        {
+            "id": "rec3BeQoarcF0Ndny",
+            "fields": {
+                "speaker_name": "Nael Alismail",
+                "role": "CTO",
+                "company": "The Labz",
+                "twitter": "https://twitter.com/naelyall",
+                "linkedIn": "https://www.linkedin.com/in/naelalismail/",
+                "bio": "Nael is an engineering leader who prides himself on building and mentoring diverse teams, including men and women, juniors and seniors, backend devs and frontend devs, and everything in between.Growing up in Birmingham, AL, Nael has experienced the damage caused by discrimination, as well as the strengths created by inclusion. He's gained lots of influence from his family, who encouraged him to go into engineering and build a technical career. Nael grew that into a great profession, developing software for 15 years. His accomplishments include a Master's degree in software engineering, architecting software, leading teams, and running a company as the CTO of The Labz.Nael's vast experience has encouraged him to give even more to the community to help others grow their careers. He works to build strong ecosystems in tech with a foundation of psychological safety for all. Contact: hi at nael dot io  @naelyall",
+                "location": "Atlanta, GA, US",
+                "headshot": [
+                    {
+                        "id": "attQo13wS7sp9UQxO",
+                        "url": "https://dl.airtable.com/.attachments/1dc2a9c52c6a1a115448a5199e7e162a/fe9821a6/Nael-Alismail.jpg",
+                        "filename": "Nael-Alismail.jpg",
+                        "size": 114383,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/a393ed60bbad2a5534b197e87ab7c6d6/146821b5",
+                                "width": 36,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/21d456f7e1716996d7643e3b62975e36/d2a73f5d",
+                                "width": 512,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/ef56022889da9a1826254a1cd240f7c5/a67c8cb4",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "session": [
+                    "recpyprOf320CjxRr"
+                ],
+                "anchor": "nael-alismail",
+                "order": 65,
+                "session_track": [
+                    "Keynote"
+                ],
+                "session_title": [
+                    " Forging a Path Through Inclusive Entrepreneurship"
+                ],
+                "url": "https://refactr.tech/detail/speakers.html#nael-alismail",
+                "session_url": [
+                    "https://refactr.tech/detail/sessions.html#forging-a-path-through-inclusive-entrepreneurship"
+                ],
+                "session_anchor": [
+                    "forging-a-path-through-inclusive-entrepreneurship"
+                ]
+            },
+            "createdTime": "2019-06-03T12:10:23.000Z"
         }
     ]
 }
