@@ -111,6 +111,10 @@ ul {
 .section-title .title-text.pl {
   padding-left: 70px; }
 
+.max-width-2{
+  max-width: 100% !important;
+}
+
 .section-title .title-text h2 {
   color: #252525;
   font-size: 45px;
